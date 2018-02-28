@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro Usuária</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action=" ">
+    
+    <h1> Cadastro </h1>
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder=" Nome Completo" />
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="E-mail" />
+    </div>
+    <div>
+        <label for="estado">Estado:</label>
+        <select name="estadoTodos">
+            <option value="estado1"selected>São Paulo</option> 
+            <option value="estado2" >Minas Gerais</option>
+            <option value="estado3">Rio de Janeiro</option>
+        </select>
+    </div>
+    <div>
+        <label for="cidade">Cidade:</label>
+        <select name="cidade_Todos">
+                <option value="estado1_cidade1">São Paulo</option> 
+                <option value="estado1_cidade2" selected>Campinas</option>
+                <option value="estado1_cidade3">Santos</option>
+            </select>
+    </div>
+        <div>
+            <label for="txtSenha">Senha</label>
+                <input id="txtSenha" name="senha" type="password" required placeholder="Digite uma Senha" title="Senha" />
+            <label for="repetir_senha">Confirmar Senha</label>
+                <input id="repetir_senha" name="repetir_senha" type="password" required  placeholder="Repetir Senha" title="Repetir Senha" oninput="validaSenha(this)" />
+                <button type="submit" class="testar">Testar</button>    
+        </div>
+     <div class="button">
+        <button type="submit">Cadastrar</button>
+    </div>
+</form>
+</body>
+</html>
