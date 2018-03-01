@@ -1,60 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cadastro Pessoa Juridica</title>
 </head>
+
 <body>
     <div class="cadastro-item-content new-customer auth-form-box">
-        <form id="login-account-create" data-form="" data-form-ui-enabled="" data-form-excluded="[disabled]" data-login-validate="createLogin" action="/customer/account/login/" method="post">
-        <input type="hidden" value="f2cdf64787c264aab2f7e91c4073287e43507727" name="YII_CSRF_TOKEN">
-    <div class="input-box radio-personality-container">
-        
-        <input id="ytRegistrationForm_customer_personality" type="hidden" value="" name="RegistrationForm[customer_personality]"><span id="RegistrationForm_customer_personality"><input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_0" value="2" checked="checked" type="radio" name="RegistrationForm[customer_personality]"> <label for="RegistrationForm_customer_personality_0">Pessoa Física</label><input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_1" value="1" type="radio" name="RegistrationForm[customer_personality]"> <label for="RegistrationForm_customer_personality_1">Pessoa Jurídica</label></span>    </div>
+        <form id="login-account-create" data-form="" data-form-ui-enabled="" data-form-excluded="[disabled]" data-login-validate="createLogin"
+            action="/customer/account/login/" method="post">
+            <input type="hidden" value="f2cdf64787c264aab2f7e91c4073287e43507727" name="YII_CSRF_TOKEN">
+            <div class="input-box radio-personality-container">
 
-    <div class="input-box">
-        <label data-login-name="" for="RegistrationForm_first_name" class="required">Razão social</label>        
-        <input data-form-group="cadastroPlat,natural" data-form-required="" data-social-first-name="" data-form-required-message="Campo obrigatório" name="RegistrationForm[first_name]" id="RegistrationForm_first_name" type="text" maxlength="50">
-    </div>
+                <input id="ytRegistrationForm_customer_personality" type="hidden" value="" name="RegistrationForm[customer_personality]">
+                <span id="RegistrationForm_customer_personality"><input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_0"
+                        value="2" checked="checked" type="radio" name="RegistrationForm[customer_personality]"> <label for="RegistrationForm_customer_personality_0">Pessoa Física</label>
+                    <input
+                        data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_1"
+                        value="1" type="radio" name="RegistrationForm[customer_personality]"> <label for="RegistrationForm_customer_personality_1">Pessoa Jurídica</label></span>
+            </div>
 
-    <div class="input-box auth-form-state-registration" data-login-person-type-container="" style="display: block;">
-        <label for="RegistrationForm_state_registration">Inscrição Est.</label>
-        <input data-form-group="cadastroPlat" data-form-required="" data-login-state-registration="" name="RegistrationForm[state_registration]" id="RegistrationForm_state_registration" type="text">
-        <input id="ytRegistrationForm_state_registration_exempt" type="hidden" value="0" name="RegistrationForm[state_registration_exempt]"><input data-login-check-state-registration="" name="RegistrationForm[state_registration_exempt]" id="RegistrationForm_state_registration_exempt" value="1" type="checkbox">        
-        <label for="RegistrationForm_state_registration_exempt">Isento</label>
-    </div>
+            <div class="input-box">
+                <label data-login-name="" for="RegistrationForm_first_name" class="required">Razão social</label>
+                <input data-form-group="cadastroPlat,natural" data-form-required="" data-social-first-name="" data-form-required-message="Campo obrigatório"
+                    name="RegistrationForm[first_name]" id="RegistrationForm_first_name" type="text" maxlength="50">
+            </div>
 
-    <div class="input-box" data-login-person-type-container="" style="display: none;">
-        <label for="RegistrationForm_last_name" class="required">Sobrenome <span class="required">*</span></label>        
-        <input data-form-group="natural" data-form-required="" data-social-last-name="" data-form-required-message="Campo obrigatório" name="RegistrationForm[last_name]" id="RegistrationForm_last_name" type="text" maxlength="50" disabled="disabled">
-    </div>
+            <div class="input-box auth-form-state-registration" data-login-person-type-container="" style="display: block;">
+                <label for="RegistrationForm_state_registration">Inscrição Est.</label>
+                <input data-form-group="cadastroPlat" data-form-required="" data-login-state-registration="" name="RegistrationForm[state_registration]"
+                    id="RegistrationForm_state_registration" type="text">
+                <input id="ytRegistrationForm_state_registration_exempt" type="hidden" value="0" name="RegistrationForm[state_registration_exempt]">
+                <input data-login-check-state-registration="" name="RegistrationForm[state_registration_exempt]" id="RegistrationForm_state_registration_exempt"
+                    value="1" type="checkbox">
+                <label for="RegistrationForm_state_registration_exempt">Isento</label>
+            </div>
 
-    <div class="input-box">
-        <label for="RegistrationForm_email" class="required">E-mail <span class="required">*</span></label>        
-        <input data-form-group="natural,cadastroPlat" data-form-type="email" data-form-required="" data-form-required-message="Campo obrigatório" data-form-type-message="E-mail inválido. Verifique se digitou corretamente." name="RegistrationForm[email]" id="RegistrationForm_email" type="text" maxlength="40">
-    </div>
+            <div class="input-box" data-login-person-type-container="" style="display: none;">
+                <label for="RegistrationForm_last_name" class="required">Sobrenome <span class="required">*</span></label>
+                <input data-form-group="natural" data-form-required="" data-social-last-name="" data-form-required-message="Campo obrigatório"
+                    name="RegistrationForm[last_name]" id="RegistrationForm_last_name" type="text" maxlength="50" disabled="disabled">
+            </div>
 
-    <div class="input-box" data-login-person-type-container="" data-gender-box="" style="display: none;">
-        
-        <label for="RegistrationForm_gender" class="required">Sexo <span class="required">*</span></label>        
-        <select class="selectbox" data-form-group="natural" data-form-required="" data-social-gender="" data-form-required-message="Campo obrigatório" name="RegistrationForm[gender]" id="RegistrationForm_gender" disabled="disabled">
+            <div class="input-box">
+                <label for="RegistrationForm_email" class="required">E-mail <span class="required">*</span></label>
+                <input data-form-group="natural,cadastroPlat" data-form-type="email" data-form-required="" data-form-required-message="Campo obrigatório"
+                    data-form-type-message="E-mail inválido. Verifique se digitou corretamente." name="RegistrationForm[email]"
+                    id="RegistrationForm_email" type="text" maxlength="40">
+            </div>
+
+            <div class="input-box" data-login-person-type-container="" data-gender-box="" style="display: none;">
+
+                <label for="RegistrationForm_gender" class="required">Sexo <span class="required">*</span></label>
+                <select class="selectbox" data-form-group="natural" data-form-required="" data-social-gender="" data-form-required-message="Campo obrigatório"
+                    name="RegistrationForm[gender]" id="RegistrationForm_gender" disabled="disabled">
             <option value="" selected="selected">Selecione</option>
             <option value="male">Masculino</option>
             <option value="female">Feminino</option>
         </select>
-            <i class="icon-chevron-down"></i>
-    </div>
+                <i class="icon-chevron-down"></i>
+            </div>
 
-    <div class="input-box">
-        <label data-login-tax-identification-label="" for="RegistrationForm_tax_identification" class="required">CNPJ</label>
-        <input data-login-tax-identification="" data-form-group="natural,cadastroPlat" data-form-required="" data-form-required-message="Campo obrigatório" name="RegistrationForm[tax_identification]" id="RegistrationForm_tax_identification" type="text">
-    </div>
+            <div class="input-box">
+                <label data-login-tax-identification-label="" for="RegistrationForm_tax_identification" class="required">CNPJ</label>
+                <input data-login-tax-identification="" data-form-group="natural,cadastroPlat" data-form-required="" data-form-required-message="Campo obrigatório"
+                    name="RegistrationForm[tax_identification]" id="RegistrationForm_tax_identification" type="text">
+            </div>
 
-    <div class="input-box" data-login-person-type-container="" style="display: none;">
-        <label for="RegistrationForm_Nascimento">Nascimento</label>                
-        <select class="selectbox day" data-form-group="natural" data-form-required="" data-social-birth-day="" data-form-required-message="Campo obrigatório" name="RegistrationForm[day]" id="RegistrationForm_day" disabled="disabled">
+            <div class="input-box" data-login-person-type-container="" style="display: none;">
+                <label for="RegistrationForm_Nascimento">Nascimento</label>
+                <select class="selectbox day" data-form-group="natural" data-form-required="" data-social-birth-day="" data-form-required-message="Campo obrigatório"
+                    name="RegistrationForm[day]" id="RegistrationForm_day" disabled="disabled">
             <option value="" selected="selected"></option>
             <option value="01">01</option>
             <option value="02">02</option>
@@ -87,10 +106,11 @@
             <option value="29">29</option>
             <option value="30">30</option>
             <option value="31">31</option>
-        </select>        
-        <i class="icon-chevron-down"></i>
+        </select>
+                <i class="icon-chevron-down"></i>
 
-        <select class="selectbox month" data-form-group="natural" data-form-required="" data-social-birth-month="" data-form-required-message="Campo obrigatório" name="RegistrationForm[month]" id="RegistrationForm_month" disabled="disabled">
+                <select class="selectbox month" data-form-group="natural" data-form-required="" data-social-birth-month="" data-form-required-message="Campo obrigatório"
+                    name="RegistrationForm[month]" id="RegistrationForm_month" disabled="disabled">
             <option value="" selected="selected"></option>
             <option value="01">01</option>
             <option value="02">02</option>
@@ -104,17 +124,12 @@
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
-        </select>        
-        <i class="icon-chevron-down"></i>
+        </select>
+                <i class="icon-chevron-down"></i>
 
-        <select class="selectbox year" data-form-group="natural" data-form-required="" data-social-birth-year="" data-form-required-message="Campo obrigatório" name="RegistrationForm[year]" id="RegistrationForm_year" disabled="disabled">
+                <select class="selectbox year" data-form-group="natural" data-form-required="" data-social-birth-year="" data-form-required-message="Campo obrigatório"
+                    name="RegistrationForm[year]" id="RegistrationForm_year" disabled="disabled">
             <option value="" selected="selected"></option>
-            <option value="2008">2008</option>
-            <option value="2007">2007</option>
-            <option value="2006">2006</option>
-            <option value="2005">2005</option>
-            <option value="2004">2004</option>
-            <option value="2003">2003</option>
             <option value="2002">2002</option>
             <option value="2001">2001</option>
             <option value="2000">2000</option>
@@ -149,32 +164,23 @@
             <option value="1971">1971</option>
             <option value="1970">1970</option>
 
-        </select>        
-        <i class="icon-chevron-down"></i>
-    </div>
+        </select>
+                <i class="icon-chevron-down"></i>
+            </div>
+            <form id="formCadastro" name="formulario" action="" method="POST">
+                <div>
+                    <label for="txtSenha">Senha</label>
+                    <input id="txtSenha" name="senha" type="password" required="" placeholder="Digite uma Senha" title="Senha" />
+                    <label for="repetir_senha">Confirmar Senha</label>
+                    <input id="repetir_senha" name="repetir_senha" type="password" required="" placeholder="Repetir Senha" title="Repetir Senha"
+                    />
+                </div>
+                <div>
+                    <button type="button" onclick="validarSenha(this)" class="testar">Criar conta</button>
+                </div>
+            </form>
 
-    <div class="input-box content-check-strength">
-        <label for="RegistrationForm_password">Senha</label>        
-        <input id="form-customer-account-password" data-form-group="natural,cadastroPlat" data-form-required="" data-my-account="check-pass" autocomplete="off" data-form-required-message="Campo obrigatório" name="RegistrationForm[password]" type="password" maxlength="50">
-        <div class="result col-md-9 col-xs-12" data-my-account="result">
-            <div class="bar-default col-md-12 col-xs-12"></div>
-            <div class="bar"></div>
-            <div class="pop-arrow-down"></div>
-        </div>
-
-    </div>
-
-    <div class="input-box">
-        <label for="RegistrationForm_password2">Repetir Senha</label>        
-        <input data-form-group="natural,cadastroPlat" data-form-required="" data-form-equalto="#form-customer-account-password" data-form-equalto-message="Certifique-se de que as senhas informadas são idênticas" autocomplete="off" data-form-required-message="Campo obrigatório" name="RegistrationForm[password2]" id="RegistrationForm_password2" type="password">
-    </div>
-
-    <div class="form-actions">
-        <button type="submit" class="prog button primary fluid medium" id="customer-account-create">Criar Conta</button>
-    </div>
-
-
-    </form>
-</div>
+            <script type="text/javascript" src="js/cadastro_usuaria.js"></script>
 </body>
+
 </html>
