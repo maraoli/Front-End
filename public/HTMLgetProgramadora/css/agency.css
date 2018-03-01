@@ -96,7 +96,8 @@ img::-moz-selection {
   /*CORES LEGAIS
   background-color: rgba(255, 255, 255, 0.77);
   background-color: rgb(249, 245, 245);
-  background-color: rgb(154, 53, 53);*/
+  background-color: rgb(154, 53, 53);
+  color: #ea1087*/
 }
 
 #mainNav .navbar-toggler {
@@ -111,8 +112,9 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+    color: white;
+    border-radius: 16px;
+    background: #fb00fd;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
