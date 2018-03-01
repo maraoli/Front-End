@@ -1,3 +1,8 @@
+@font-face{
+    font-family:"Typo Style Light Demo";
+    src:url("Typo Style Light Demo.otf") format("opentype");
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -646,7 +651,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
+    font-size: 2.75em;
+    font-family: Typo Style Light Demo;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
