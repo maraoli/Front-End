@@ -119,7 +119,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
     color: white;
     border-radius: 16px;
-    height: calc(100% - 85px);
+    /*height: calc(100% - 85px);*/
     /*background: #fb00fd;*/
 }
 
@@ -155,7 +155,7 @@ img::-moz-selection {
     position: absolute;
     width: 100%;
     /*funcoiona no chrome*/
-    height:  calc(100% - 179px);
+    height:  calc(100% - 123px);
     background: black;
     opacity: .2;
 }
@@ -168,11 +168,14 @@ img::-moz-selection {
 }
 .login-botao{
     border: none;
-    background: pink;
+    background: #ee009d;
     color: white;
     padding: 5px 46px;
     border-radius: 10px;
     margin-right: 30px;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
 }
 
 header.masthead {
@@ -611,9 +614,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin-top: 130px;
     width: 40%;
     background: rgba(255, 255, 255, 0.84);
-    border-radius: 10px;
+    border-radius: 2% 2% 0 0;
     padding: 30px 0px;
-    /*padding-bottom: 200px;*/
+    /*margin-bottom: 40px;*/
+    margin-bottom: 0px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
