@@ -232,6 +232,7 @@ header.masthead .intro-text .intro-heading {
     margin-top: 10px;
 }
 
+/* PARA USUÁRIAS*/
 #para-usuarias .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -301,6 +302,79 @@ header.masthead .intro-text .intro-heading {
 }
 
 #para-usuarias * {
+  z-index: 2;
+}
+
+/*PARA EMPRESAS*/
+#para-empresas .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+#para-empresas .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#para-empresas .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+}
+
+#para-empresas .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#para-empresas .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#para-empresas .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+#para-empresas .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#para-empresas .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#para-empresas .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#para-empresas .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#para-empresas .portfolio-item .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  /*margin: 0;*/
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#para-empresas * {
   z-index: 2;
 }
 
