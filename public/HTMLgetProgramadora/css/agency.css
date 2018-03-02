@@ -139,6 +139,11 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: deeppink;
 }
+/* HEADER */
+.logo-header{
+  padding: 0px;
+  margin: 0px;
+}
 
 /* NAV */
 .overlay{
@@ -179,8 +184,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  /*padding-top: 150px;
+  padding-bottom: 100px;*/
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -189,7 +194,7 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  z-index: 3;
+  position: relative;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -198,6 +203,8 @@ header.masthead .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*margin: 0;
+  padding: 162px 0px;*/
 }
 
 .service-heading {
