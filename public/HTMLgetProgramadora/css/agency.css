@@ -110,7 +110,7 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: deeppink;;
+  color: deeppink;
   border: 0;
   background-color: #fed136;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -119,11 +119,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
     color: white;
     border-radius: 16px;
-    background: #fb00fd;
+    height: calc(100% - 85px);
+    /*background: #fb00fd;*/
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: deeppink;;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -140,6 +141,18 @@ img::-moz-selection {
 }
 
 /* NAV */
+.overlay{
+    position: absolute;
+    width: 100%;
+    /*funcoiona no chrome*/
+    height:  calc(100% - 179px);
+    background: black;
+    opacity: .2;
+}
+.gPcontainer{
+    position: relative;
+    z-index: 3;
+}
 .navbar__logo{
   width: 70px;
 }
@@ -176,6 +189,7 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  z-index: 3;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -580,7 +594,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 
-
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
@@ -592,6 +605,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    z-index: 3;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -652,7 +666,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
   #mainNav .navbar-brand {
     font-size: 2.75em;
-    font-family: Typo Style Light Demo;
+    /*font-family: "Typo Style Light Demo";*/
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
