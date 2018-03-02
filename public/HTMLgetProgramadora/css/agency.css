@@ -296,7 +296,7 @@ header.masthead .intro-text .intro-heading {
 #para-usuarias .portfolio-item .portfolio-caption p {
   font-size: 16px;
   font-style: italic;
-  margin: 0;
+  /*margin: 0;*/
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
