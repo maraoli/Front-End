@@ -43,7 +43,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 section h3.section-subheading {
@@ -460,6 +460,24 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+/*FOOTER*/
+.bkg-footer-dark{
+  background: #9a3535;
+}
+
+.item-footer{
+  color: white;
+}
+
+.item-footer:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.icone-rede-social:hover{
+  background: deeppink;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -662,6 +680,7 @@ footer span.copyright {
   line-height: 40px;
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
 }
 
 footer ul.quicklinks {
@@ -670,6 +689,7 @@ footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
 }
 
 ul.social-buttons {
