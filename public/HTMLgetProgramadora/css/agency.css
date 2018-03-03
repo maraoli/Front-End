@@ -787,12 +787,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 @media (min-width: 992px) {
+  /* ARRUMAR */
   .login-botao{
       display: inline-block;
   }
   .invisible-desk{
     display: none;
   }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
