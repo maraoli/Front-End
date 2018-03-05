@@ -32,19 +32,12 @@
                     </div>
 
                     <div class="input-box">
-                        <label data-login-name="" for="RegistrationForm_first_name" class="required">Nome</label>
+                        <label data-login-name="" for="RegistrationForm_first_name" class="required">Nome<span class="required">*</span></label>
                         <input data-form-group="cadastroPlat,natural" data-form-required="" data-social-first-name="" data-form-required-message="Campo obrigatório"
                             name="RegistrationForm[first_name]" id="RegistrationForm_first_name" type="text" maxlength="50">
                     </div>
 
-                    <div class="input-box auth-form-state-registration" data-login-person-type-container="" style="display: none;">
-                        <label for="RegistrationForm_state_registration">Inscrição Est.</label>
-                        <input data-form-group="cadastroPlat" data-form-required="" data-login-state-registration="" name="RegistrationForm[state_registration]"
-                            id="RegistrationForm_state_registration" type="text" disabled="disabled">
-                        <input id="ytRegistrationForm_state_registration_exempt" type="hidden" value="0" name="RegistrationForm[state_registration_exempt]">
-                        <input data-login-check-state-registration="" name="RegistrationForm[state_registration_exempt]" id="RegistrationForm_state_registration_exempt"
-                            value="1" type="checkbox"> <label for="RegistrationForm_state_registration_exempt">Isento</label>
-                    </div>
+
 
                     <div class="input-box" data-login-person-type-container="" style="display: block;">
                         <label for="RegistrationForm_last_name" class="required">Sobrenome <span class="required">*</span></label>
@@ -59,17 +52,7 @@
                             id="RegistrationForm_email" type="text" maxlength="40">
                     </div>
 
-                    <div class="input-box" data-login-person-type-container="" data-gender-box="" style="display: block;">
-                        <label for="RegistrationForm_gender" class="required">Sexo <span class="required">*</span></label>
-                        <select class="selectbox" data-form-group="natural" data-form-required="" data-social-gender="" data-form-required-message="Campo obrigatório"
-                            name="RegistrationForm[gender]" id="RegistrationForm_gender">
-                            <option value="" selected="selected">Selecione</option>
-                            <option value="male">Masculino</option>
-                            <option value="female">Feminino</option>
-                        </select>
-                        <i class="icon-chevron-down"></i>
-                    </div>
-
+                  
                     <div class="input-box">
                         <label data-login-tax-identification-label="" for="RegistrationForm_tax_identification" class="required">CPF</label>
                         <input data-login-tax-identification="" data-form-group="natural,cadastroPlat" data-form-required="" data-form-required-message="Campo obrigatório"
@@ -181,9 +164,9 @@
 
                     <form id="formCadastro" name="formulario" action="" method="POST">
                         <div>
-                            <label for="txtSenha">Senha</label>
+                            <label for="txtSenha">Senha<span class="required">*</span></label>
                             <input id="txtSenha" name="senha" type="password" required="" placeholder="Digite uma Senha" title="Senha" />
-                            <label for="repetir_senha">Confirmar Senha</label>
+                            <label for="repetir_senha">Confirmar Senha<span class="required">*</span></label>
                             <input id="repetir_senha" name="repetir_senha" type="password" required="" placeholder="Repetir Senha" title="Repetir Senha"
                             />
                         </div>
