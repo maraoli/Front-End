@@ -23,7 +23,7 @@
         <input id="ytRegistrationForm_customer_personality" type="hidden" value="" name="RegistrationForm[customer_personality]"><span id="RegistrationForm_customer_personality"><input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_0" value="2" checked="checked" type="radio" name="RegistrationForm[customer_personality]"> <label for="RegistrationForm_customer_personality_0">Pessoa Física</label><input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_1" value="1" type="radio" name="RegistrationForm[customer_personality]"> <label for="RegistrationForm_customer_personality_1">Pessoa Jurídica</label></span>    </div>
 
     <div class="input-box">
-        <label data-login-name="" for="RegistrationForm_first_name" class="required">Nome</label>        
+        <label data-login-name="" for="RegistrationForm_first_name" class="required">Nome<span class="required">*</span></label>        
         <input data-form-group="cadastroPlat,natural" data-form-required="" data-social-first-name="" data-form-required-message="Campo obrigatório" name="RegistrationForm[first_name]" id="RegistrationForm_first_name" type="text" maxlength="50">
     </div>
 
@@ -43,15 +43,6 @@
         <input data-form-group="natural,cadastroPlat" data-form-type="email" data-form-required="" data-form-required-message="Campo obrigatório" data-form-type-message="E-mail inválido. Verifique se digitou corretamente." name="RegistrationForm[email]" id="RegistrationForm_email" type="text" maxlength="40">
     </div>
 
-    <div class="input-box" data-login-person-type-container="" data-gender-box="" style="display: block;">
-        <label for="RegistrationForm_gender" class="required">Sexo <span class="required">*</span></label>        
-        <select class="selectbox" data-form-group="natural" data-form-required="" data-social-gender="" data-form-required-message="Campo obrigatório" name="RegistrationForm[gender]" id="RegistrationForm_gender">
-            <option value="" selected="selected">Selecione</option>
-            <option value="male">Masculino</option>
-            <option value="female">Feminino</option>
-        </select>
-        <i class="icon-chevron-down"></i>
-    </div>
 
     <div class="input-box">
         <label data-login-tax-identification-label="" for="RegistrationForm_tax_identification" class="required">CPF</label>
@@ -159,7 +150,7 @@
     </div>
 
     <div class="input-box content-check-strength">
-        <label for="RegistrationForm_password">Senha</label>        
+        <label for="RegistrationForm_password">Senha<span class="required">*</span></label>        
         <input id="form-customer-account-password" data-form-group="natural,cadastroPlat" data-form-required="" data-my-account="check-pass" autocomplete="off" data-form-required-message="Campo obrigatório" name="RegistrationForm[password]" type="password" maxlength="50">
         <div class="result col-md-9 col-xs-12" data-my-account="result">
             <div class="bar-default col-md-12 col-xs-12"></div>
@@ -169,7 +160,7 @@
     </div>
 
     <div class="input-box">
-        <label for="RegistrationForm_password2">Repetir Senha</label>        
+        <label for="RegistrationForm_password2">Repetir Senha<span class="required">*</span></label>        
         <input data-form-group="natural,cadastroPlat" data-form-required="" data-form-equalto="#form-customer-account-password" data-form-equalto-message="Certifique-se de que as senhas informadas são idênticas" autocomplete="off" data-form-required-message="Campo obrigatório" name="RegistrationForm[password2]" id="RegistrationForm_password2" type="password">
     </div>
 
