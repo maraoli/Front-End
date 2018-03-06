@@ -147,6 +147,7 @@ img::-moz-selection {
   padding: 0px;
   margin: 0px;
   position: relative;
+  width: 90%;
 }
 .header-space{
     display: flex;
@@ -715,15 +716,27 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: deeppink;
 }
+/*arrumar abaixo*/
+
+header.masthead .intro-text {
+    margin-top: 260px;
+    /*margin-top: 130px;*/
+    width: 90%;
+    background: rgba(255, 255, 255, 0.84);
+    border-radius: 2% 2% 0 0;
+    padding: 30px 0px;
+    /*margin-bottom: 40px;*/
+    margin-bottom: 0px;
+  }
 
 /*colocar um intervalo fixo*/
 @media (min-width: 768px) {
   header.masthead .intro-text {
     margin-top: 260px;
     /*margin-top: 130px;*/
-    width: 40%;
+    width: 50%;
     background: rgba(255, 255, 255, 0.84);
     border-radius: 2% 2% 0 0;
     padding: 30px 0px;
@@ -796,6 +809,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     background-color: rgba(255, 255, 255, 0);
+  }
+  header.masthead .intro-text {
+    width: 40%;
   }
 
   #mainNav {
