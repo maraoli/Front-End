@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from "./components/pages/Home";
-import Forum from "./components/pages/Forum";
 import {
   BrowserRouter as Router,
   Route,
@@ -15,55 +14,53 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div className="container">
-              <a className="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-              <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          {/* <!-- Navigation --> */}
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+              <!--<img class="navbar__logo navbar-brand js-scroll-trigger" href="#page-top" src="img/logos/logo.png" alt="">-->
+              <a class="navbar-brand js-scroll-trigger" href="#page-top">getProgramadora( );</a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
-                <i className="fa fa-bars"></i>
+                <i class="fa fa-bars"></i>
               </button>
-              <div className="collapse navbar-collapse" id="navbarResponsive">
-                <ul className="navbar-nav text-uppercase ml-auto">
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#services">Services</a>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">Quem Somos</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#para-usuarias"> Para Usuárias</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#about">About</a>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#para-empresas">Para Empresas</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#team">Team</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                  </li>
-                  <li className="nav-item">
-                    <Link to="/forum">
-                      <a className="nav-link js-scroll-trigger">Forum</a>
-                    </Link>
+                  <li class="nav-item invisible-desk">
+                    <a class="nav-link js-scroll-trigger" href="#para-empresas">Login</a>
                   </li>
                 </ul>
               </div>
             </div>
+            <!-- class="portfolio-link" data-toggle="modal" href="#portfolioModal2" -->
+            <button class="login-botao portfolio-link" data-toggle="modal" href="#login">Login</button>
           </nav>
-
-          <header className="masthead">
-            <div className="container">
-              <div className="intro-text">
-                <div className="intro-lead-in">Welcome To Our Studio!</div>
-                <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
-                <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+      
+          {/* <!-- Header --> */}
+          <header class="masthead">
+            <div class="overlay"></div>
+            <div class="container header-space">
+              <div class="intro-text">
+                <div class="intro-lead-in">Bem vindo(a) ao:</div>
+                <img src="img/logos/logo1.png" alt="" class=" logo-header intro-heading text-uppercase">
+                <!--<div class="intro-heading text-uppercase">It's Nice To Meet You</div>-->
+                <!--<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>-->
               </div>
             </div>
           </header>
 
           <Route exact path="/" component={Home}/>
-          <Route path="/forum" component={Forum}/>
         </div>
 
-        </Router>
+      </Router>
     );
   }
 }
