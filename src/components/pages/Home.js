@@ -19,41 +19,41 @@ class Home extends Component {
         <Empresas />
 
         {/* <!-- Footer --> */}
-        <footer class="bkg-footer-dark">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4">
-                  <span class="copyright">Copyright &copy; Senai Code XP 2018</span>
+        <footer className="bkg-footer-dark">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-4">
+                  <span className="copyright">Copyright &copy; Senai Code XP 2018</span>
                 </div>
-                <div class="col-md-4">
-                  <ul class="list-inline social-buttons">
-                    <li class="list-inline-item">
+                <div className="col-md-4">
+                  <ul className="list-inline social-buttons">
+                    <li className="list-inline-item">
                       <a href="#">
-                        <i class="fa fa-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
-                    <li class="list-inline-item">
+                    <li className="list-inline-item">
                       <a href="#">
-                        <i class="fa fa-facebook"></i>
+                        <i className="fa fa-facebook"></i>
                       </a>
                     </li>
-                    <li class="list-inline-item">
+                    <li className="list-inline-item">
                       <a href="#">
-                        <i class="fa fa-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div class="col-md-4">
-                  <ul class="list-inline quicklinks">
-                    <li class="list-inline-item">
-                      <a class="item-footer" href="#">(11)4000-0000</a>
+                <div className="col-md-4">
+                  <ul className="list-inline quicklinks">
+                    <li className="list-inline-item">
+                      <a className="item-footer" href="#">(11)4000-0000</a>
                     </li>
-                    <li class="list-inline-item">
-                      <a class="item-footer" href="#">get@mail.com</a>
+                    <li className="list-inline-item">
+                      <a className="item-footer" href="#">get@mail.com</a>
                     </li>
-                    <li class="list-inline-item">
-                      <a class="item-footer" href="#">Terms of Use</a>
+                    <li className="list-inline-item">
+                      <a className="item-footer" href="#">Terms of Use</a>
                     </li>
                   </ul>
                 </div>
@@ -64,32 +64,32 @@ class Home extends Component {
         {/* <!-- Modals --> */}
 
         {/* <!-- LOGIN --> */}
-        <div class="portfolio-modal modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                  <div class="rl"></div>
+        <div className="portfolio-modal modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="close-modal" data-dismiss="modal">
+                <div className="lr">
+                  <div className="rl"></div>
                 </div>
               </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-8 mx-auto">
-                    <div class="modal-body">
-                      <div class="intro-text">
-                          <h1 class="intro-lead-in">Bem vindo(a) ao:</h1>
-                          <img src="img/logos/logo1.png" alt="" class=" logo-header intro-heading text-uppercase">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-8 mx-auto">
+                    <div className="modal-body">
+                      <div className="intro-text">
+                          <h1 className="intro-lead-in">Bem vindo(a) ao:</h1>
+                          <img src="img/logos/logo1.png" alt="" className=" logo-header intro-heading text-uppercase">
                           <form id="formLogin" name="formulario" action="" method="POST">
-                            <label for="RegistrationForm_email" class="required">E-mail <span class="required">*</span></label>
+                            <label for="RegistrationForm_email" className="required">E-mail <span className="required">*</span></label>
                             <input data-form-group="natural,cadastroPlat" data-form-type="email" data-form-required="" data-form-required-message="Campo obrigatório"
                                   data-form-type-message="E-mail inválido. Verifique se digitou corretamente." name="RegistrationForm[email]"
                                   id="RegistrationForm_email" type="email" maxlength="40" placeholder="Digite seu email">
                             <label for="txtSenha">Senha</label>
                             <input id="txtSenha" name="senha" type="password" required="" placeholder="Digite uma Senha" title="Senha" />
                             <a href="#">Esqueci a senha</a>
-                            <div class="opcoes-de-login">
-                                <button type="button" onclick="validarSenha(this)" class="testar">Entrar</button>
-                                <a type="button"  class="testar portfolio-link modal-close" data-toggle="modal" href="#cadastro">Cadastrar</a>
+                            <div className="opcoes-de-login">
+                                <button type="button" onclick="validarSenha(this)" className="testar">Entrar</button>
+                                <a type="button"  className="testar portfolio-link modal-close" data-toggle="modal" href="#cadastro">Cadastrar</a>
                             </div>
                           </form>
                         </div>
@@ -103,46 +103,46 @@ class Home extends Component {
     
         {/* <!-- CADASTRO --> */}
         {/* <!-- tirar bolinha do LI dentro de modal-body --> */}
-        <div class="portfolio-modal modal fade" id="cadastro" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                  <div class="rl"></div>
+        <div className="portfolio-modal modal fade" id="cadastro" tabindex="-1" role="dialog" aria-hidden="true">
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="close-modal" data-dismiss="modal">
+                <div className="lr">
+                  <div className="rl"></div>
                 </div>
               </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-8 mx-auto">
-                    <div class="modal-body">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-8 mx-auto">
+                    <div className="modal-body">
                         <li>
-                            <ul class="cadastro">
-                                <label class="cadastro-link" for="account-form-new-customer">
-                                    <h2 class="account-form-title">Quero me cadastrar</h2>
-                                    <i class="cadastro-icon icon-chevron-right"></i>
-                                    <i class="cadastro-icon icon-chevron-down"></i>
+                            <ul className="cadastro">
+                                <label className="cadastro-link" for="account-form-new-customer">
+                                    <h2 className="account-form-title">Quero me cadastrar</h2>
+                                    <i className="cadastro-icon icon-chevron-right"></i>
+                                    <i className="cadastro-icon icon-chevron-down"></i>
                                 </label>
                     
-                                <div class="cadastro-item-content new-customer auth-form-box">
+                                <div className="cadastro-item-content new-customer auth-form-box">
                                     <form id="login-account-create" data-form="" data-form-ui-enabled="" data-form-excluded="[disabled]" data-login-validate="createLogin"
                                         action="/customer/account/login/" method="post">
                                         <input type="hidden" value="f2cdf64787c264aab2f7e91c4073287e43507727" name="YII_CSRF_TOKEN">
-                                        <div class="input-box radio-personality-container">
+                                        <div className="input-box radio-personality-container">
                                             <input id="ytRegistrationForm_customer_personality" type="hidden" value="" name="RegistrationForm[customer_personality]">
-                                            <span id="RegistrationForm_customer_personality"><input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_0"
+                                            <span id="RegistrationForm_customer_personality"><input data-login-person-type="" className="login-customer-personality " id="RegistrationForm_customer_personality_0"
                                                     value="2" checked="checked" type="radio" name="RegistrationForm[customer_personality]">
                                                 <label
-                                                    for="RegistrationForm_customer_personality_0">Pessoa Física</label><input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_1"
+                                                    for="RegistrationForm_customer_personality_0">Pessoa Física</label><input data-login-person-type="" className="login-customer-personality " id="RegistrationForm_customer_personality_1"
                                                         value="1" type="radio" name="RegistrationForm[customer_personality]"> <label for="RegistrationForm_customer_personality_1">Pessoa Jurídica</label></span>
                                         </div>
                     
-                                        <div class="input-box">
-                                            <label data-login-name="" for="RegistrationForm_first_name" class="required">Nome</label>
+                                        <div className="input-box">
+                                            <label data-login-name="" for="RegistrationForm_first_name" className="required">Nome</label>
                                             <input data-form-group="cadastroPlat,natural" data-form-required="" data-social-first-name="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[first_name]" id="RegistrationForm_first_name" type="text" maxlength="50">
                                         </div>
                     
-                                        <div class="input-box auth-form-state-registration" data-login-person-type-container="" style="display: none;">
+                                        <div className="input-box auth-form-state-registration" data-login-person-type-container="" style="display: none;">
                                             <label for="RegistrationForm_state_registration">Inscrição Est.</label>
                                             <input data-form-group="cadastroPlat" data-form-required="" data-login-state-registration="" name="RegistrationForm[state_registration]"
                                                 id="RegistrationForm_state_registration" type="text" disabled="disabled">
@@ -151,39 +151,39 @@ class Home extends Component {
                                                 value="1" type="checkbox"> <label for="RegistrationForm_state_registration_exempt">Isento</label>
                                         </div>
                     
-                                        <div class="input-box" data-login-person-type-container="" style="display: block;">
-                                            <label for="RegistrationForm_last_name" class="required">Sobrenome <span class="required">*</span></label>
+                                        <div className="input-box" data-login-person-type-container="" style="display: block;">
+                                            <label for="RegistrationForm_last_name" className="required">Sobrenome <span className="required">*</span></label>
                                             <input data-form-group="natural" data-form-required="" data-social-last-name="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[last_name]" id="RegistrationForm_last_name" type="text" maxlength="50">
                                         </div>
                     
-                                        <div class="input-box">
-                                            <label for="RegistrationForm_email" class="required">E-mail <span class="required">*</span></label>
+                                        <div className="input-box">
+                                            <label for="RegistrationForm_email" className="required">E-mail <span className="required">*</span></label>
                                             <input data-form-group="natural,cadastroPlat" data-form-type="email" data-form-required="" data-form-required-message="Campo obrigatório"
                                                 data-form-type-message="E-mail inválido. Verifique se digitou corretamente." name="RegistrationForm[email]"
                                                 id="RegistrationForm_email" type="text" maxlength="40">
                                         </div>
                     
-                                        <div class="input-box" data-login-person-type-container="" data-gender-box="" style="display: block;">
-                                            <label for="RegistrationForm_gender" class="required">Sexo <span class="required">*</span></label>
-                                            <select class="selectbox" data-form-group="natural" data-form-required="" data-social-gender="" data-form-required-message="Campo obrigatório"
+                                        <div className="input-box" data-login-person-type-container="" data-gender-box="" style="display: block;">
+                                            <label for="RegistrationForm_gender" className="required">Sexo <span className="required">*</span></label>
+                                            <select className="selectbox" data-form-group="natural" data-form-required="" data-social-gender="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[gender]" id="RegistrationForm_gender">
                                                 <option value="" selected="selected">Selecione</option>
                                                 <option value="male">Masculino</option>
                                                 <option value="female">Feminino</option>
                                             </select>
-                                            <i class="icon-chevron-down"></i>
+                                            <i className="icon-chevron-down"></i>
                                         </div>
                     
-                                        <div class="input-box">
-                                            <label data-login-tax-identification-label="" for="RegistrationForm_tax_identification" class="required">CPF</label>
+                                        <div className="input-box">
+                                            <label data-login-tax-identification-label="" for="RegistrationForm_tax_identification" className="required">CPF</label>
                                             <input data-login-tax-identification="" data-form-group="natural,cadastroPlat" data-form-required="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[tax_identification]" id="RegistrationForm_tax_identification" type="text">
                                         </div>
                     
-                                        <div class="input-box" data-login-person-type-container="" style="display: block;">
+                                        <div className="input-box" data-login-person-type-container="" style="display: block;">
                                             <label for="RegistrationForm_Nascimento">Nascimento</label>
-                                            <select class="selectbox day" data-form-group="natural" data-form-required="" data-social-birth-day="" data-form-required-message="Campo obrigatório"
+                                            <select className="selectbox day" data-form-group="natural" data-form-required="" data-social-birth-day="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[day]" id="RegistrationForm_day">
                                                 <option value="" selected="selected"></option>
                                                 <option value="01">01</option>
@@ -218,9 +218,9 @@ class Home extends Component {
                                                 <option value="30">30</option>
                                                 <option value="31">31</option>
                                             </select>
-                                            <i class="icon-chevron-down"></i>
+                                            <i className="icon-chevron-down"></i>
                     
-                                            <select class="selectbox month" data-form-group="natural" data-form-required="" data-social-birth-month="" data-form-required-message="Campo obrigatório"
+                                            <select className="selectbox month" data-form-group="natural" data-form-required="" data-social-birth-month="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[month]" id="RegistrationForm_month">
                                                 <option value="" selected="selected"></option>
                                                 <option value="01">01</option>
@@ -236,9 +236,9 @@ class Home extends Component {
                                                 <option value="11">11</option>
                                                 <option value="12">12</option>
                                             </select>
-                                            <i class="icon-chevron-down"></i>
+                                            <i className="icon-chevron-down"></i>
                     
-                                            <select class="selectbox year" data-form-group="natural" data-form-required="" data-social-birth-year="" data-form-required-message="Campo obrigatório"
+                                            <select className="selectbox year" data-form-group="natural" data-form-required="" data-social-birth-year="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[year]" id="RegistrationForm_year">
                                                 <option value="" selected="selected"></option>
                                                 <option value="2008">2008</option>
@@ -281,7 +281,7 @@ class Home extends Component {
                                                 <option value="1971">1971</option>
                                                 <option value="1970">1970</option>
                                             </select>
-                                            <i class="icon-chevron-down"></i>
+                                            <i className="icon-chevron-down"></i>
                                         </div>
                     
                                         <form id="formCadastro" name="formulario" action="" method="POST">
@@ -293,7 +293,7 @@ class Home extends Component {
                                                 />
                                             </div>
                                             <div>
-                                                <button type="button" onclick="validarSenha(this)" class="testar">Criar conta</button>
+                                                <button type="button" onclick="validarSenha(this)" className="testar">Criar conta</button>
                                             </div>
                                         </form>
                                 </div>
