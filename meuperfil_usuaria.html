@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil Usuária</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page-meuPerfil">
+        <header id="header-meuPerfil">
+            <nav class="logo-meuPerfil">
+                <div class="menu_logo">
+                <h4 class=""><strong> getProgramadora( ); </strong></h4>
+            </div>
+            <div class="container-meuPerfil">
+                <h3 class="menu__titulo"><strong> Perfil Usuária </strong></h3>
+            </div>
+
+            <ul class="menu__lista-oculta bolinha-item-lista">
+                <li>Meu Perfil</li>
+                <li>Fórum</li>
+                <li>Cursos</li>
+                <li>+Vagas</li>
+            </ul>
+
+            <figure class="menu__lista figure-menu">
+                    <img class="menu__barra__img" src="img/menu-image.png" alt="menu">
+            </figure>
+        </nav>
+    </header>
+
+    <section>
+        <div class="cadastro-meuPerfil">
+            <form id="cadastro-criar-conta">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group" id="primeiroNome-sessao">
+                            <label for="primeiroNome-sessao" class="control-label">
+                                <font style="vertical-align: inherit;">Primeiro nome</font> 
+                            </label>
+                            <div class="controls">
+                                <input type="text" class="form-control" id="primeiroNome-sessão" name="primeiroNome" value="Marina" placeholder="Primeiro Nome">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group" id="ultimoNome-sessao">
+                            <label for="ultimoNome-sessao" class="control-label">
+                            <font style="vertical-align: inherit;">Último nome</font>
+                        </label>
+                            <div class="controls">
+                                <input type="text" class="form-control" id="ultimoNome-sessão" name="ultimoNome" value="Maluta" placeholder="Ultimo Nome">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group" id="apresentacao-sessao">
+                            <label for="apresentacao-sessao" class="control-label">
+                            <font style="vertical-align: inherit;">Sua breve apresentação</font>
+                        </label>
+                            <div class="controls">
+                                <textarea type="text" class="form-control" id="apresentacao-sessao" name="apresentacaoSessao" rows="10" cols="50" placeholder="Escreva sua experiência aqui"> </textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="oi">
+                        <label>Eu tenho experiência</label>
+                        <div class="row">
+                            <div class="col-sm-3" id="experiencia-sessao">
+                                <div class="form-group">
+                                    <select class="selectbox day" data-form-required-message="Campo obrigatório" placeholder="Nível de experiência" name="experiencia_profissao"
+                                        id="experiencia_profissao">
+                                    <option value="" selected="selected"></option>
+                                    <option value="junior">Junior</option>
+                                    <option value="senior">Sênior</option>
+                                    <option value="pleno">Pleno</option>
+                                    <option value="outros">Outros</option>
+                                </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3" id="funcao-sessao">
+                            <div class="form-group">
+                                <select class="selectbox day" data-form-required-message="Campo obrigatório" placeholder="Função" name="funcao_profissao"
+                                    id="funcao_profissao">
+                                <option value="" selected="selected"></option>
+                                <option value="frontend">Front-End</option>
+                                <option value="backend">Back-End</option>
+                                <option value="mobile">Mobile</option>
+                                <option value="iot">IOT</option>
+                                <option value="oux">UX</option>
+                            </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3" id="funcao-sessao">
+                            <div class="form-group">
+                                <label> Eu também sou </label>
+                                <select class="selectbox day" data-form-required-message="Campo obrigatório" placeholder="Função adicional" name="registro_profissao"
+                                    id="registro_profissao">
+                                <option value="" selected="selected"></option>
+                                <option value="frontend">Front-End</option>
+                                <option value="backend">Back-End</option>
+                                <option value="mobile">Mobile</option>
+                                <option value="iot">IOT</option>
+                                <option value="oux">UX</option>
+                            </select>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <button type="button" class="form-group">
+                                <i class="icon icon-plus margin-right-xs"></i>
+                                <span class="darker-gray text">
+                                    <font style="vertical-align: inherit;">Adicionar papel adicional</font>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="">
+                        <button class="rosa-sessao" name="submit" type="submit">
+                            <font style="vertical-align: inherit;">Salve </font>
+                        </button>
+                        <button class="cinza-sessao" name="cancelar" type="button" value="Cancelar">
+                                <font style="vertical-align: inherit;">Cancelar</font>
+                        </button>
+                    </div>
+
+
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

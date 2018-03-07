@@ -16,3 +16,12 @@ html, body{
 .logo{
     width: 320px;
 }
+
+.menu__barra__img{
+    width: 10%;
+}
+
+.logo-meuPerfil{
+    display: flex;
+    justify-content: space-between;
+}
