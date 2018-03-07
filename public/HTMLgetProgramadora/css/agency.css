@@ -430,7 +430,8 @@ header.masthead .intro-text .intro-heading {
   top: 25px;
   right: 25px;
   width: 75px;
-  height: 75px;
+  height: 35px;
+  /*height: 75px;*/
   cursor: pointer;
   background-color: transparent;
 }
@@ -442,8 +443,9 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal .lr {
   /* Safari and Chrome */
   z-index: 1051;
-  width: 1px;
-  height: 75px;
+  width: 3px;
+  height: 35px;
+  /*height: 75px;*/
   margin-left: 35px;
   /* IE 9 */
   -webkit-transform: rotate(45deg);
@@ -455,8 +457,9 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal .lr .rl {
   /* Safari and Chrome */
   z-index: 1052;
-  width: 1px;
-  height: 75px;
+  width: 3px;
+  height: 35px;
+  /*height: 75px;*/
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -731,6 +734,16 @@ header.masthead .intro-text {
     margin-bottom: 0px;
   }
 
+.layout-padrao-header{
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    color: black;
+}
+
 /*colocar um intervalo fixo*/
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -796,6 +809,11 @@ header.masthead .intro-text {
     float: right;
     padding: 0 30px 20px 20px;
     text-align: left;
+  }
+
+  /*MODAL LOGIN*/
+  .layout-padrao-header{
+    font-size: 45px;
   }
 }
 
