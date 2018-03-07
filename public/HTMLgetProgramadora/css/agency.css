@@ -86,7 +86,7 @@ section h3.section-subheading {
 }
 
 ::selection {
-  background: #fed136;
+  background: #e396b0;
   text-shadow: none;
 }
 
@@ -742,6 +742,10 @@ header.masthead .intro-text {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: relative;
     color: black;
+}
+
+#link-cadastro{
+  position: relative;
 }
 
 /*colocar um intervalo fixo*/
