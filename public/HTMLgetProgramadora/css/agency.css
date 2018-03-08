@@ -177,7 +177,7 @@ img::-moz-selection {
 .login-botao{
     display: none;
     border: none;
-    background: #ee009d;
+    background: white;
     color: white;
     padding: 5px 46px;
     border-radius: 10px;
@@ -186,6 +186,12 @@ img::-moz-selection {
     font-weight: bold;
     font-size: 21px;
     text-transform: uppercase;
+    padding: 2px 15px;
+    margin: auto 5px;
+    color: #9a3535;
+}
+.login-botao:hover{
+  color: deeppink;
 }
 
 header.masthead {
@@ -229,6 +235,7 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  color: #e46278;
 }
 
 /*SERVIÇOS*/
@@ -296,6 +303,7 @@ header.masthead .intro-text .intro-heading {
 #para-usuarias .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
+  color: #e46278;
 }
 
 #para-usuarias .portfolio-item .portfolio-caption p {
@@ -369,6 +377,7 @@ header.masthead .intro-text .intro-heading {
 #para-empresas .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
+  color: #e46278;
 }
 
 #para-empresas .portfolio-item .portfolio-caption p {
@@ -743,11 +752,17 @@ header.masthead .intro-text {
     position: relative;
     color: black;
 }
+.welcome{
+  color: #E91E63;
+}
 
 #link-cadastro{
   position: relative;
 }
 
+.com-lista{
+  list-style: none;
+}
 /*colocar um intervalo fixo*/
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -866,6 +881,9 @@ header.masthead .intro-text {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    text-shadow: none;
   }
 /**/
   .timeline > li {
