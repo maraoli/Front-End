@@ -148,6 +148,7 @@ img::-moz-selection {
   margin: 0px;
   position: relative;
   width: 90%;
+  max-width: 220px;
 }
 .header-space{
     display: flex;
@@ -398,11 +399,20 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
-.portfolio-modal .modal-content {
+.modal-content-login{
   padding: 100px 0;
   text-align: center;
+  max-width: 450px;
+}
+
+.modal-content-cadastro {
+  padding: 100px 0;
+  text-align: center;
+  max-width: 700px;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -744,13 +754,13 @@ header.masthead .intro-text {
   }
 
 .layout-padrao-header{
-    font-size: 22px;
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     position: relative;
-    color: black;
+    font-size: 25px;
+    color: deeppink;
 }
 .welcome{
   color: #E91E63;
@@ -762,6 +772,9 @@ header.masthead .intro-text {
 
 .com-lista{
   list-style: none;
+}
+.esqueci-senha{
+  display: block;
 }
 /*colocar um intervalo fixo*/
 @media (min-width: 768px) {
@@ -832,7 +845,8 @@ header.masthead .intro-text {
 
   /*MODAL LOGIN*/
   .layout-padrao-header{
-    font-size: 45px;
+    font-size: 35px;
+    color: deeppink;
   }
 }
 
