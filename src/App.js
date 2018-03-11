@@ -48,7 +48,7 @@ class App extends Component {
             <div className="container header-space">
               <div className="intro-text">
                 <div className="intro-lead-in">Bem vindo(a) ao:</div>
-                <img src="img/logos/logo1.png" alt="" className=" logo-header intro-heading text-uppercase">
+                <img src="img/logos/logo1.png" alt="" className=" logo-header intro-heading text-uppercase" />
               </div>
             </div>
           </header>

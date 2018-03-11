@@ -15,7 +15,6 @@ class Home extends Component {
     return (
       <div>
         <Usuarias />
-
         <Empresas />
 
         {/* <!-- Footer --> */}
@@ -78,12 +77,12 @@ class Home extends Component {
                     <div className="modal-body">
                       <div className="intro-text">
                           <h1 className="intro-lead-in">Bem vindo(a) ao:</h1>
-                          <img src="img/logos/logo1.png" alt="" className=" logo-header intro-heading text-uppercase">
+                          <img src="img/logos/logo1.png" alt="" className=" logo-header intro-heading text-uppercase" />
                           <form id="formLogin" name="formulario" action="" method="POST">
                             <label for="RegistrationForm_email" className="required">E-mail <span className="required">*</span></label>
                             <input data-form-group="natural,cadastroPlat" data-form-type="email" data-form-required="" data-form-required-message="Campo obrigatório"
                                   data-form-type-message="E-mail inválido. Verifique se digitou corretamente." name="RegistrationForm[email]"
-                                  id="RegistrationForm_email" type="email" maxlength="40" placeholder="Digite seu email">
+                                  id="RegistrationForm_email" type="email" maxlength="40" placeholder="Digite seu email" />
                             <label for="txtSenha">Senha</label>
                             <input id="txtSenha" name="senha" type="password" required="" placeholder="Digite uma Senha" title="Senha" />
                             <a href="#">Esqueci a senha</a>
@@ -115,8 +114,8 @@ class Home extends Component {
                 <div className="row">
                   <div className="col-lg-8 mx-auto">
                     <div className="modal-body">
-                        <li>
-                            <ul className="cadastro">
+                        <ul>
+                            <li className="cadastro">
                                 <label className="cadastro-link" for="account-form-new-customer">
                                     <h2 className="account-form-title">Quero me cadastrar</h2>
                                     <i className="cadastro-icon icon-chevron-right"></i>
@@ -126,45 +125,45 @@ class Home extends Component {
                                 <div className="cadastro-item-content new-customer auth-form-box">
                                     <form id="login-account-create" data-form="" data-form-ui-enabled="" data-form-excluded="[disabled]" data-login-validate="createLogin"
                                         action="/customer/account/login/" method="post">
-                                        <input type="hidden" value="f2cdf64787c264aab2f7e91c4073287e43507727" name="YII_CSRF_TOKEN">
+                                        <input type="hidden" value="f2cdf64787c264aab2f7e91c4073287e43507727" name="YII_CSRF_TOKEN" />
                                         <div className="input-box radio-personality-container">
-                                            <input id="ytRegistrationForm_customer_personality" type="hidden" value="" name="RegistrationForm[customer_personality]">
-                                            <span id="RegistrationForm_customer_personality"><input data-login-person-type="" className="login-customer-personality " id="RegistrationForm_customer_personality_0"
-                                                    value="2" checked="checked" type="radio" name="RegistrationForm[customer_personality]">
-                                                <label
-                                                    for="RegistrationForm_customer_personality_0">Pessoa Física</label><input data-login-person-type="" className="login-customer-personality " id="RegistrationForm_customer_personality_1"
-                                                        value="1" type="radio" name="RegistrationForm[customer_personality]"> <label for="RegistrationForm_customer_personality_1">Pessoa Jurídica</label></span>
+                                            <input id="ytRegistrationForm_customer_personality" type="hidden" value="" name="RegistrationForm[customer_personality]" />
+                                            <span id="RegistrationForm_customer_personality">
+                                            <input data-login-person-type="" className="login-customer-personality "        id="RegistrationForm_customer_personality_0"                                          value="2" checked="checked" type="radio" name="RegistrationForm[customer_personality]" />
+                                            <label for="RegistrationForm_customer_personality_0">Pessoa Física</label>
+                                            <input data-login-person-type="" className="login-customer-personality" id="RegistrationForm_customer_personality_1" value="1" type="radio" name="RegistrationForm[customer_personality]" /> 
+                                            <label for="RegistrationForm_customer_personality_1">Pessoa Jurídica</label>
+                                        </span>
                                         </div>
-                    
                                         <div className="input-box">
                                             <label data-login-name="" for="RegistrationForm_first_name" className="required">Nome</label>
                                             <input data-form-group="cadastroPlat,natural" data-form-required="" data-social-first-name="" data-form-required-message="Campo obrigatório"
-                                                name="RegistrationForm[first_name]" id="RegistrationForm_first_name" type="text" maxlength="50">
+                                                name="RegistrationForm[first_name]" id="RegistrationForm_first_name" type="text" maxlength="50" />
                                         </div>
                     
-                                        <div className="input-box auth-form-state-registration" data-login-person-type-container="" style="display: none;">
+                                        <div className="input-box auth-form-state-registration" data-login-person-type-container="" style={{display:'none'}}>
                                             <label for="RegistrationForm_state_registration">Inscrição Est.</label>
                                             <input data-form-group="cadastroPlat" data-form-required="" data-login-state-registration="" name="RegistrationForm[state_registration]"
-                                                id="RegistrationForm_state_registration" type="text" disabled="disabled">
-                                            <input id="ytRegistrationForm_state_registration_exempt" type="hidden" value="0" name="RegistrationForm[state_registration_exempt]">
+                                                id="RegistrationForm_state_registration" type="text" disabled="disabled" />
+                                            <input id="ytRegistrationForm_state_registration_exempt" type="hidden" value="0" name="RegistrationForm[state_registration_exempt]" />
                                             <input data-login-check-state-registration="" name="RegistrationForm[state_registration_exempt]" id="RegistrationForm_state_registration_exempt"
-                                                value="1" type="checkbox"> <label for="RegistrationForm_state_registration_exempt">Isento</label>
+                                                value="1" type="checkbox" /> <label for="RegistrationForm_state_registration_exempt">Isento</label>
                                         </div>
                     
-                                        <div className="input-box" data-login-person-type-container="" style="display: block;">
+                                        <div className="input-box" data-login-person-type-container="" style={{display:'block'}}>
                                             <label for="RegistrationForm_last_name" className="required">Sobrenome <span className="required">*</span></label>
                                             <input data-form-group="natural" data-form-required="" data-social-last-name="" data-form-required-message="Campo obrigatório"
-                                                name="RegistrationForm[last_name]" id="RegistrationForm_last_name" type="text" maxlength="50">
+                                                name="RegistrationForm[last_name]" id="RegistrationForm_last_name" type="text" maxlength="50" />
                                         </div>
                     
                                         <div className="input-box">
                                             <label for="RegistrationForm_email" className="required">E-mail <span className="required">*</span></label>
                                             <input data-form-group="natural,cadastroPlat" data-form-type="email" data-form-required="" data-form-required-message="Campo obrigatório"
                                                 data-form-type-message="E-mail inválido. Verifique se digitou corretamente." name="RegistrationForm[email]"
-                                                id="RegistrationForm_email" type="text" maxlength="40">
+                                                id="RegistrationForm_email" type="text" maxlength="40" />
                                         </div>
                     
-                                        <div className="input-box" data-login-person-type-container="" data-gender-box="" style="display: block;">
+                                        <div className="input-box" data-login-person-type-container="" data-gender-box="" style={{display:'block'}}>
                                             <label for="RegistrationForm_gender" className="required">Sexo <span className="required">*</span></label>
                                             <select className="selectbox" data-form-group="natural" data-form-required="" data-social-gender="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[gender]" id="RegistrationForm_gender">
@@ -178,10 +177,10 @@ class Home extends Component {
                                         <div className="input-box">
                                             <label data-login-tax-identification-label="" for="RegistrationForm_tax_identification" className="required">CPF</label>
                                             <input data-login-tax-identification="" data-form-group="natural,cadastroPlat" data-form-required="" data-form-required-message="Campo obrigatório"
-                                                name="RegistrationForm[tax_identification]" id="RegistrationForm_tax_identification" type="text">
+                                                name="RegistrationForm[tax_identification]" id="RegistrationForm_tax_identification" type="text" />
                                         </div>
                     
-                                        <div className="input-box" data-login-person-type-container="" style="display: block;">
+                                        <div className="input-box" data-login-person-type-container="" style={{display:'block'}}>
                                             <label for="RegistrationForm_Nascimento">Nascimento</label>
                                             <select className="selectbox day" data-form-group="natural" data-form-required="" data-social-birth-day="" data-form-required-message="Campo obrigatório"
                                                 name="RegistrationForm[day]" id="RegistrationForm_day">
@@ -283,30 +282,28 @@ class Home extends Component {
                                             </select>
                                             <i className="icon-chevron-down"></i>
                                         </div>
-                    
+                                      </form>
                                         <form id="formCadastro" name="formulario" action="" method="POST">
                                             <div>
                                                 <label for="txtSenha">Senha</label>
                                                 <input id="txtSenha" name="senha" type="password" required="" placeholder="Digite uma Senha" title="Senha" />
                                                 <label for="repetir_senha">Confirmar Senha</label>
-                                                <input id="repetir_senha" name="repetir_senha" type="password" required="" placeholder="Repetir Senha" title="Repetir Senha"
-                                                />
+                                                <input id="repetir_senha" name="repetir_senha" type="password" required="" placeholder="Repetir Senha" title="Repetir Senha" />
                                             </div>
                                             <div>
                                                 <button type="button" onclick="validarSenha(this)" className="testar">Criar conta</button>
                                             </div>
-                                        </form>
+                                          </form>
                                 </div>
                         </li>
                         </ul>
-                    </div>
-                  </div>
+                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+      </div>
       </div>
     );
   }
