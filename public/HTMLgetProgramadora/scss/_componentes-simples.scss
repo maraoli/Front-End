@@ -8,6 +8,9 @@
     border: 1px solid white;
     color: white;
     font-weight: bold;
+    &:hover{
+        opacity: 0.5;
+    }
 }
 .button3{
     padding: 5px;
@@ -19,4 +22,8 @@
     color: $rosa1;
     font-weight: bold;
     width: 30px;
+    &:hover{
+        opacity: 0.5;
+        background: pink;
+    }
 }

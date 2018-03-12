@@ -1135,6 +1135,8 @@ header.masthead .intro-text {
   border: 1px solid white;
   color: white;
   font-weight: bold; }
+  .button2:hover {
+    opacity: 0.5; }
 
 .button3 {
   padding: 5px;
@@ -1146,6 +1148,9 @@ header.masthead .intro-text {
   color: deeppink;
   font-weight: bold;
   width: 30px; }
+  .button3:hover {
+    opacity: 0.5;
+    background: pink; }
 
 section {
   margin: 0 auto;
@@ -1175,8 +1180,17 @@ footer {
   margin: 10px auto;
   text-decoration: none;
   width: 30%; }
-  .intro-text form .botao-login-form:hover {
-    opacity: 0.5;
-    background: pink; }
+
+.cadastro {
+  background: .cadastro rosa1; }
+
+.cadastro label {
+  color: .cadastro label rosa1; }
+
+.cadastro div label {
+  color: .cadastro div label rosa1; }
+
+.cadastro form div input {
+  color: .cadastro form div input rosa1; }
 
 /*# sourceMappingURL=agency.css.map */
