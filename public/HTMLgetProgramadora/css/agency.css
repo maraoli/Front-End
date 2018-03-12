@@ -1181,16 +1181,26 @@ footer {
   text-decoration: none;
   width: 30%; }
 
-.cadastro {
-  background: .cadastro rosa1; }
-
 .cadastro label {
-  color: .cadastro label rosa1; }
+  color: deeppink; }
 
 .cadastro div label {
-  color: .cadastro div label rosa1; }
+  width: 18%;
+  text-align: right;
+  color: deeppink; }
 
 .cadastro form div input {
-  color: .cadastro form div input rosa1; }
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid deeppink;
+  padding: 5px;
+  margin: 0 20% 15px 2px; }
+
+.cadastro .botao__cadastrar__cadastro {
+  display: block;
+  margin: 10px auto;
+  text-decoration: none;
+  width: 30%; }
 
 /*# sourceMappingURL=agency.css.map */

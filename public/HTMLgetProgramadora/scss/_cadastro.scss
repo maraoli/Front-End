@@ -1,14 +1,25 @@
-.cadastro{
-    background:  &rosa1;
-}
 .cadastro label{
-    color: &rosa1;
+    color: $rosa1;
 }
 
 .cadastro div label{
-    color: &rosa1;
+    width: 18%;
+    text-align: right;
+    color: $rosa1;
 }
 
 .cadastro form div input{
-    color: &rosa1;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid $rosa1;
+    padding: 5px;
+    margin: 0 20% 15px 2px;
+}
+
+.cadastro .botao__cadastrar__cadastro{
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    width: 30%;
 }
