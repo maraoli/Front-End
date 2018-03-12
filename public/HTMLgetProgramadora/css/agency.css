@@ -709,7 +709,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529; }
+  background: deeppink; }
 
 .portfolio-modal .close-modal .lr .rl {
   /* Safari and Chrome */
@@ -721,7 +721,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529; }
+  background: deeppink; }
 
 /*FOOTER*/
 .bkg-footer-dark {
@@ -962,6 +962,7 @@ header.masthead .intro-text {
 #link-cadastro {
   position: relative;
   left: 0;
+  top: 0px;
   width: 30%; }
 
 .com-lista {
@@ -1171,8 +1172,11 @@ footer {
 
 .intro-text form .botao-login-form {
   display: block;
-  margin: 5px auto; }
+  margin: 10px auto;
+  text-decoration: none;
+  width: 30%; }
   .intro-text form .botao-login-form:hover {
-    opacity: 0.5; }
+    opacity: 0.5;
+    background: pink; }
 
 /*# sourceMappingURL=agency.css.map */

@@ -487,7 +487,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529;
+  background: $rosa1;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -500,7 +500,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529;
+  background: $rosa1;
 }
 
 /*FOOTER*/
@@ -786,6 +786,7 @@ header.masthead .intro-text {
 #link-cadastro{
   position: relative;
   left: 0;
+  top: 0px;
   width: 30%;
 }
 
