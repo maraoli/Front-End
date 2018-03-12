@@ -208,7 +208,6 @@ header.masthead {
       text-transform: none; }
     #portfolio .portfolio-item .portfolio-caption p {
       font-size: 16px;
-      font-style: italic;
       margin: 0;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 #portfolio * {
@@ -232,7 +231,6 @@ header.masthead {
       margin-bottom: 30px; }
     .portfolio-modal .modal-content p.item-intro {
       font-size: 16px;
-      font-style: italic;
       margin: 20px 0 30px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     .portfolio-modal .modal-content ul.list-inline {
