@@ -470,7 +470,10 @@ img::-moz-selection {
   text-transform: uppercase;
   padding: 2px 15px;
   margin: auto 5px;
-  color: #9a3535; }
+  color: #9a3535;
+  box-shadow: 2px 4px 3px #0a0a0a; }
+  .login-botao:hover {
+    box-shadow: 2px 4px 3px #f000f4; }
 
 .login-botao:hover {
   color: deeppink; }
@@ -573,7 +576,6 @@ header.masthead .intro-text .intro-heading {
 
 #para-usuarias .portfolio-item .portfolio-caption p {
   font-size: 16px;
-  font-style: italic;
   /*margin: 0;*/
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
@@ -636,8 +638,6 @@ header.masthead .intro-text .intro-heading {
 
 #para-empresas .portfolio-item .portfolio-caption p {
   font-size: 16px;
-  font-style: italic;
-  /*margin: 0;*/
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #para-empresas * {
@@ -1063,11 +1063,12 @@ header.masthead .intro-text {
 
   #mainNav .navbar-brand {
     font-size: 2.75em;
-    text-shadow: 2px 4px 3px gray;
     /*font-family: "Typo Style Light Demo";*/
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
+    #mainNav .navbar-brand:hover {
+      text-shadow: 2px 4px 3px gray; }
 
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
