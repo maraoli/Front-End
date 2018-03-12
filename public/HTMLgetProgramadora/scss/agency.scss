@@ -139,12 +139,11 @@ img::-moz-selection {
 #mainNav .navbar-brand {
     color: white;
     border-radius: 16px;
-    /*height: calc(100% - 85px);*/
-    /*background: #fb00fd;*/
+    font-family: $fonteLogo;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: deeppink;;
+  color: deeppink;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -229,7 +228,6 @@ header.masthead {
 
 header.masthead .intro-text {
   padding-top: 130px;
-  /*padding-bottom: 100px;*/
 }
 
 header.masthead .intro-text .intro-lead-in {
