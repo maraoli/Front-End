@@ -1,0 +1,26 @@
+.intro-text form label{
+    width: 18%;
+    text-align: right;
+    color: $rosa1;
+}
+
+.intro-text form input{
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid $rosa1;
+    padding: 5px;
+    margin: 0 20% 15px 2px;
+}
+
+.intro-text form .input-login-senha{
+    margin-bottom: 0px;
+}
+
+.intro-text form .botao-login-form{
+    display: block;
+    margin: 5px auto;
+    &:hover{
+        opacity: 0.5;
+    }
+}

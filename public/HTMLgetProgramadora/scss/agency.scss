@@ -31,11 +31,11 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: $rosa1;
 }
 
 a:hover {
-  color: #fec503;
+  color: $rosa1;
 }
 
 .text-primary {
@@ -785,6 +785,8 @@ header.masthead .intro-text {
 
 #link-cadastro{
   position: relative;
+  left: 0;
+  width: 30%;
 }
 
 .com-lista{
@@ -962,5 +964,6 @@ header.masthead .intro-text {
 
 // IMPORTS PARTE 2
 
+@import "componentes-simples";
 @import "home";
 @import "login";
