@@ -32,7 +32,6 @@ section {
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -1127,6 +1126,9 @@ header.masthead .intro-text {
     padding: 0 100px 20px 20px; } }
 section {
   margin: 0 auto;
-  padding: 20px 0; }
+  padding: 90px 0 0 0; }
+
+footer {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=agency.css.map */
