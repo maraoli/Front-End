@@ -1,6 +1,16 @@
+header {
+    background: $rosa4;
+    color: white;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
 .nav-user-home{
     background: $rosa4;
     color: white;
+    height: 100%
 }
 
 .nav-user-home ul{

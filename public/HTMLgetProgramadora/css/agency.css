@@ -1126,6 +1126,20 @@ header.masthead .intro-text {
 
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px; } }
+.reset {
+  width: 100vw;
+  height: 100vh; }
+
+.reset body {
+  width: 100vw;
+  height: 100vh; }
+
+.reset * {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  vertical-align: top; }
+
 .button2 {
   padding: 5px;
   box-sizing: border-box;
@@ -1218,9 +1232,18 @@ footer {
 .cadastro .cadastro__data-selection {
   text-align: left; }
 
+header {
+  background: #9a3535;
+  color: white;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding: 5px; }
+
 .nav-user-home {
   background: #9a3535;
-  color: white; }
+  color: white;
+  height: 100%; }
 
 .nav-user-home ul {
   list-style-type: none;
