@@ -1232,13 +1232,25 @@ footer {
 .cadastro .cadastro__data-selection {
   text-align: left; }
 
-header {
+.cabecalho-user {
   background: #9a3535;
   color: white;
   height: 55px;
   display: flex;
   align-items: center;
-  padding: 5px; }
+  justify-content: space-between;
+  padding: 10px 15px; }
+
+.cabecalho-user h1 {
+  text-align: center;
+  padding: 5px;
+  margin-right: 10px; }
+  .cabecalho-user h1:hover {
+    color: deeppink; }
+
+.cabecalho-user h1 p {
+  font-size: 16px;
+  font-weight: normal; }
 
 .nav-user-home {
   background: #9a3535;
@@ -1250,7 +1262,8 @@ header {
   display: flex; }
 
 .nav-user-home ul li {
-  padding-right: 10px; }
+  padding-right: 10px;
+  font-size: 20px; }
   .nav-user-home ul li:hover {
     color: deeppink; }
 

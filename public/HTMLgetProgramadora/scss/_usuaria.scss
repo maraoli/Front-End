@@ -1,10 +1,25 @@
-header {
+.cabecalho-user {
     background: $rosa4;
     color: white;
     height: 55px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.cabecalho-user h1{
+    text-align: center;
     padding: 5px;
+    margin-right: 10px;
+    &:hover{
+        color: $rosa1;
+    }
+}
+
+.cabecalho-user h1 p{
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .nav-user-home{
@@ -20,6 +35,7 @@ header {
 
 .nav-user-home ul li{
     padding-right: 10px;
+    font-size: 20px;
     &:hover{
         color: $rosa1;
     }
