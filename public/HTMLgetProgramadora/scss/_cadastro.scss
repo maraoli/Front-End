@@ -1,14 +1,19 @@
 .cadastro label{
-    color: $rosa1;
+    color: $rosa2;
 }
 
+.cadastro p{
+    color: $rosa1;
+    display: inline-block;
+    padding-right: 30px;
+}
 .cadastro div label{
     width: 18%;
     text-align: right;
     color: $rosa1;
 }
 
-.cadastro form div input{
+.cadastro form div label+input{
     width: 60%;
     border: none;
     border-radius: 10px;
@@ -17,9 +22,21 @@
     margin: 0 20% 15px 2px;
 }
 
+.cadastro .selectbox{
+    border: 2px solid $rosa1;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 0 15px 2px;
+}
+
 .cadastro .botao__cadastrar__cadastro{
     display: block;
     margin: 10px auto;
     text-decoration: none;
     width: 30%;
+}
+
+.cadastro .cadastro__data-selection{
+    text-align: left;
 }

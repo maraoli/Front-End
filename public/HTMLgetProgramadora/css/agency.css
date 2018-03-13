@@ -1182,14 +1182,19 @@ footer {
   width: 30%; }
 
 .cadastro label {
-  color: deeppink; }
+  color: #e46278; }
+
+.cadastro p {
+  color: deeppink;
+  display: inline-block;
+  padding-right: 30px; }
 
 .cadastro div label {
   width: 18%;
   text-align: right;
   color: deeppink; }
 
-.cadastro form div input {
+.cadastro form div label + input {
   width: 60%;
   border: none;
   border-radius: 10px;
@@ -1197,10 +1202,20 @@ footer {
   padding: 5px;
   margin: 0 20% 15px 2px; }
 
+.cadastro .selectbox {
+  border: 2px solid deeppink;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0 0 15px 2px; }
+
 .cadastro .botao__cadastrar__cadastro {
   display: block;
   margin: 10px auto;
   text-decoration: none;
   width: 30%; }
+
+.cadastro .cadastro__data-selection {
+  text-align: left; }
 
 /*# sourceMappingURL=agency.css.map */
