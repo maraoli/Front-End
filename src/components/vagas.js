@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
 import './vagas.css';
+import {
+  Link
+} from 'react-router-dom'
+
 
 const block = {
   backgroundColor: 'white',
@@ -384,6 +388,56 @@ class Vagas extends Component {
           </Col>
           </Row>
 
+          { /* ------------------------------------- */ }
+          { /*------ CAMPO PROFISSIONAL --------- */ }
+          { /* ------------------------------------- */ }
+
+          <Row>
+         <Col span={6}>
+           <div style={block}>
+           <Label>
+             Empresa
+             <Input
+               type="text"
+               name="empresa_ultima_experiência"
+               value={this.state.empresa_ultima_experiênci}
+               onChange={this.handleChange}
+             />
+           </Label>
+           </div>
+         </Col>
+         <Col span={6}>
+           <div style={block}>
+           <Label>
+             Função<br />
+             <Input
+               type="text"
+               name="funcao_ultima_experiência"
+               value={this.state.funcao_ultima_experiência}
+               onChange={this.handleChange}
+             />
+           </Label>
+           </div>
+         </Col>
+         <Col span={6}>
+           <div style={block}>
+           <Label>
+             Atividades Desenvolvidas<br />
+             <Input
+               type="text"
+               name="atividades_ultima_experiência"
+               value={this.state.atividades_ultima_experiência}
+               onChange={this.handleChange}
+             />
+           </Label>
+           </div>
+         </Col>
+         </Row>
+
+          { /* ------------------------------------- */ }
+          { /*------ RECOLOCAÇÃO ------------------- */ }
+          { /* ------------------------------------- */ }
+
 
           <Row>
             <Col span={12}>
@@ -431,6 +485,9 @@ class Vagas extends Component {
               </div>
             </Col>
           </Row>
+          <Link to="/vagas_educacao">
+            <a className="nav-link js-scroll-trigger">Formação Acadêmica</a>
+          </Link>
         </form>
       )
     }
