@@ -486,7 +486,7 @@ class Vagas extends Component {
             </Col>
           </Row>
           <Link to="/vagas_educacao">
-            <a className="nav-link js-scroll-trigger">Formação Acadêmica</a>
+            <a className="nav-link js-scroll-trigger">Histórico Profissional</a>
           </Link>
         </form>
       )
