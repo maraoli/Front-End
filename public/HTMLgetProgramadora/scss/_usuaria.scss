@@ -1,0 +1,16 @@
+.nav-user-home{
+    background: $rosa4;
+    color: white;
+}
+
+.nav-user-home ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-user-home ul li{
+    padding-right: 10px;
+    &:hover{
+        color: $rosa1;
+    }
+}

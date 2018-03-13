@@ -1218,4 +1218,17 @@ footer {
 .cadastro .cadastro__data-selection {
   text-align: left; }
 
+.nav-user-home {
+  background: #9a3535;
+  color: white; }
+
+.nav-user-home ul {
+  list-style-type: none;
+  display: flex; }
+
+.nav-user-home ul li {
+  padding-right: 10px; }
+  .nav-user-home ul li:hover {
+    color: deeppink; }
+
 /*# sourceMappingURL=agency.css.map */
