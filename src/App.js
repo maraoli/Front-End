@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './HTMLgetProgramadora/img/logos/logo1.png';
+// import logo from './HTMLgetProgramadora/img/logos/logo1.png';
 import './App.css';
 import Home from "./components/pages/Home";
 // import Vagas from "./components/vagas_1tela";
@@ -15,28 +15,35 @@ import {
 
 class App extends Component {
   render() {
-
+    const logo = require('./HTMLgetProgramadora/img/logos/logo1.png');
     return (
       <Router>
         <div>
           {/* <!-- Navigation --> */}
-          <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div className="container">
-              <a className="navbar-brand js-scroll-trigger" href="#page-top">getProgramadora( );</a>
-              <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i className="fa fa-bars"></i>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarResponsive">
-                <ul className="navbar-nav text-uppercase ml-auto">
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#services">Quem Somos</a>
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+              <a class="navbar-brand js-scroll-trigger" href="#page-top">getProgramadora( );</a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  Menu
+                  <i class="fa fa-bars"></i>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                  <li class="nav-item invisible-desk">
+                    <a class="nav-link" data-toggle="modal" href="#login">Login</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#para-usuarias"> Para Usuárias</a>
+                  <li class="nav-item invisible-desk">
+                    <a class="nav-link" data-toggle="modal" href="#cadastro">Cadastro</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#para-empresas">Para Empresas</a>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">Quem Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#para-usuarias"> Para Usuárias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#para-empresas">Para Empresas</a>
                   </li>
                   <li className="nav-item">
                     <Link to="/vagas1tela">
@@ -48,23 +55,20 @@ class App extends Component {
                       <a className="nav-link js-scroll-trigger">Cursos</a>
                     </Link>
                   </li>
-                  
-                  <li className="nav-item invisible-desk">
-                    <a className="nav-link js-scroll-trigger" href="#para-empresas">Login</a>
-                  </li>
                 </ul>
               </div>
             </div>
-            <button className="login-botao portfolio-link" data-toggle="modal" href="#login">Login</button>
+            <p class="login-botao portfolio-link" data-toggle="modal" href="#login">Login</p>
+            <p class="login-botao portfolio-link" data-toggle="modal" href="#cadastro">Cadastro</p>
           </nav>
-      
+
           {/* <!-- Header --> */}
           <header className="masthead">
             <div className="overlay"></div>
             <div className="container header-space">
               <div className="intro-text">
                 <div className="intro-lead-in">Bem vindo(a) ao:</div>
-                <img src="img/logos/logo1.png" alt="" className=" logo-header intro-heading text-uppercase" />
+                <img src={logo} alt="" className=" logo-header intro-heading text-uppercase" />
               </div>
             </div>
           </header>
