@@ -306,9 +306,6 @@ ul.social-buttons {
       background-color: deeppink; }
 
 /* copia do agency.css em 11/03 */
-@font-face {
-  font-family: "Typo Style Light Demo";
-  src: url("Typo Style Light Demo.otf") format("opentype"); }
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }

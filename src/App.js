@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from "./components/pages/Home";
-import Vagas from "./components/vagas_1tela";
+// import Vagas from "./components/vagas_1tela";
 import Vagas from "./components/vagas";
 import Vagas_educacao from "./components/vagas_educacao";
 import Cursos from "./components/cursos";
@@ -70,7 +70,7 @@ class App extends Component {
           </header>
 
           <Route exact path="/" component={Home}/>
-          <Route exact path="/vagas_1tela" component={Vagas_1tela}/>
+          {/*<Route exact path="/vagas_1tela" component={Vagas_1tela}/>*/}
           <Route exact path="/vagas" component={Vagas}/>
           <Route exact path="/vagas_educacao" component={Vagas_educacao}/>
           <Route exact path="/cursos" component={Cursos}/>
