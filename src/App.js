@@ -15,7 +15,9 @@ import {
 
 class App extends Component {
   render() {
+
     const logo = require('./HTMLgetProgramadora/img/logos/logo1.png');
+    
     return (
       <Router>
         <div>
@@ -63,12 +65,12 @@ class App extends Component {
           </nav>
 
           {/* <!-- Header --> */}
-          <header className="masthead">
-            <div className="overlay"></div>
-            <div className="container header-space">
-              <div className="intro-text">
-                <div className="intro-lead-in">Bem vindo(a) ao:</div>
-                <img src={logo} alt="" className=" logo-header intro-heading text-uppercase" />
+          <header class="masthead">
+            <div class="overlay"></div>
+            <div class="container header-space">
+              <div class="intro-text">
+                <div class="intro-lead-in welcome">Bem vindo(a) ao:</div>
+                <img src={logo} alt="" class=" logo-header intro-heading text-uppercase"/>
               </div>
             </div>
           </header>
