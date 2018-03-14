@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import '../../App.css';
 import {
   BrowserRouter as Router,
   Route,
   Link
 } from 'react-router-dom'
+
+import '../../HTMLgetProgramadora/css/agency.css';
+
+import QuemSomos from './home_components/QuemSomos';
 import Usuarias from './home_components/Usuarias';
 import Empresas from './home_components/Empresas';
 
@@ -13,57 +16,54 @@ class Home extends Component {
 
     return (
       <div>
+        <QuemSomos />
         <Usuarias />
         <Empresas />
 
         {/* <!-- Footer --> */}
         <footer className="bkg-footer-dark">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-4">
-                  <span className="copyright">Copyright &copy; Senai Code XP 2018</span>
-                </div>
-                <div className="col-md-4">
-                  <ul className="list-inline social-buttons">
-                    <li className="list-inline-item">
-                      <a href="#">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-md-4">
-                  <ul className="list-inline quicklinks">
-                    <li className="list-inline-item">
-                      <a className="item-footer" href="#">(11)4000-0000</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a className="item-footer" href="#">get@mail.com</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a className="item-footer" href="#">Terms of Use</a>
-                    </li>
-                  </ul>
-                </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4">
+                <span className="copyright">Copyright &copy; Senai Code XP 2018</span>
+              </div>
+              <div className="col-md-4">
+                <ul className="list-inline social-buttons">
+                  <li className="list-inline-item">
+                    <a href="#">
+                      <i className="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="#">
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="#">
+                      <i className="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <ul className="list-inline quicklinks">
+                  <li className="list-inline-item">
+                    <a className="item-footer" href="#">(11)4000-0000</a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a className="item-footer" href="#">get@mail.com</a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a className="item-footer" href="#">Terms of Use</a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </footer>
-        
-        
-        
-        {/* <!-- Modals --> */}
+          </div>
+        </footer>
 
-        {/* <!-- LOGIN --> */}
+        {/* <!-- MODAL LOGIN --> */}
         <div class="portfolio-modal modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content modal-content-login">
@@ -101,8 +101,7 @@ class Home extends Component {
           </div>
         </div>
     
-        {/* <!-- CADASTRO --> */}
-        {/* <!-- tirar bolinha do LI dentro de modal-body --> */}
+        {/* <!-- MODAL CADASTRO --> */}
         <div class="portfolio-modal modal fade" id="cadastro" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content modal-content-cadastro">
@@ -295,6 +294,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+
       </div>
     );
   }

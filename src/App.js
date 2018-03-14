@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
+
+// import './App.css';
+import './HTMLgetProgramadora/css/agency.css';
+
 import Home from "./components/pages/Home";
 // import Vagas from "./components/vagas_1tela";
 import Vagas from "./components/vagas";
