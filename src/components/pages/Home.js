@@ -143,8 +143,7 @@ class Home extends Component {
                                 <input data-form-group="cadastroPlat,natural" data-form-required="" data-social-first-name="" data-form-required-message="Campo obrigatório"
                                   name="RegistrationForm[first_name]" id="RegistrationForm_first_name" type="text" maxlength="50"/>
                               </div>
-
-                              <div class="input-box auth-form-state-registration" data-login-person-type-container="" style="display: none;">
+                              <div class="input-box auth-form-state-registration" data-login-person-type-container="" style={{"display":"none"}}>
                                 <label for="RegistrationForm_state_registration">Inscrição Est.</label>
                                 <input data-form-group="cadastroPlat" data-form-required="" data-login-state-registration="" name="RegistrationForm[state_registration]"
                                   id="RegistrationForm_state_registration" type="text" disabled="disabled"/>
@@ -153,7 +152,7 @@ class Home extends Component {
                                   value="1" type="checkbox"/> <label for="RegistrationForm_state_registration_exempt">Isento</label>
                               </div>
 
-                              <div class="input-box" data-login-person-type-container="" style="display: block;">
+                              <div class="input-box" data-login-person-type-container="" style={{"display":"block"}}>
                                 <label for="RegistrationForm_last_name" class="required">Sobrenome <span class="required">*</span></label>
                                 <input data-form-group="natural" data-form-required="" data-social-last-name="" data-form-required-message="Campo obrigatório"
                                   name="RegistrationForm[last_name]" id="RegistrationForm_last_name" type="text" maxlength="50"/>
@@ -172,7 +171,7 @@ class Home extends Component {
                                   name="RegistrationForm[tax_identification]" id="RegistrationForm_tax_identification" type="text"/>
                               </div>
 
-                              <div class="input-box cadastro__data-selection" data-login-person-type-container="" style="display: block;">
+                              <div class="input-box cadastro__data-selection" data-login-person-type-container="" style={{"display":"block"}}>
                                 <label for="RegistrationForm_Nascimento">Nascimento</label>
                                 <select class="selectbox day" data-form-group="natural" data-form-required="" data-social-birth-day="" data-form-required-message="Campo obrigatório"
                                   name="RegistrationForm[day]" id="RegistrationForm_day">
