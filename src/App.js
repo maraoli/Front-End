@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from './HTMLgetProgramadora/img/logos/logo1.png';
 import './App.css';
 import Home from "./components/pages/Home";
 // import Vagas from "./components/vagas_1tela";
