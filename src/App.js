@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from "./components/pages/Home";
-import Vagas from "./components/vagas_1tela";
-import Vagas from "./components/vagas";
+import Vagas_principal from "./components/vagas_principal";
+import Vagas_profissao from "./components/vagas_profissao";
 import Vagas_educacao from "./components/vagas_educacao";
 import Cursos from "./components/cursos";
 
@@ -39,7 +39,7 @@ class App extends Component {
                     <a className="nav-link js-scroll-trigger" href="#para-empresas">Para Empresas</a>
                   </li>
                   <li className="nav-item">
-                    <Link to="/vagas1tela">
+                    <Link to="/principal">
                       <a className="nav-link js-scroll-trigger">Vagas</a>
                     </Link>
                   </li>
@@ -70,8 +70,8 @@ class App extends Component {
           </header>
 
           <Route exact path="/" component={Home}/>
-          <Route exact path="/vagas_1tela" component={Vagas_1tela}/>
-          <Route exact path="/vagas" component={Vagas}/>
+          <Route exact path="/principal" component={Vagas_principal}/>
+          <Route exact path="/vagas_profissao" component={Vagas_profissao}/>
           <Route exact path="/vagas_educacao" component={Vagas_educacao}/>
           <Route exact path="/cursos" component={Cursos}/>
         </div>
