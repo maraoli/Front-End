@@ -1192,6 +1192,9 @@ footer {
   text-decoration: none;
   width: 30%; }
 
+#cadastro {
+  overflow: auto; }
+
 .cadastro label {
   color: #e46278; }
 
@@ -1228,9 +1231,6 @@ footer {
 
 .cadastro .cadastro__data-selection {
   text-align: left; }
-
-#cadastro {
-  overflow: auto; }
 
 .cabecalho-user {
   background: #9a3535;
