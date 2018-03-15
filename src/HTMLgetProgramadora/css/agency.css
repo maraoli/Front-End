@@ -1229,6 +1229,9 @@ footer {
 .cadastro .cadastro__data-selection {
   text-align: left; }
 
+#cadastro {
+  overflow: auto; }
+
 .cabecalho-user {
   background: #9a3535;
   color: white;

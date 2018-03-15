@@ -7,6 +7,8 @@ import {
 
 import '../../HTMLgetProgramadora/css/agency.css';
 
+import Navbar from './home_components/Navbar';
+import Header from './home_components/Header';
 import QuemSomos from './home_components/QuemSomos';
 import Usuarias from './home_components/Usuarias';
 import Empresas from './home_components/Empresas';
@@ -16,6 +18,8 @@ class Home extends Component {
 
     return (
       <div>
+        <Navbar />
+        <Header />
         <QuemSomos />
         <Usuarias />
         <Empresas />
