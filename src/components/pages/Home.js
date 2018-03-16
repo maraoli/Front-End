@@ -134,12 +134,12 @@ class Home extends Component {
                   <div class="mx-auto">
                     <div class="modal-body com-lista">
                     <div>
+                      <h2 class="account-form-title">Quero me cadastrar</h2>
                       <p>Eu sou:</p>
                       <input name="check-tipo-de-cadastro" class="login-customer-personality " type="radio" onClick={() => { this.changeForm(true) }} />
-                      Usuaria 
-                      <br/>
+                      <p>Usuaria</p>
                       <input name="check-tipo-de-cadastro" class="login-customer-personality " type="radio" onClick={() => { this.changeForm(false) }} />
-                      Empresa
+                      <p>Empresa</p>
                     </div>
                     {
                       this.state.usuarias ? <CadastroUsuaria /> : <CadastroEmpresa />

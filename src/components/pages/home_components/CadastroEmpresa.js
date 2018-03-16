@@ -4,11 +4,6 @@ class CadastroEmpresa extends Component {
     render() {
         return (
             <ul class="cadastro">
-                <label class="cadastro-link" for="account-form-new-customer">
-                    <h2 class="account-form-title">Quero me cadastrar</h2>
-                    <i class="cadastro-icon icon-chevron-right"></i>
-                    <i class="cadastro-icon icon-chevron-down"></i>
-                </label>
                 <div class="cadastro-item-content new-customer auth-form-box">
                 <form id="login-account-create" data-form="" data-form-ui-enabled="" data-form-excluded="[disabled]" data-login-validate="createLogin"
                     action="/customer/account/login/" method="post">
