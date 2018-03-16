@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 
 class CadastroUsuaria extends Component {
+    changeForm(isUsuarias){
+        this.setState({
+            usuarias: isUsuarias
+        })
+    }
+
     render() {
         return (
             <ul class="cadastro">
@@ -17,10 +23,10 @@ class CadastroUsuaria extends Component {
                     <input id="ytRegistrationForm_customer_personality" type="hidden" value="" name="RegistrationForm[customer_personality]"/>
                     <span id="RegistrationForm_customer_personality">
                                     <input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_0"
-                                            value="0" checked="checked" type="radio" name="check-tipo-de-cadastro"/>
+                                            value="0" checked="checked" type="radio" name="check-tipo-de-cadastro" onClick={() => { this.changeForm(true) }}/>
                                         <p for="RegistrationForm_customer_personality_0">Usuária</p>
                                     <input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_1"
-                                                value="1" type="radio" name="check-tipo-de-cadastro"/> 
+                                                value="1" type="radio" name="check-tipo-de-cadastro"onClick={() => { this.changeForm(false) }}/> 
                                         <p for="RegistrationForm_customer_personality_1">Empresas</p></span>
                     </div>
 
