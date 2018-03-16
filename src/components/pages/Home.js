@@ -133,9 +133,16 @@ class Home extends Component {
                 <div class="row">
                   <div class="mx-auto">
                     <div class="modal-body com-lista">
-                      {
-                        this.state.usuarias ? <CadastroUsuaria /> : <CadastroEmpresa />
-                      }     
+                    <div>
+                      <input name="usuaria_empesa" type="radio" onClick={() => { this.changeForm(true) }} />
+                      Usuarias 
+                      <br/>
+                      <input name="usuaria_empesa" type="radio" onClick={() => { this.changeForm(false) }} />
+                      Empresas
+                    </div>
+                    {
+                      this.state.usuarias ? <CadastroUsuaria /> : <CadastroEmpresa />
+                    }     
                     </div>
                   </div>
                 </div>
