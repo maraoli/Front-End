@@ -1167,6 +1167,24 @@ section {
   margin: 0 auto;
   padding: 90px 0 0 0; }
 
+.selection-cadastro h1 {
+  color: deeppink;
+  font-size: 48px; }
+
+.modal-content .selection-cadastro h2 {
+  color: deeppink;
+  font-size: 20px;
+  margin: 0; }
+
+.modal-content .selection-cadastro p {
+  color: deeppink;
+  display: inline-block;
+  margin: 0 15px 0 0; }
+
+.selection-cadastro input {
+  display: inline-block;
+  margin: 5px; }
+
 footer {
   margin-top: 20px; }
 
