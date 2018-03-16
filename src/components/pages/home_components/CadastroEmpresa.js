@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
 
 class CadastroEmpresa extends Component {
-    changeForm(isUsuarias){
-        this.setState({
-            usuarias: isUsuarias
-        })
-    }
-
     render() {
         return (
             <ul class="cadastro">
                 <label class="cadastro-link" for="account-form-new-customer">
-                    <h2 class="account-form-title">Empresa</h2>
+                    <h2 class="account-form-title">Quero me cadastrar</h2>
                     <i class="cadastro-icon icon-chevron-right"></i>
                     <i class="cadastro-icon icon-chevron-down"></i>
                 </label>
@@ -19,16 +13,6 @@ class CadastroEmpresa extends Component {
                 <form id="login-account-create" data-form="" data-form-ui-enabled="" data-form-excluded="[disabled]" data-login-validate="createLogin"
                     action="/customer/account/login/" method="post">
                     <input type="hidden" value="f2cdf64787c264aab2f7e91c4073287e43507727" name="YII_CSRF_TOKEN"/>
-                    <div class="input-box radio-personality-container">
-                    <input id="ytRegistrationForm_customer_personality" type="hidden" value="" name="RegistrationForm[customer_personality]"/>
-                    <span id="RegistrationForm_customer_personality">
-                                    <input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_0"
-                                            value="0" checked="checked" type="radio" name="check-tipo-de-cadastro" onClick={() => { this.changeForm(false) }}/>
-                                        <p for="RegistrationForm_customer_personality_0">Usuária</p>
-                                    <input data-login-person-type="" class="login-customer-personality " id="RegistrationForm_customer_personality_1"
-                                                value="1" type="radio" name="check-tipo-de-cadastro" onClick={() => { this.changeForm(true) }}/> 
-                                        <p for="RegistrationForm_customer_personality_1">Empresas</p></span>
-                    </div>
 
                     <div class="tipo-de-cadastro" name="tipo-de-cadastro"></div>
 
