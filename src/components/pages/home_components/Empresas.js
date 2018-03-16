@@ -86,8 +86,6 @@ class Empresas extends Component {
                     </div>
                 </div>
             </section>
-
-           
         );
     }
 }
