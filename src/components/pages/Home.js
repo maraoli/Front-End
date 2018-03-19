@@ -9,9 +9,10 @@ import '../../HTMLgetProgramadora/css/agency.css';
 
 import Navbar from './home_components/Navbar';
 import Header from './home_components/Header';
+import Login from './login/index';
 import QuemSomos from './home_components/QuemSomos';
-import ParaUsuarias from './home_components/ParaUsuarias/index';
-import ParaEmpresas from './home_components/ParaEmpresas/index';
+import ParaUsuarias from './home_components/paraUsuarias/index';
+import ParaEmpresas from './home_components/paraEmpresas/index';
 
 import CadastroUsuaria from './home_components/CadastroUsuaria';
 import CadastroEmpresa from './home_components/CadastroEmpresa';
@@ -83,43 +84,8 @@ class Home extends Component {
           </div>
         </footer>
 
-        {/* <!-- MODAL LOGIN --> */}
-        <div class="portfolio-modal modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content modal-content-login">
-              <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                  <div class="rl"></div>
-                </div>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="mx-auto">
-                    <div class="modal-body com-lista">
-                      <div class="intro-text">
-                        <h1 class="intro-lead-in layout-padrao-header">Bem vindo(a) ao:</h1>
-                        <img src="img/logos/logo1.png" alt="" class=" logo-header intro-heading text-uppercase"/>
-                        <form id="formLogin" name="formulario" action="" method="POST">
-                          <label for="RegistrationForm_email" class="required">E-mail <span class="required">*</span></label>
-                          <input data-form-group="natural,cadastroPlat" data-form-type="email" data-form-required="" data-form-required-message="Campo obrigatório"
-                            data-form-type-message="E-mail inválido. Verifique se digitou corretamente." name="RegistrationForm[email]"
-                            id="RegistrationForm_email" type="email" maxlength="40" placeholder="Digite seu email"/>
-                          <label for="txtSenha">Senha</label>
-                          <input class="input-login-senha botao-login" id="txtSenha" name="senha" type="password" required="" placeholder="Digite uma Senha"
-                            title="Senha" />
-                          <a class="esqueci-senha" href="#">Esqueci a senha</a>
-
-                          <button type="button" onclick="validarSenha(this)" class="testar button2 botao-login-form">Entrar</button>
-                          <a class="close-modal button3 botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal" href="#cadastro">Cadastrar </a>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/*MODAIS*/}
+        <Login />
     
         {/* <!-- MODAL CADASTRO --> */}
         <div class="portfolio-modal modal fade" id="cadastro" tabindex="-1" role="dialog" aria-hidden="true">

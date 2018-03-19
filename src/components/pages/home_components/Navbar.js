@@ -5,8 +5,8 @@ import {
     Link
   } from 'react-router-dom'
 
-import ParaUsuarias from './ParaUsuarias/index';
-import ParaEmpresas from './ParaEmpresas/index';
+import ParaUsuarias from './paraUsuarias/index';
+import ParaEmpresas from './paraEmpresas/index';
 import Vagas from "../../vagas";
 import Cursos from "../../cursos";
 
