@@ -167,7 +167,7 @@ class Vagas_profissao extends Component {
             <div style={block}>
               <Label>
                 Atividades Desenvolvidas<br />
-                <TextArea
+                <TextArea 
                   type="text"
                   name="atividades_ultima_experiência"
                   value={experiencia.atividades_ultima_experiência}

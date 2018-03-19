@@ -156,19 +156,19 @@ class Vagas_educacao extends Component {
 
 
           <Row>
-          <Col span={12} offset>
+          <Col span={6} offset>
              <div style={block}></div>
            </Col>
            </Row>
            <Row>
-            <Col span={12}>
+            <Col span={8}>
               <div style={block}>
                       <div className="form-group">
                           <label>
                             Ano de Início </label>
                             <br />
                       <select deafultvalue="blank"
-                              style={{width:'100%'}}
+                              style={{width:'80%', height: '30px'}}
                               className="selectbox day"
                               data-form-required-message="Campo obrigatório"
                               placeholder="Ano de inicio"
@@ -217,14 +217,14 @@ class Vagas_educacao extends Component {
             </Col>
             </Row>
             <Row>
-            <Col span={12}>
+            <Col span={8}>
               <div style={block}>
                       <div className="form-group">
                           <label>
                             Ano de Conclusão</label>
                             <br />
                       <select deafultvalue="blank"
-                              style={{width:'100%'}}
+                              style={{width:'80%', height: '30px'}}
                               className="selectbox day"
                               data-form-required-message="Campo obrigatório"
                               placeholder="Ano de Conclusão"
@@ -259,13 +259,13 @@ class Vagas_educacao extends Component {
             </Col>
             </Row>
             <Row>
-            <Col span={12}>
+            <Col span={8}>
               <div style={block}>
                       <div className="form-group">
                           <label>Período </label>
                             <br />
                             <select deafultvalue="blank"
-                                    style={{width:'100%'}}
+                                    style={{width:'80%', height: '30px'}}
                                     className="selectbox day"
                                     data-form-required-message="Campo obrigatório"
                                     placeholder="Período"
