@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // antigo About
-class Usuarias extends Component {
+class ParaUsuarias extends Component {
     constructor(props) {
         super(props);
 
@@ -29,8 +29,8 @@ class Usuarias extends Component {
                 <div className="row">
                   <div className="col-md-6 col-sm-6 portfolio-item">
                     <div className="portfolio-caption">
-                      <h4>LoremTOP</h4>
-                      <p className="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                      <h4>Meu Perfil</h4>
+                      <p class="text-muted servicos_descricao">Acompanhe sua evolução</p>
                     </div>
                     <a className="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
                       <div className="portfolio-hover">
@@ -38,7 +38,7 @@ class Usuarias extends Component {
                           <i className="fa fa-plus fa-3x"></i>
                         </div>
                       </div>
-                      <img className="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="" />
+                      <img className="img-fluid" src="../../img/portfolio/01-thumbnail.jpg" alt="" />
                     </a>
                   </div>
                   <div className="col-md-6 col-sm-6 portfolio-item">
@@ -93,4 +93,4 @@ class Usuarias extends Component {
     }
 }
 
-export default Usuarias;
+export default ParaUsuarias;

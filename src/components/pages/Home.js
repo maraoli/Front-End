@@ -10,8 +10,9 @@ import '../../HTMLgetProgramadora/css/agency.css';
 import Navbar from './home_components/Navbar';
 import Header from './home_components/Header';
 import QuemSomos from './home_components/QuemSomos';
-import Usuarias from './home_components/Usuarias';
-import Empresas from './home_components/Empresas';
+import ParaUsuarias from './home_components/ParaUsuarias/index';
+import ParaEmpresas from './home_components/ParaEmpresas/index';
+
 import CadastroUsuaria from './home_components/CadastroUsuaria';
 import CadastroEmpresa from './home_components/CadastroEmpresa';
 
@@ -36,8 +37,8 @@ class Home extends Component {
         <Navbar />
         <Header />
         <QuemSomos />
-        <Usuarias />
-        <Empresas />
+        <ParaUsuarias />
+        <ParaEmpresas />
 
         {/* <!-- Footer --> */}
         <footer className="bkg-footer-dark">
