@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+// IMPORT IMAGENS
+import CardDefault from './imgCard.jpg';
+
 // antigo About
 class ParaUsuarias extends Component {
     constructor(props) {
@@ -38,7 +41,7 @@ class ParaUsuarias extends Component {
                           <i className="fa fa-plus fa-3x"></i>
                         </div>
                       </div>
-                      <img className="img-fluid" src="../../img/portfolio/01-thumbnail.jpg" alt="" />
+                      <img className="img-fluid" src={CardDefault} alt="" />
                     </a>
                   </div>
                   <div className="col-md-6 col-sm-6 portfolio-item">
@@ -52,7 +55,7 @@ class ParaUsuarias extends Component {
                           <i className="fa fa-plus fa-3x"></i>
                         </div>
                       </div>
-                      <img className="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="" />
+                      <img className="img-fluid" src={CardDefault} alt="" />
                     </a>
                     
                   </div>
@@ -67,7 +70,7 @@ class ParaUsuarias extends Component {
                           <i className="fa fa-plus fa-3x"></i>
                         </div>
                       </div>
-                      <img className="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="" />
+                      <img className="img-fluid" src={CardDefault} alt="" />
                     </a>
                   </div>
                   <div className="col-md-6 col-sm-6 portfolio-item">
@@ -81,14 +84,13 @@ class ParaUsuarias extends Component {
                           <i className="fa fa-plus fa-3x"></i>
                         </div>
                       </div>
-                      <img className="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="" />
+                      <img className="img-fluid" src={CardDefault} alt="" />
                     </a>
                     
                   </div>
                 </div>
               </div>
             </section>
- 
           );
     }
 }

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+// IMPORT IMAGENS
+import CardDefault from './imgCard.jpg';
+
 class ParaEmpresas extends Component {
     constructor(props) {
         super(props);
@@ -36,7 +39,7 @@ class ParaEmpresas extends Component {
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="" />
+                            <img class="img-fluid" src={CardDefault} alt="" />
                         </a>
                     </div>
                     <div class="col-md-6 col-sm-6 portfolio-item">
@@ -50,7 +53,7 @@ class ParaEmpresas extends Component {
                             <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src={CardDefault} alt="" />
                         </a>
                         
                     </div>
@@ -65,7 +68,7 @@ class ParaEmpresas extends Component {
                             <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src={CardDefault} alt="" />
                         </a>
                     </div>
                     <div class="col-md-6 col-sm-6 portfolio-item">
@@ -79,7 +82,7 @@ class ParaEmpresas extends Component {
                             <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="" />
+                        <img class="img-fluid" src={CardDefault} alt="" />
                         </a>
                         
                     </div>
