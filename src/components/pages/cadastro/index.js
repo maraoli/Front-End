@@ -6,8 +6,8 @@ import {
 } from 'react-router-dom'
 
 // FILES
-import CadastroUsuaria from '../home_components/CadastroUsuaria';
-import CadastroEmpresa from '../home_components/CadastroEmpresa';
+import CadastroUsuaria from './CadastroUsuaria';
+import CadastroEmpresa from './CadastroEmpresa';
 
 class Cadastro extends Component {
     constructor(props){
