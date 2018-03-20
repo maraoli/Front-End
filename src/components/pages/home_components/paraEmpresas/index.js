@@ -34,11 +34,6 @@ class ParaEmpresas extends Component {
                         <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                         </div>
                         <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
                             <img class="img-fluid" src={CardDefault} alt="" />
                         </a>
                     </div>
@@ -48,11 +43,6 @@ class ParaEmpresas extends Component {
                         <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                         </div>
                         <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img class="img-fluid" src={CardDefault} alt="" />
                         </a>
                         
@@ -63,11 +53,6 @@ class ParaEmpresas extends Component {
                         <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                         </div>
                         <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
                         <img class="img-fluid" src={CardDefault} alt="" />
                         </a>
                     </div>
@@ -77,12 +62,7 @@ class ParaEmpresas extends Component {
                         <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                         </div>
                         <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src={CardDefault} alt="" />
+                            <img class="img-fluid" src={CardDefault} alt="" />
                         </a>
                         
                     </div>
