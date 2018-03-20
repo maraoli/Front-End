@@ -81,7 +81,6 @@ class Home extends Component {
         {/*MODAIS*/}
         <Login />
         <Cadastro />
-        
       </div>
     );
   }

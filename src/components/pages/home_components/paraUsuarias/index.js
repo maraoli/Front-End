@@ -46,8 +46,8 @@ class ParaUsuarias extends Component {
                   </div>
                   <div className="col-md-6 col-sm-6 portfolio-item">
                     <div className="portfolio-caption">
-                      <h4>LoremTOP</h4>
-                      <p className="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                      <h4>Forum</h4>
+                      <p class="text-muted servicos_descricao">Faça parte de uma rede de conexão e sororidade</p>
                     </div>
                     <a className="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
                       <div className="portfolio-hover">
@@ -61,8 +61,8 @@ class ParaUsuarias extends Component {
                   </div>
                   <div className="col-md-6 col-sm-6 portfolio-item">
                     <div className="portfolio-caption">
-                      <h4>LoremTOP</h4>
-                      <p className="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                      <h4>Cursos</h4>
+                      <p class="text-muted servicos_descricao">Potencialize as suas chances!!!</p>
                     </div>
                     <a className="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
                       <div className="portfolio-hover">
@@ -75,8 +75,8 @@ class ParaUsuarias extends Component {
                   </div>
                   <div className="col-md-6 col-sm-6 portfolio-item">
                     <div className="portfolio-caption">
-                      <h4>LoremTOP</h4>
-                      <p className="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                       <h4>+Vagas</h4>
+                       <p class="text-muted servicos_descricao">O que fazer para se destacar no mercado de trabalho de tech?</p>
                     </div>
                     <a className="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
                       <div className="portfolio-hover">
