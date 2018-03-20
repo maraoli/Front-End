@@ -5,31 +5,25 @@ import {
   Link
 } from 'react-router-dom'
 
+//CSS
 import '../../HTMLgetProgramadora/css/agency.css';
 
+// FILES
 import Navbar from './home_components/Navbar';
 import Header from './home_components/Header';
 import Login from './login/index';
+import Cadastro from './cadastro/index';
 import QuemSomos from './home_components/QuemSomos';
 import ParaUsuarias from './home_components/paraUsuarias/index';
 import ParaEmpresas from './home_components/paraEmpresas/index';
 
-import CadastroUsuaria from './home_components/CadastroUsuaria';
-import CadastroEmpresa from './home_components/CadastroEmpresa';
 
 class Home extends Component {
   constructor(props){
     super(props);
 
     this.state = {
-      usuarias: false
     }
-  }
-  
-  changeForm(isUsuarias){
-    this.setState({
-      usuarias: isUsuarias
-    })
   }
   
   render() {
@@ -86,39 +80,8 @@ class Home extends Component {
 
         {/*MODAIS*/}
         <Login />
-    
-        {/* <!-- MODAL CADASTRO --> */}
-        <div class="portfolio-modal modal fade" id="cadastro" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content modal-content-cadastro">
-              <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                  <div class="rl"></div>
-                </div>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="mx-auto">
-                    <div class="modal-body com-lista">
-                    <div class="selection-cadastro">
-                      <h1>Quero me cadastrar</h1>
-                      <h2>Eu sou:</h2>
-                      <input name="check-tipo-de-cadastro" class="login-customer-personality " type="radio" onClick={() => { this.changeForm(true) }} />
-                      <p>Usuaria</p>
-                      <input name="check-tipo-de-cadastro" class="login-customer-personality " type="radio" onClick={() => { this.changeForm(false) }} />
-                      <p>Empresa</p>
-                    </div>
-                    {
-                      this.state.usuarias ? <CadastroUsuaria /> : <CadastroEmpresa />
-                    }     
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <Cadastro />
+        
       </div>
     );
   }
