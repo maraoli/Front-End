@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
 import './vagas_educacao.css';
+import Row from "./common/Row";
+import Col from "./common/Col";
 
 const block = {
   backgroundColor: 'white',
@@ -310,19 +312,5 @@ class Vagas_educacao extends Component {
 }
 
 
-
-function Row(props) {
-  return (
-    <div className='section group'>{props.children}</div>
-  )
-}
-
-function Col({ span, offset = false, children }) {
-  let colClass = `col span_${span}_of_12`
-  colClass = offset ? colClass + ' offset' : colClass
-  return (
-    <div className={colClass}>{children}</div>
-  )
-}
 
 export default Vagas_educacao;
