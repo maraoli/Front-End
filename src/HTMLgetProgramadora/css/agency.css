@@ -1091,6 +1091,11 @@ header.masthead .intro-text {
   margin: 0;
   vertical-align: top; }
 
+.reset textarea:focus, input:focus, select:focus a:focus button:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0; }
+
 .button2 {
   padding: 5px;
   box-sizing: border-box;

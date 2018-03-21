@@ -12,3 +12,10 @@
     margin: 0;
     vertical-align: top;
 }
+
+//borda azul
+.reset textarea:focus, input:focus, select:focus a:focus button:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+// IMPORT FILES
+import Card from '../../components/card';
+
 // IMPORT IMAGENS
 import CardDefault from './imgCard.jpg';
 
@@ -13,6 +16,7 @@ class ParaEmpresas extends Component {
     }
 
     render() {
+        const card_1 = {titulo:"hhh", texto: "jhjkjhkj", img:CardDefault}
         return (
             <section id="para-empresas">
                 <div class="container">
@@ -28,44 +32,48 @@ class ParaEmpresas extends Component {
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-md-6 col-sm-6 portfolio-item">
-                        <div class="portfolio-caption">
-                        <h4>LoremTOP</h4>
-                        <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <Card titulo="hhh" texto="jhjkjhkj" img={CardDefault}/>
+                        <Card titulo="hdsdsdas" texto="23322222kjhkj" img={CardDefault}/>
+                        <Card titulo="h33333" texto="j33333kjhkj" img={CardDefault}/>
+                        <Card titulo="44444hh" texto="jh444444hkj" img={CardDefault}/>
+                        {/* <div class="col-md-6 col-sm-6 portfolio-item">
+                            <div class="portfolio-caption">
+                            <h4>LoremTOP</h4>
+                            <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            </div>
+                            <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
+                                <img class="img-fluid" src={CardDefault} alt="" />
+                            </a>
                         </div>
-                        <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
+                        <div class="col-md-6 col-sm-6 portfolio-item">
+                            <div class="portfolio-caption">
+                            <h4>LoremTOP</h4>
+                            <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            </div>
+                            <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
                             <img class="img-fluid" src={CardDefault} alt="" />
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-sm-6 portfolio-item">
-                        <div class="portfolio-caption">
-                        <h4>LoremTOP</h4>
-                        <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            </a>
+                            
                         </div>
-                        <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
-                        <img class="img-fluid" src={CardDefault} alt="" />
-                        </a>
-                        
-                    </div>
-                    <div class="col-md-6 col-sm-6 portfolio-item">
-                        <div class="portfolio-caption">
-                        <h4>LoremTOP</h4>
-                        <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        </div>
-                        <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
-                        <img class="img-fluid" src={CardDefault} alt="" />
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-sm-6 portfolio-item">
-                        <div class="portfolio-caption">
-                        <h4>LoremTOP</h4>
-                        <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                        </div>
-                        <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
+                        <div class="col-md-6 col-sm-6 portfolio-item">
+                            <div class="portfolio-caption">
+                            <h4>LoremTOP</h4>
+                            <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            </div>
+                            <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
                             <img class="img-fluid" src={CardDefault} alt="" />
-                        </a>
-                        
-                    </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-sm-6 portfolio-item">
+                            <div class="portfolio-caption">
+                            <h4>LoremTOP</h4>
+                            <p class="text-muted servicos_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            </div>
+                            <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
+                                <img class="img-fluid" src={CardDefault} alt="" />
+                            </a>
+                            
+                        </div> */}
                     </div>
                 </div>
             </section>
