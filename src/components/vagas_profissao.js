@@ -253,7 +253,7 @@ class Vagas_profissao extends Component {
           <Col span={12}>
             <div style={block}>
               <Label>
-                Escreva sua mini biografia
+                Fale um pouco sobre você
                 <br />
                 <TextArea
                   type="text"
@@ -334,30 +334,7 @@ class Vagas_profissao extends Component {
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col span={12}>
-            <div style={block}>
-              <div className="form-group">
-                <select deafultvalue="blank"
-                  style={{ width: '100%' }}
-                  className="selectbox day"
-                  data-form-required-message="Campo obrigatório"
-                  placeholder="Função adicional"
-                  name="experiencia3"
-                  id="experiencia3"
-                  value={this.state.experiencia3}
-                  onChange={this.handleChange}>
-                  <option value="blank"></option>
-                  <option value="frontend">Front-End</option>
-                  <option value="backend">Back-End</option>
-                  <option value="mobile">Mobile</option>
-                  <option value="iot">IOT</option>
-                  <option value="oux">UX</option>
-                </select>
-              </div>
-            </div>
-          </Col>
-        </Row>
+    
        
 
         { /* ------------------------------------- */}
@@ -395,7 +372,7 @@ class Vagas_profissao extends Component {
             <div style={block}>
               <Label>
                 Estado
-                            <div className="form-group">
+                  <div className="form-group">
                   <select
                     className="selectbox day"
                     style={{ width: '80%' }}
@@ -507,7 +484,7 @@ class Vagas_profissao extends Component {
           <Col span={12}>
             <div style={block}>
               <Label>
-                Conte sua história<br />
+                Conte mais sobre as suas experiências profissionais<br />
                 <TextArea
                   type="text"
                   name="historia"
