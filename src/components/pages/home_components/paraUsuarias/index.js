@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+// IMPORT FILES
+import Card from '../../components/card';
+
 // IMPORT IMAGENS
 import CardDefault from './imgCard.jpg';
 
@@ -30,44 +33,26 @@ class ParaUsuarias extends Component {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-md-6 col-sm-6 portfolio-item">
-                    <div className="portfolio-caption">
-                      <h4>Meu Perfil</h4>
-                      <p class="text-muted servicos_descricao">Acompanhe sua evolução</p>
-                    </div>
-                    <a className="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
-                      <img className="img-fluid" src={CardDefault} alt="" />
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-sm-6 portfolio-item">
-                    <div className="portfolio-caption">
-                      <h4>Forum</h4>
-                      <p class="text-muted servicos_descricao">Faça parte de uma rede de conexão e sororidade</p>
-                    </div>
-                    <a className="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
-                      <img className="img-fluid" src={CardDefault} alt="" />
-                    </a>
-                    
-                  </div>
-                  <div className="col-md-6 col-sm-6 portfolio-item">
-                    <div className="portfolio-caption">
-                      <h4>Cursos</h4>
-                      <p class="text-muted servicos_descricao">Potencialize as suas chances!!!</p>
-                    </div>
-                    <a className="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
-                      <img className="img-fluid" src={CardDefault} alt="" />
-                    </a>
-                  </div>
-                  <div className="col-md-6 col-sm-6 portfolio-item">
-                    <div className="portfolio-caption">
-                       <h4>+Vagas</h4>
-                       <p class="text-muted servicos_descricao">O que fazer para se destacar no mercado de trabalho de tech?</p>
-                    </div>
-                    <a className="portfolio-link" data-toggle="modal" href="#para-usuariasModal2">
-                      <img className="img-fluid" src={CardDefault} alt="" />
-                    </a>
-                    
-                  </div>
+                  <Card 
+                      titulo="Meu Perfil" 
+                      texto="Acompanhe sua evolução" 
+                      img={CardDefault}
+                  />
+                  <Card 
+                      titulo="Forum" 
+                      texto="Faça parte de uma rede de conexão e sororidade" 
+                      img={CardDefault}
+                  />
+                  <Card 
+                      titulo="Cursos" 
+                      texto="Potencialize as suas chances!!!" 
+                      img={CardDefault}
+                  />
+                  <Card 
+                      titulo="+Vagas" 
+                      texto="O que fazer para se destacar no mercado de trabalho de tech?" 
+                      img={CardDefault}
+                  />
                 </div>
               </div>
             </section>
