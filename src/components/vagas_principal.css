@@ -72,3 +72,14 @@
 .offset {
   visibility: hidden;
 }
+
+@media screen and (min-width: 778px) {
+.section {
+   padding: 0 4em 0 4em;
+   width: 70%;
+   
+}
+}
+
+
+
