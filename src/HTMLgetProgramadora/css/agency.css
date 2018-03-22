@@ -172,31 +172,6 @@ header.masthead {
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer; }
-    #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
-      opacity: 0;
-      background: rgba(255, 20, 147, 0.9); }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-        opacity: 1; }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        height: 20px;
-        margin-top: -12px;
-        text-align: center;
-        color: white; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-          margin-top: -12px; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-          margin: 0; }
   #portfolio .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
@@ -306,9 +281,6 @@ ul.social-buttons {
       background-color: deeppink; }
 
 /* copia do agency.css em 11/03 */
-@font-face {
-  font-family: "Typo Style Light Demo";
-  src: url("Typo Style Light Demo.otf") format("opentype"); }
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -347,7 +319,6 @@ section h2.section-heading {
 section h3.section-subheading {
   font-size: 21px;
   font-weight: 400;
-  /*font-style: italic;*/
   margin-bottom: 75px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -532,16 +503,6 @@ header.masthead .intro-text .intro-heading {
   margin: 0 auto;
   cursor: pointer; }
 
-#para-usuarias .portfolio-item .portfolio-link .portfolio-hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background: rgba(254, 209, 54, 0.9); }
-
 #para-usuarias .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1; }
 
@@ -593,16 +554,6 @@ header.masthead .intro-text .intro-heading {
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer; }
-
-#para-empresas .portfolio-item .portfolio-link .portfolio-hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background: rgba(254, 209, 54, 0.9); }
 
 #para-empresas .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1; }
@@ -1140,6 +1091,11 @@ header.masthead .intro-text {
   margin: 0;
   vertical-align: top; }
 
+.reset textarea:focus, input:focus, select:focus, a:focus, button:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0; }
+
 .button2 {
   padding: 5px;
   box-sizing: border-box;
@@ -1170,6 +1126,27 @@ section {
   margin: 0 auto;
   padding: 90px 0 0 0; }
 
+.selection-cadastro h1 {
+  color: deeppink;
+  font-size: 48px; }
+
+.modal-content .selection-cadastro h2 {
+  color: deeppink;
+  font-size: 20px;
+  margin: 0; }
+
+.modal-content .selection-cadastro p {
+  color: deeppink;
+  display: inline-block;
+  margin: 0 15px 0 0; }
+
+.selection-cadastro input {
+  display: inline-block;
+  margin: 5px; }
+
+section h3.section-subheading {
+  font-style: normal; }
+
 footer {
   margin-top: 20px; }
 
@@ -1195,6 +1172,9 @@ footer {
   text-decoration: none;
   width: 30%; }
 
+#cadastro {
+  overflow: auto; }
+
 .cadastro label {
   color: #e46278; }
 
@@ -1204,7 +1184,7 @@ footer {
   padding-right: 30px; }
 
 .cadastro div label {
-  width: 18%;
+  width: 23%;
   text-align: right;
   color: deeppink; }
 
@@ -1214,7 +1194,7 @@ footer {
   border-radius: 10px;
   border: 2px solid deeppink;
   padding: 5px;
-  margin: 0 20% 15px 2px; }
+  margin: 0 16% 15px 2px; }
 
 .cadastro .selectbox {
   border: 2px solid deeppink;
