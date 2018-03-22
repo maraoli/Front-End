@@ -7,8 +7,8 @@ import {
 
 import ParaUsuarias from './paraUsuarias/index';
 import ParaEmpresas from './paraEmpresas/index';
-import Vagas from "../../vagas";
-import Cursos from "../../cursos";
+// import Vagas from "../../vagas";
+// import Cursos from "../../cursos";
 
 // antigo About
 class Navbar extends Component {

@@ -4,14 +4,8 @@ import React, { Component } from 'react';
 import './HTMLgetProgramadora/css/agency.css';
 
 import Home from "./components/pages/Home";
-
-//VERSAO2
-//import Vagas_principal from "./components/vagas_principal";
-//import Vagas_profissao from "./components/vagas_profissao";
-
 // import Vagas from "./components/vagas_1tela";
 import Vagas from "./components/vagas";
-
 import Vagas_educacao from "./components/vagas_educacao";
 import Cursos from "./components/cursos";
 
