@@ -72,7 +72,9 @@ class CadastroUsuaria extends Component {
                                 <input value={this.state.value} onChange={(e) => { this.handleChange("name", e) }} id="repetir_senha" name="repetir_senha" type="password" required="" placeholder="Repetir Senha" title="Repetir Senha" /> */}
                         </div>
                         <div>
-                            <button type="button" onClick={() => { this.submit() }} class="testar button2 botao__cadastrar__cadastro">Criar conta</button>
+                            <button type="button" onClick={() => { this.submit() }} class="testar button2 botao__cadastrar__cadastro">
+                                <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal" href="#">Criar conta</a>
+                            </button>
                         </div>
                     </form>
                 </div>

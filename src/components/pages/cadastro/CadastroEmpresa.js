@@ -52,7 +52,9 @@ class CadastroEmpresa extends Component {
                         <input id="repetir_senha" name="repetir_senha" type="password" required="" placeholder="Repetir Senha" title="Repetir Senha"/>
                     </div>
                     <div>
-                        <button type="button" onclick="validarSenha(this)" class="testar button2 botao__cadastrar__cadastro">Criar conta</button>
+                        <button type="button" onclick="validarSenha(this)" class="testar button2 botao__cadastrar__cadastro">
+                            <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal" href="#">Criar conta</a>
+                        </button>
                     </div>
                     </form>
                 </form>
