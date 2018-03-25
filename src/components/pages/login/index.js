@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom'
 
 // IMPORT PAGES
-import Usuaria from '../usuaria/index';
+// import Usuaria from '../usuaria/index';
 
 // IMPORT IMAGENS
 import Logo from './logo1.png';
@@ -21,9 +21,9 @@ class Login extends Component {
   render() {
     return (
         <div class="portfolio-modal modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
-          <div>
+          {/* <div>
             <Usuaria />
-          </div>
+          </div> */}
           <div class="modal-dialog">
             <div class="modal-content modal-content-login">
               <div class="close-modal" data-dismiss="modal">
