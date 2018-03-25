@@ -5,6 +5,9 @@ import {
   Link
 } from 'react-router-dom'
 
+// IMPORT PAGES
+import Usuaria from '../usuaria/index';
+
 // IMPORT IMAGENS
 import Logo from './logo1.png';
 
@@ -18,6 +21,9 @@ class Login extends Component {
   render() {
     return (
         <div class="portfolio-modal modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+          <div>
+            <Usuaria />
+          </div>
           <div class="modal-dialog">
             <div class="modal-content modal-content-login">
               <div class="close-modal" data-dismiss="modal">
@@ -41,8 +47,11 @@ class Login extends Component {
                           <input class="input-login-senha botao-login" id="txtSenha" name="senha" type="password" required="" placeholder="Digite uma Senha"
                             title="Senha" />
                           <a class="esqueci-senha" href="#">Esqueci a senha</a>
-
-                          <button type="button" onclick="validarSenha(this)" class="testar button2 botao-login-form">Entrar</button>
+                          <Link to="/usuaria/index">
+                            <button type="button" onclick="validarSenha(this)" class="testar button2 botao-login-form">
+                              <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal">Entrar</a>
+                            </button>
+                          </Link>
                           <a class="close-modal button3 botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal" href="#cadastro">Cadastrar </a>
                         </form>
                       </div>
