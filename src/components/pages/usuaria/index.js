@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import registerServiceWorker from '../../../registerServiceWorker';
 
 import {
     BrowserRouter as Router,
@@ -36,3 +38,7 @@ class Usuaria extends Component {
 }
 
 export default Usuaria;
+
+ReactDOM.render(<Usuaria/>, document.getElementById('root'));
+React.renderComponent(<Usuaria/>, document.getElementById('root'));
+registerServiceWorker();
