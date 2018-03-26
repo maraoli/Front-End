@@ -71,28 +71,50 @@
     margin: 0;
 }
 
+//comentada
 .imgGetPoints{
-    margin: 80px auto;
+    margin: 80px auto 10px auto;
     border-radius: 50%;
     width: 250px;
-    border: 1px solid;
+    // border: 1px solid;
 }
 
 .coroaGetPoints{
     position: absolute;
-    // top: 138px;
-    // right: 456px;
-    // top: 19%;
-    // right: 38%;
-    bottom: 10px;
-    transform: translate(-84%);
-    max-width: 100%;
-    max-height: 100%;
-    width: 400px;
+    //WAY 1
+    // bottom: 10px;
+    // transform: translate(-84%);
+    // -webkit-transform: translate(-84%);
+    // -ms-transform: translate(-84%);
+    // max-width: 100%;
+    // max-height: 100%;
+    // width: 400px;
+    // margin: 5px;
+
+    //WAY 2
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    width: 800px;
     margin: 5px;
+    left: 50%;
+    margin: 0 auto;
+}
+
+.texto-pontuacao{
+    font-size: 28px;
+    color: $rosa1;
+}
+
+.pontuacao{
+    display: block;
+    font-size: 35px;
 }
 
 .botao-mais-pontos{
-    padding: 20px 35px;
-    font-size: 25px;
+    padding: 19px 21px;
+    font-size: 26px;
+    position: relative;
+    border: none;
+    top: 30px;
 }

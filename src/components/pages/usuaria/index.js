@@ -41,11 +41,11 @@ class Usuaria extends Component {
                     </span>   
                 </header>
                 <main className="conteudo-principal">
-                    <figure className="img-points-space">
+                    <figure className="">
                         <img class="imgGetPoints" src={UserImg} alt=""/>
                         <img class="coroaGetPoints" src={Coroa} alt=""/>
                     </figure>
-                    <p>Você acumulou até o monento <span>110</span> getPoints!</p>
+                    <p className="texto-pontuacao">Você acumulou até o momento <span className="pontuacao">110</span> getPoints!</p>
                     <a class=" button2 botao-mais-pontos" href="#">Aumente sua pontuação</a> 
                 </main>
             </main>
