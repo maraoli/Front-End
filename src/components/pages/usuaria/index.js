@@ -7,7 +7,12 @@ import {
     Route,
     Link
   } from 'react-router-dom'
-  
+
+//CSS
+import '../../../HTMLgetProgramadora/css/usuaria.css';
+
+//IMG
+import UserImg from './user.jpg';
   
 class Usuaria extends Component {
     constructor(props){
@@ -29,7 +34,9 @@ class Usuaria extends Component {
                             <li>Cursos</li>
                         </ul>
                     </nav>
-                    <img src="" alt=""/>
+                    <span>
+                        <img src={UserImg} alt=""/>
+                    </span>   
                 </header>
                 <section></section>
             </main>
@@ -40,5 +47,5 @@ class Usuaria extends Component {
 export default Usuaria;
 
 ReactDOM.render(<Usuaria/>, document.getElementById('root'));
-React.renderComponent(<Usuaria/>, document.getElementById('root'));
-registerServiceWorker();
+// React.renderComponent(<Usuaria/>, document.getElementById('root'));
+// registerServiceWorker();

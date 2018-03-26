@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom'
 
 // IMPORT PAGES
-// import Usuaria from '../usuaria/index';
+import Usuaria from '../usuaria/index';
 
 // IMPORT IMAGENS
 import Logo from './logo1.png';
@@ -54,6 +54,7 @@ class Login extends Component {
                           </Link>
                           <a class="close-modal button3 botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal" href="#cadastro">Cadastrar </a>
                         </form>
+                        <Route path="/usuaria/index" component={Usuaria} />
                       </div>
                     </div>
                   </div>

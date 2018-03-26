@@ -1,0 +1,55 @@
+.reset {
+  width: 100vw;
+  height: 100vh; }
+
+.reset body {
+  width: 100vw;
+  height: 100vh; }
+
+.reset * {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  vertical-align: top; }
+
+.reset textarea:focus, input:focus, select:focus, a:focus, button:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0; }
+
+.cabecalho-user {
+  background: #9a3535;
+  color: white;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px; }
+
+.cabecalho-user h1 {
+  text-align: center;
+  padding: 5px;
+  margin-right: 10px; }
+  .cabecalho-user h1:hover {
+    color: deeppink; }
+
+.cabecalho-user h1 p {
+  font-size: 16px;
+  font-weight: normal; }
+
+.nav-user-home {
+  background: #9a3535;
+  color: white;
+  height: 100%; }
+
+.nav-user-home ul {
+  list-style-type: none;
+  display: flex; }
+
+.nav-user-home ul li {
+  padding-right: 10px;
+  font-size: 20px; }
+  .nav-user-home ul li:hover {
+    color: deeppink; }
+
+/*# sourceMappingURL=usuaria.css.map */

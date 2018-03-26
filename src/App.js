@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Switch} from 'react-router-dom';
 
 // import './App.css';
 import './HTMLgetProgramadora/css/agency.css';
@@ -24,16 +25,18 @@ class App extends Component {
     const logo = require('./HTMLgetProgramadora/img/logos/logo1.png');
     
     return (
-      <Router>
-        <div>
-          <Route exact path="/" component={Home}/>
-          {/*<Route exact path="/vagas_1tela" component={Vagas_1tela}/>*/}
-          <Route exact path="/pages/usuaria/index" component={Usuaria}/>
-          <Route exact path="/vagas" component={Vagas}/>
-          <Route exact path="/vagas_educacao" component={Vagas_educacao}/>
-          <Route exact path="/cursos" component={Cursos}/>
-        </div>
-      </Router>
+      <Switch>
+            <Router>
+              <div>
+                <Route exact path="/" component={Home}/>
+                <Route exact path="/vagas" component={Vagas}/>
+                <Route exact path="/vagas_educacao" component={Vagas_educacao}/>
+                <Route exact path="/cursos" component={Cursos}/>
+              </div>
+            </Router>
+            <Route path="/usuaria/index" component={Usuaria}/>
+      </Switch>
+      
     );
   }
 }
