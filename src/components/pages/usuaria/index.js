@@ -13,6 +13,7 @@ import '../../../HTMLgetProgramadora/css/usuaria.css';
 
 //IMG
 import UserImg from './user.jpg';
+import Coroa from './coroa2.png';
   
 class Usuaria extends Component {
     constructor(props){
@@ -25,20 +26,28 @@ class Usuaria extends Component {
         return(
             <main>
                 <header class="cabecalho-user">
-                    <h1><p>Voce esta em:</p>Perfil</h1>
-                    <nav class="nav-user-home">
+                    {/* <h1><p>Voce esta em:</p>Perfil</h1> */}
+                    <a class="navbar-brand js-scroll-trigger" href="#page-top">getProgramadora( );</a>
+                    <nav class="nav-user-home col-md-8">
                         <ul>
-                            <li>Editar Perfil</li>
+                            <li>Editar perfil</li>
                             <li>+Vagas</li>
                             <li>Forum</li>
                             <li>Cursos</li>
                         </ul>
                     </nav>
-                    <span>
+                    <span class="img-perfil-space">
                         <img src={UserImg} alt=""/>
                     </span>   
                 </header>
-                <section></section>
+                <main className="conteudo-principal">
+                    <figure className="img-points-space">
+                        <img class="imgGetPoints" src={UserImg} alt=""/>
+                        <img class="coroaGetPoints" src={Coroa} alt=""/>
+                    </figure>
+                    <p>Você acumulou até o monento <span>110</span> getPoints!</p>
+                    <a class=" button2 botao-mais-pontos" href="#">Aumente sua pontuação</a> 
+                </main>
             </main>
         );
     }
