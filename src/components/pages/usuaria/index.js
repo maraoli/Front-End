@@ -13,7 +13,7 @@ import '../../../HTMLgetProgramadora/css/usuaria.css';
 
 //IMG
 import UserImg from './user.jpg';
-import Coroa from './coroa2.png';
+import Coroa from './coroa1.png';
   
 class Usuaria extends Component {
     constructor(props){
