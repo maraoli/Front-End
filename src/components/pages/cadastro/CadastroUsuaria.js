@@ -20,6 +20,7 @@ class CadastroUsuaria extends Component {
         axios.post('http://122855b5.ngrok.io/api/User', this.state.form)
         .then(function (response) {
             console.log(response);
+            // save in local storege
         })
         .catch(function (error) {
             console.log(error);

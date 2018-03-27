@@ -8,9 +8,12 @@ import './HTMLgetProgramadora/css/agency.css';
 
 import registerServiceWorker from './registerServiceWorker';
 
-<BrowserRouter>
-    <App />
-</BrowserRouter>
+
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+document.getElementById('root'));
 
 // ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
+registerServiceWorker();
