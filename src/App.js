@@ -21,7 +21,18 @@ import {
   Link
 } from 'react-router-dom'
 
+//JSON
+localStorage.setItem('usuario', JSON.stringify(response.data))
+
 class App extends Component {
+  constructor(props) {
+      super(props);
+      this.state = {
+
+      }
+      this.usuario = JASON.parse(localStorage.getItem('usuario'))
+  }
+
   render() {
 
     const logo = require('./HTMLgetProgramadora/img/logos/logo1.png');
@@ -32,7 +43,7 @@ class App extends Component {
         {/*carrega auto*/}
         {/*{!usuario.logado && <Home /> }*/}
         {usuario.logado && usuario.tipo === usuaria && <Usuaria />}
-        {usuario.logado && usuario.tipo === empresa && <Empresa />}
+        {usuario.logado && usuario.tipo === empresa && <Usuaria />}
 
         <Switch>
               <Route exact path="/" component={Home}/>
