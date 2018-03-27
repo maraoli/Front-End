@@ -8,7 +8,9 @@ import Home from "./components/pages/Home";
 // import Vagas from "./components/vagas_1tela";
 
 // IMPORT PAGES
-import Usuaria from './components/pages/usuaria/index';
+import NavbarUsuaria from './components/pages/usuaria/Navbar';
+import PaginaUsuaria from './components/pages/usuaria';
+import NavbarEmpresa from './components/pages/empresa/index';
 import Vagas from "./components/vagas";
 import VagasEducacao from "./components/vagas_educacao";
 import Cursos from "./components/cursos";
@@ -22,7 +24,7 @@ import {
 } from 'react-router-dom'
 
 //JSON
-localStorage.setItem('usuario', JSON.stringify(response.data))
+// localStorage.setItem('usuario', JSON.stringify(response.data))
 
 class App extends Component {
   constructor(props) {
@@ -30,7 +32,8 @@ class App extends Component {
       this.state = {
 
       }
-      this.usuario = JASON.parse(localStorage.getItem('usuario'))
+
+      this.usuario = JSON.parse(localStorage.getItem('usuario'))
   }
 
   render() {
@@ -41,13 +44,13 @@ class App extends Component {
       <div>
         {/*IF:*/}
         {/*carrega auto*/}
-        {/*{!usuario.logado && <Home /> }*/}
-        {usuario.logado && usuario.tipo === usuaria && <Usuaria />}
-        {usuario.logado && usuario.tipo === empresa && <Usuaria />}
+
+        {this.usuario && this.usuario.logado && this.usuario.tipo === 'usuaria' && <NavbarUsuaria />}
+        {this.usuario && this.usuario.logado && this.usuario.tipo === 'empresa' && <NavbarEmpresa />}
 
         <Switch>
               <Route exact path="/" component={Home}/>
-              <Route path="/usuaria/index" component={Usuaria}/>
+              <Route path="/usuaria/index" component={PaginaUsuaria}/>
               <Route exact path="/vagas" component={Vagas}/>
               <Route exact path="/vagas_educacao" component={VagasEducacao}/>
               <Route exact path="/cursos" component={Cursos}/>
