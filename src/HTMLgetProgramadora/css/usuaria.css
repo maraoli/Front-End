@@ -107,5 +107,11 @@
   position: relative;
   border: none;
   top: 30px; }
+  .botao-mais-pontos:hover {
+    color: white;
+    background-color: deeppink;
+    box-shadow: 2px 4px 3px gray;
+    font-size: 30px;
+    text-shadow: none; }
 
 /*# sourceMappingURL=usuaria.css.map */

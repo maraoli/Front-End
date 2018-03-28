@@ -117,4 +117,11 @@
     position: relative;
     border: none;
     top: 30px;
+    &:hover{
+        color: white;
+        background-color: $rosa1;
+        box-shadow: $sombra1;
+        font-size: 30px;
+        text-shadow: none;
+    }
 }
