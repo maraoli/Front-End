@@ -17,9 +17,11 @@ class CadastroUsuaria extends Component {
     }
 
     submit() {
-        axios.post('http://122855b5.ngrok.io/api/User', this.state.form)
+        console.log(this.state.form);
+        axios.post('http://24773ae1.ngrok.io/api/User', this.state.form)
         .then(function (response) {
             console.log(response);
+            this.state
             // save in local storege
         })
         .catch(function (error) {
@@ -74,7 +76,7 @@ class CadastroUsuaria extends Component {
                         </div>
                         <div>
                             <button type="button" onClick={() => { this.submit() }} class="testar button2 botao__cadastrar__cadastro">
-                                <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal" href="#">Criar conta</a>
+                                <a class="close-modal botao-login-form" id="link-cadastro" href="#">Criar conta</a>
                             </button>
                         </div>
                     </form>

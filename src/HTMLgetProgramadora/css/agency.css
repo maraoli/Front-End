@@ -914,7 +914,8 @@ header.masthead .intro-text {
   position: relative;
   left: 0;
   top: 0px;
-  width: 30%; }
+  width: 30%;
+  margin: 0 auto; }
 
 .com-lista {
   list-style: none; }
@@ -1170,7 +1171,11 @@ footer {
   display: block;
   margin: 10px auto;
   text-decoration: none;
-  width: 30%; }
+  width: 30%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 #cadastro {
   overflow: auto; }
