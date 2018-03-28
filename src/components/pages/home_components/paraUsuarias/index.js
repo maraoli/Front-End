@@ -49,7 +49,7 @@ class ParaUsuarias extends Component {
                       img={CardDefault}
                   />
                   <Card 
-                      titulo="+Vagas" 
+                      titulo="Currículo" 
                       texto="O que fazer para se destacar no mercado de trabalho de tech?" 
                       img={CardDefault}
                   />

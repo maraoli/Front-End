@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 
-
 //IMG
 import UserImg from './user.jpg';
 import Coroa from './coroa1.png';
 
+//FILES TEMP
+import Navbar from './Navbar';
 
 class Index extends React.Component {
     render() {
         return (
             <div>
+                {/*TEMP*/}
+                <Navbar/>
                 <main className="conteudo-principal">
                     <figure className="">
                         <img class="imgGetPoints" src={UserImg} alt="" />
@@ -19,7 +22,7 @@ class Index extends React.Component {
                     <a class=" button2 botao-mais-pontos" href="#">Aumente sua pontuação</a>
                 </main>
             </div>
-        )
+        );
     }
 }
 

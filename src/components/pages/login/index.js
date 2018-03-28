@@ -103,7 +103,8 @@ class Login extends Component {
                            />
                           
                           <a class="esqueci-senha" href="#">Esqueci a senha</a>
-                          <Link to="/usuaria/index">
+                          {/*<Link to="/usuaria/index">*/}
+                          <Link to="/usuaria">
                             <button type="button" onClick={this.entrar} class="testar button2 botao-login-form">
                               <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal">Entrar</a>
                             </button>

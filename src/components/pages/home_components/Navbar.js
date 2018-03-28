@@ -64,6 +64,7 @@ class Navbar extends Component {
                     </ul>
                 </div>
                 </div>
+                
                 <p class="login-botao portfolio-link" data-toggle="modal" href="#login">Login</p>
                 <p class="login-botao portfolio-link" data-toggle="modal" href="#cadastro">Cadastro</p>
             </nav>

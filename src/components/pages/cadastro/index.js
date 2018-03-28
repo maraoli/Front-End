@@ -40,7 +40,7 @@ class Cadastro extends Component {
                             <h1>Quero me cadastrar</h1>
                             <h2>Eu sou:</h2>
                             <input name="check-tipo-de-cadastro" class="login-customer-personality " type="radio" onClick={() => { this.changeForm(true) }} />
-                            <p>Usuaria</p>
+                            <p>Usuária</p>
                             <input name="check-tipo-de-cadastro" class="login-customer-personality " type="radio" onClick={() => { this.changeForm(false) }} />
                             <p>Empresa</p>
                             </div>

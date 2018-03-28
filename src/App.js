@@ -8,6 +8,7 @@ import Home from "./components/pages/Home";
 // import Vagas from "./components/vagas_1tela";
 
 // IMPORT PAGES
+import UsuariaIndex from './components/pages/usuaria/index';
 import NavbarUsuaria from './components/pages/usuaria/Navbar';
 import PaginaUsuaria from './components/pages/usuaria';
 import NavbarEmpresa from './components/pages/empresa/index';
@@ -55,6 +56,7 @@ class App extends Component {
               <Route exact path="/vagas_educacao" component={VagasEducacao}/>
               <Route exact path="/cursos" component={Cursos}/>
               {/*usuaria*/}
+              <Route path="/usuaria" component={UsuariaIndex}/>
               <Route path="/exibir-perfil" component={ExibirPerfil}/>
               <Route path="/editar-perfil" component={EditarPerfil}/>
               

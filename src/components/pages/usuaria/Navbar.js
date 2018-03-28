@@ -35,7 +35,7 @@ class Navbar extends Component {
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">getProgramadora( );</a>
                 <nav class="nav-user-home col-md-8">
                     <ul>
-                        <li>+Vagas</li>
+                        <li>Curriculo</li>
                         <li>Forum</li>
                         <li>Cursos</li>
                         {/*<li className="">
