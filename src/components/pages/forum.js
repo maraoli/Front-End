@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
 import {
   Link
@@ -32,4 +32,4 @@ import Col from "./common/Col";
     <h4 class="media-heading">Media heading</h4>
     ...
   </div>
-</div>
+</div>*/
