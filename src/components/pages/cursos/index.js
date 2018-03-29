@@ -2,6 +2,9 @@
 import React, { Component } from 'react';
 import './cursos.css';
 
+//FILES TEMP
+import Navbar from '../usuaria/Navbar';
+
 class Cursos extends Component {
 	constructor(props) {
 		super(props);
@@ -58,11 +61,16 @@ class Cursos extends Component {
 
 	render() {
 		return (
-			<div className="container">
-				<div className="row">
-					{this.listarCursos()}
+			<div>
+                {/*TEMP*/}
+                <Navbar/>
+				<div className="container">
+					<div className="row">
+						{this.listarCursos()}
+					</div>
 				</div>
-			</div>);
+			</div>
+		);
 	}
 
 }

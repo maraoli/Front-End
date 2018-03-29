@@ -14,7 +14,7 @@ import PaginaUsuaria from './components/pages/usuaria';
 import NavbarEmpresa from './components/pages/empresa/index';
 import Curriculo from "./components/pages/usuaria/curriculo";
 import VagasEducacao from "./components/vagas_educacao";
-import Cursos from "./components/cursos";
+import Cursos from "./components/pages/cursos/index";
 import ExibirPerfil from "./components/pages/usuaria/exibir_perfil";  
 import EditarPerfil from "./components/pages/usuaria/editar_perfil"; 
 

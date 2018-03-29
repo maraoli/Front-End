@@ -16,7 +16,6 @@ import '../../../HTMLgetProgramadora/css/usuaria.css';
 import UserImg from './user.jpg';
 
 //FILES
-import Cursos from "../../cursos";
 import ExibirPerfil from "./exibir_perfil";
 import EditarPerfil from "./editar_perfil";
 
