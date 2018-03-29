@@ -17,7 +17,6 @@ import UserImg from './user.jpg';
 import Coroa from './coroa1.png';
   
 //FILES
-import Vagas from "../../vagas";
 import Cursos from "../../cursos";
 import ExibirPerfil from "./exibir_perfil";  
 import EditarPerfil from "./editar_perfil";  
@@ -38,19 +37,6 @@ class Usuaria extends Component {
                     <nav class="nav-user-home col-md-8">
                         <ul>
                             <li>Empresa</li>
-                            {/*<li>+Vagas</li>
-                            <li>Forum</li>
-                            <li>Cursos</li>
-                            <li className="">
-                                <Link to="/vagas">
-                                <p className="">Vagas</p>
-                                </Link>
-                            </li>
-                            <li className="">
-                                <Link to="/cursos">
-                                <p className="">Cursos</p>
-                                </Link>
-                            </li>*/}
                         </ul>
                     </nav>
                     <span class="img-perfil-space">

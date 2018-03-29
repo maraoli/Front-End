@@ -53,7 +53,7 @@ class CadastroEmpresa extends Component {
                     </div>
                     <div>
                         <button type="button" onclick="validarSenha(this)" class="testar button2 botao__cadastrar__cadastro">
-                            <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal" href="#">Criar conta</a>
+                            <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal">Criar conta</a>
                         </button>
                     </div>
                     </form>

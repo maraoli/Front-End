@@ -16,7 +16,6 @@ import '../../../HTMLgetProgramadora/css/usuaria.css';
 import UserImg from './user.jpg';
 
 //FILES
-import Vagas from "../../vagas";
 import Cursos from "../../cursos";
 import ExibirPerfil from "./exibir_perfil";
 import EditarPerfil from "./editar_perfil";
@@ -35,19 +34,21 @@ class Navbar extends Component {
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">getProgramadora( );</a>
                 <nav class="nav-user-home col-md-8">
                     <ul>
-                        <li>Curriculo</li>
-                        <li>Forum</li>
-                        <li>Cursos</li>
-                        {/*<li className="">
-                            <Link to="/vagas">
-                            <p className="">Vagas</p>
+                        <li className="">
+                            <Link /*to={Vagas}*/ to="/curriculo">
+                                Curriculo
+                            </Link>
+                        </li>
+                        <li className="">
+                            <Link to="/curriculo">
+                                Forum
                             </Link>
                         </li>
                         <li className="">
                             <Link to="/cursos">
-                            <p className="">Cursos</p>
+                                Cursos
                             </Link>
-                        </li>*/}
+                        </li>
                     </ul>
                 </nav>
                 <span class="img-perfil-space">
