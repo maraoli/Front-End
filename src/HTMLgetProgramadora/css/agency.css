@@ -1107,10 +1107,7 @@ header.masthead .intro-text {
   color: white;
   font-weight: bold; }
   .button2:hover {
-    color: white;
-    background-color: rgba(255, 20, 147, 0.7);
-    text-decoration: none;
-    text-shadow: 2px 2px 9px #c3c1a4; }
+    cursor: pointer; }
 
 .button3 {
   padding: 5px;
@@ -1123,6 +1120,7 @@ header.masthead .intro-text {
   font-weight: bold;
   width: 30px; }
   .button3:hover {
+    cursor: pointer;
     opacity: 0.5;
     background: pink; }
 

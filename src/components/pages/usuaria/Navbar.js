@@ -59,7 +59,3 @@ class Navbar extends Component {
 }
 
 export default Navbar;
-
-// ReactDOM.render(<Usuaria/>, document.getElementById('root'));
-// React.renderComponent(<Usuaria/>, document.getElementById('root'));
-// registerServiceWorker();
