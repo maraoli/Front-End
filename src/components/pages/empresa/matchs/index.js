@@ -10,24 +10,41 @@ import {
 import UserImg from './user.jpg';
 import UsuariaMinMatch from './usuaria-min-match';
 
+//IMPORT TEMP
+import dados from '../dados';
+
 class Matchs extends Component {
     constructor(props){
         super(props);
 
         this.state = {
+            dados:[] = dados
         }
     }
 
-    dados.map(function(usuaria){
-        return <UsuariaMinMatch />
-    })
-
     render() {
-        return(
-            <div>
-                
-            </div>
-        );
+        return this.state.dados.map(function (usuaria) {
+            return(
+                <div>
+                    <UsuariaMinMatch 
+                        img= {usuaria.img}
+                        nome= {usuaria.nome}
+                        pontuacao= {usuaria.pontuacao}
+                    />
+                </div>
+            );
+        })
+        // return(
+        //     <div>
+        //         dados.map(function(usuaria){
+        //             <UsuariaMinMatch 
+        //                 img= {usuaria.img}
+        //                 nome= {usuaria.nome}
+        //                 pontuacao= {usuaria.pontuacao}
+        //             />
+        //         })
+        //     </div>
+        // );
     }
 }
 
