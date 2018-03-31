@@ -8,27 +8,23 @@ import {
 
 //IMG
 import UserImg from './user.jpg';
-import UsuariaMinMatch from './usuaria-min-match';
 
-class Matchs extends Component {
+class UsuariaMinMacth extends Component {
     constructor(props){
         super(props);
 
         this.state = {
         }
     }
-
-    for(let i= 0; i< dados.length; i++){
-        <UsuariaMinMatch />
-    }
-
     render() {
         return(
-            <div>
-                
+            <div className="match-usuaria-min">
+                <img src={UserImg} alt="" />
+                <p>dados[i].nome</p>
+                <p>dados[i].pontucacao</p>
             </div>
         );
     }
 }
 
-export default Matchs;
+export default UsuariaMinMacht;
