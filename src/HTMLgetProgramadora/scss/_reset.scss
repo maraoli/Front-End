@@ -19,3 +19,9 @@
     border: 0 none;
     outline: 0;
 }
+
+a{
+    &:hover{
+        text-decoration: none;
+    }
+}

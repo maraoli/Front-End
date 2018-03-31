@@ -17,4 +17,15 @@
   border: 0 none;
   outline: 0; }
 
+a:hover {
+  text-decoration: none; }
+
+.exibir-cadastro {
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid deeppink;
+  padding: 5px;
+  margin: 0 16% 15px 2px; }
+
 /*# sourceMappingURL=empresa.css.map */

@@ -24,18 +24,33 @@ class Navbar extends Component {
                     <nav class="nav-user-home col-md-8">
                         <ul>
                             <li className="">
-                                <Link to="/curriculo">
-                                    Curriculo
+                                <Link to="/exibir-perfil-empresa">
+                                    Meu Perfil
                                 </Link>
                             </li>
                             <li className="">
                                 <Link to="/curriculo">
-                                    Forum
+                                    Buscar Candidatas
                                 </Link>
                             </li>
                             <li className="">
                                 <Link to="/cursos">
-                                    Cursos
+                                    Matches
+                                </Link>
+                            </li>
+                            {/* <li className="">
+                                <Link to="/cursos">
+                                    Filtros Salvos
+                                </Link>
+                            </li>
+                            <li className="">
+                                <Link to="/cursos">
+                                    Candidatas Salvas
+                                </Link>
+                            </li> */}
+                            <li className="">
+                                <Link to="/">
+                                    Sair
                                 </Link>
                             </li>
                         </ul>

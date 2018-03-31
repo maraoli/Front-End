@@ -5,7 +5,7 @@ import * as axios from "axios";
 //IMG
 import UserImg from './user.jpg';
 
-class EditarPerfil extends Component {
+class EditarPerfilUsuaria extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -89,6 +89,6 @@ class EditarPerfil extends Component {
     }
 }
 
-export default EditarPerfil;
+export default EditarPerfilUsuaria;
 
 // ReactDOM.render(<EditarPerfil/>, document.getElementById('root'));

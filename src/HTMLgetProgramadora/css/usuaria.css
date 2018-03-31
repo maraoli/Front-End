@@ -17,6 +17,9 @@
   border: 0 none;
   outline: 0; }
 
+a:hover {
+  text-decoration: none; }
+
 .cabecalho-user {
   background: #9a3535;
   color: white;

@@ -17,11 +17,13 @@ import Cursos from "./components/pages/cursos/index";
 import NavbarUsuaria from './components/pages/usuaria/Navbar';
 import IndexUsuaria from './components/pages/usuaria/index';
 import Curriculo from "./components/pages/usuaria/curriculo";
-import ExibirPerfil from "./components/pages/usuaria/exibir_perfil";  
-import EditarPerfil from "./components/pages/usuaria/editar_perfil"; 
+import ExibirPerfilUsuaria from "./components/pages/usuaria/exibir_perfil";  
+import EditarPerfilUsuaria from "./components/pages/usuaria/editar_perfil"; 
 
 import NavbarEmpresa from './components/pages/empresa/navbar';
 import IndexEmpresa from './components/pages/empresa/index';
+import ExibirPerfilEmpresa from "./components/pages/empresa/exibir_perfil";  
+import EditarPerfilEmpresa from "./components/pages/empresa/editar_perfil"; 
 // import Vagas from "./components/vagas_1tela";
 
 class App extends Component {
@@ -51,10 +53,12 @@ class App extends Component {
               {/*usuaria*/}
               <Route path="/usuaria" component={IndexUsuaria}/>
               <Route exact path="/curriculo" component={Curriculo}/>
-              <Route path="/exibir-perfil" component={ExibirPerfil}/>
-              <Route path="/editar-perfil" component={EditarPerfil}/>
+              <Route path="/exibir-perfil-usuaria" component={ExibirPerfilUsuaria}/>
+              <Route path="/editar-perfil-usuaria" component={EditarPerfilUsuaria}/>
               {/*empresa*/}
               <Route path="/empresa" component={IndexEmpresa}/>
+              <Route path="/exibir-perfil-empresa" component={ExibirPerfilEmpresa}/>
+              <Route path="/editar-perfil-empresa" component={EditarPerfilEmpresa}/>
         </Switch>
       </div>
     );

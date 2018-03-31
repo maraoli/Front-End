@@ -33,6 +33,11 @@ class Navbar extends Component {
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">getProgramadora( );</a>
                 <nav class="nav-user-home col-md-8">
                     <ul>
+                         <li className="">
+                                <Link to="/exibir-perfil-usuaria">
+                                    Meu Perfil
+                                </Link>
+                            </li>
                         <li className="">
                             <Link /*to={Vagas}*/ to="/curriculo">
                                 Curriculo
@@ -46,6 +51,11 @@ class Navbar extends Component {
                         <li className="">
                             <Link to="/cursos">
                                 Cursos
+                            </Link>
+                        </li>
+                        <li className="">
+                            <Link to="/">
+                                Sair
                             </Link>
                         </li>
                     </ul>
