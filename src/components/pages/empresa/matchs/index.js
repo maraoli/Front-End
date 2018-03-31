@@ -18,9 +18,9 @@ class Matchs extends Component {
         }
     }
 
-    for(let i= 0; i< dados.length; i++){
-        <UsuariaMinMatch />
-    }
+    // for(let i= 0; i< dados.length; i++){
+    //     <UsuariaMinMatch />
+    // }
 
     render() {
         return(

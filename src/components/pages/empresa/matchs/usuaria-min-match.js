@@ -19,12 +19,12 @@ class UsuariaMinMacth extends Component {
     render() {
         return(
             <div className="match-usuaria-min">
-                <img src={UserImg} alt="" />
+                {/* <img src={dados[i].img} alt="" />
                 <p>dados[i].nome</p>
-                <p>dados[i].pontucacao</p>
+                <p>dados[i].pontucacao</p> */}
             </div>
         );
     }
 }
 
-export default UsuariaMinMacht;
+export default UsuariaMinMacth;

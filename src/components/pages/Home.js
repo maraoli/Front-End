@@ -16,6 +16,7 @@ import Cadastro from './cadastro/index';
 import QuemSomos from './home_components/QuemSomos';
 import ParaUsuarias from './home_components/paraUsuarias/index';
 import ParaEmpresas from './home_components/paraEmpresas/index';
+import Footer from './components/footer';
 
 
 class Home extends Component {
@@ -34,49 +35,7 @@ class Home extends Component {
         <QuemSomos />
         <ParaUsuarias />
         <ParaEmpresas />
-
-        {/* <!-- Footer --> */}
-        <footer className="bkg-footer-dark">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-4">
-                <span className="copyright">Copyright &copy; Senai Code XP 2018</span>
-              </div>
-              <div className="col-md-4">
-                <ul className="list-inline social-buttons">
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a href="#">
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-4">
-                <ul className="list-inline quicklinks">
-                  <li className="list-inline-item">
-                    <a className="item-footer" href="#">(11)4000-0000</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a className="item-footer" href="#">get@mail.com</a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a className="item-footer" href="#">Terms of Use</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
 
         {/*MODAIS*/}
         <Login />
