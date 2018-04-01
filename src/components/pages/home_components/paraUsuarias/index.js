@@ -24,12 +24,7 @@ class ParaUsuarias extends Component {
                 <div className="row">
                   <div className="col-lg-12 text-center">
                     <h2 className="section-heading text-uppercase">Para Usuárias</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet, 
-                      tincidunt elementum tristique massa, donec urna lectus. Tempor in metus,
-                       ut turpis volutpat, cras leo. Et ut nam metus ipsum integer, lacus tincidunt
-                        sit, auctor lacus ac sit, non augue curabitur ridiculus ante praesent, 
-                        suspendisse est a aliquid recusandae ullamcorper molestie. Sem dignissim 
-                        dignissim magna. Pretium ac, convallis in interdum quisque.</h3>
+                    <h3 className="section-subheading text-muted">Juntas, podemos mudar o mundo com mulheres trabalhadoras e empoderadas.</h3>
                   </div>
                 </div>
                 <div className="row">
@@ -39,18 +34,18 @@ class ParaUsuarias extends Component {
                       img={CardDefault}
                   />
                   <Card 
-                      titulo="Forum" 
+                      titulo="Fórum" 
                       texto="Faça parte de uma rede de conexão e sororidade" 
                       img={CardDefault}
                   />
                   <Card 
                       titulo="Cursos" 
-                      texto="Potencialize as suas chances!!!" 
+                      texto="Potencialize as suas chances!" 
                       img={CardDefault}
                   />
                   <Card 
                       titulo="Currículo" 
-                      texto="O que fazer para se destacar no mercado de trabalho de tech?" 
+                      texto="O que fazer para se destacar no mercado de trabalho no mundo da tecnologia" 
                       img={CardDefault}
                   />
                 </div>

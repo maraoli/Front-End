@@ -33,8 +33,7 @@ class QuemSomos extends Component {
                         <i class="fa fa-users fa-stack-1x fa-inverse" aria-hidden="true"></i>
                         </span>
                     <h4 class="service-heading">Social</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
-                        magni, dicta impedit.</p>
+                    <p class="text-muted">Conectar mulheres em uma comunidade de apoio mútuo e sonoro. </p>
                     </div>
                     <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -42,8 +41,7 @@ class QuemSomos extends Component {
                         <i class="fa fa-suitcase fa-stack-1x fa-inverse" aria-hidden="true"></i>
                         </span>
                     <h4 class="service-heading">Profissional</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
-                        magni, dicta impedit.</p>
+                    <p class="text-muted">Se destacar para empresas que precisam contratar e reter mais mulheres de tecnologia. </p>
                     </div>
                     <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -51,8 +49,7 @@ class QuemSomos extends Component {
                         <i class="fa fa-graduation-cap fa-stack-1x fa-inverse" aria-hidden="true"></i>
                         </span>
                     <h4 class="service-heading">Qualificação</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
-                        magni, dicta impedit.</p>
+                    <p class="text-muted">Acesso a cursos que estimulem o aprendizado exponencial.</p>
                     </div>
                 </div>
                 </div>
