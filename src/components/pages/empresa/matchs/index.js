@@ -27,6 +27,12 @@ class Matchs extends Component {
             <React.Fragment>
                 {/* TEMP */}
                 <Navbar/>
+                <div className="container">
+                    <div className=" nav-match-usuaria-min row">
+                        <p className="col-lg-push-2 col-lg-5">Nome:</p>
+                        <p className="col-lg-push-4 col-lg-3">Pontuação:</p>
+                    </div>
+                </div>    
                 <ArrayUsersMin/>
             </React.Fragment> 
         );

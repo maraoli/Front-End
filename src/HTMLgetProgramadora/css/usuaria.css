@@ -787,17 +787,25 @@ a:hover {
     text-shadow: none;
     text-decoration: none; }
 
+.nav-match-usuaria-min {
+  width: 70%;
+  margin: 0px auto 0px auto;
+  display: flex;
+  padding: 5px; }
+  .nav-match-usuaria-min p {
+    font-size: 30px;
+    margin: 2px; }
+
 .match-usuaria-min {
   width: 70%;
   border: 1px solid black;
   background: pink;
-  margin: 20px auto 0 auto;
+  margin: 0px auto 20px auto;
   height: 100px;
   display: flex;
   padding: 5px; }
   .match-usuaria-min img {
-    width: 90px;
-    margin-right: 5px; }
+    width: 90px; }
   .match-usuaria-min p {
     font-size: 30px;
     margin: 2px; }
