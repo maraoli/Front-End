@@ -29,6 +29,9 @@ import Matchs from "./components/pages/empresa/matchs/index";
 import UsuariaMinMatch from "./components/pages/empresa/matchs/usuaria-min-match"; 
 // import Vagas from "./components/vagas_1tela";
 
+//Forum
+import Forum from "./components/pages/forum/index"; 
+
 class App extends Component {
   constructor(props) {
       super(props);
@@ -52,6 +55,8 @@ class App extends Component {
         <Switch>
               <Route exact path="/" component={Home}/>
               <Route exact path="/cursos" component={Cursos}/>
+              {/*forum*/}
+              <Route exact path="/forum" component={Forum}/>
               {/*usuaria*/}
               <Route path="/usuaria" component={IndexUsuaria}/>
               <Route exact path="/curriculo" component={Curriculo}/>
