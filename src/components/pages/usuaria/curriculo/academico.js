@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
 import './academico.css';
-import Row from "./common/Row";
-import Col from "./common/Col";
+import Row from "/components/common/Row";
+import Col from "/components/common/Col";
+
+//FILES TEMP
+import Navbar from '/components/pages/usuaria/Navbar';
 
 const block = {
   backgroundColor: 'white',

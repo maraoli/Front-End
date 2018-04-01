@@ -6,11 +6,11 @@ import {
   Link
 } from 'react-router-dom'
 
-import Row from "../../common/Row";
-import Col from "../../common/Col";
+import Row from "/components/common/Row";
+import Col from "/components/common/Col";
 
 //FILES TEMP
-import Navbar from './Navbar';
+import Navbar from '/components/pages/usuaria/Navbar';
 
 const block = {
   backgroundColor: 'white',
