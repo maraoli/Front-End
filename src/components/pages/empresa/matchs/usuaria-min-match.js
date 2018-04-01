@@ -23,11 +23,11 @@ class UsuariaMinMacth extends Component {
     render() {
         return this.state.dados.map(function (usuaria) {
             return(
-                <div>
-                    <div className="match-usuaria-min">
-                        <img src={usuaria.img} className="col-md-2" />
-                        <p className="col-md-5 ">{usuaria.nome}</p>
-                        <p className="offset span={2}">{usuaria.pontuacao}</p>
+                <div className="container">
+                    <div className="match-usuaria-min row">
+                        <img src={usuaria.img} className="col-lg-2"/>
+                        <p className="col-lg-5 ">{usuaria.nome}</p>
+                        <p className="col-lg-push-3 col-lg-2">{usuaria.pontuacao}</p>
                     </div>
                 </div>
             );
