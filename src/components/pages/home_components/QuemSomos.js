@@ -40,7 +40,7 @@ class QuemSomos extends Component {
                         <i class="fa fa-suitcase fa-stack-1x fa-inverse" aria-hidden="true"></i>
                         </span>
                     <h4 class="service-heading">Profissional</h4>
-                    <p class="text-muted">Se destacar para empresas que precisam contratar e reter mais mulheres de tecnologia. </p>
+                    <p class="text-muted">Se destacar entre as empresas que necessitam contratar e reter mais mulheres de tecnologias. </p>
                     </div>
                     <div class="col-md-4">
                     <span class="fa-stack fa-4x">
