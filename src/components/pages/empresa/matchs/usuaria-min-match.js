@@ -10,7 +10,7 @@ import {
 import UserImg from './user.jpg';
 
 //IMPORT TEMP
-import dados from '../dados';
+import dados from '../dados1';
 
 class UsuariaMinMacth extends Component {
     constructor(props){
@@ -32,27 +32,6 @@ class UsuariaMinMacth extends Component {
                 </div>
             );
         })
-        // return(
-        //     <div className="match-usuaria-min">
-        //         {/* {dados.map(function(usuaria){
-        //             <img src={usuaria.img}/>
-        //             "<p>"+{usuaria.nome}+"</p>"
-        //             "<p>"+{usuaria.pontuacao}+"</p>"
-        //         })} */}
-
-        //         {/* {dados.map(function(usuaria){
-        //             <img src={usuaria.img}/>
-        //             <p>{usuaria.nome}</p>
-        //             <p>{usuaria.pontuacao}</p>
-        //         })} */}
-
-        //         {/* {for(let i = 0; i<dados.length; i++){
-        //             <img src={dados[i].img} alt="" />
-        //             <p>dados[i].nome</p>
-        //             <p>dados[i].pontucacao</p>
-        //         }} */}
-        //     </div>
-        // );
     }
 }
 
