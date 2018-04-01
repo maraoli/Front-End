@@ -19,7 +19,8 @@ import Curriculo from "./components/pages/usuaria/curriculo/index";
 import CurriculoProfissional from "./components/pages/usuaria/curriculo/profissional";
 import CurriculoAcademico from "./components/pages/usuaria/curriculo/academico";
 import ExibirPerfilUsuaria from "./components/pages/usuaria/exibir_perfil";  
-import EditarPerfilUsuaria from "./components/pages/usuaria/editar_perfil"; 
+import EditarPerfilUsuaria from "./components/pages/usuaria/editar_perfil";
+import Forum from "./components/pages/usuaria/forum/index"; 
 
 import NavbarEmpresa from './components/pages/empresa/navbar';
 import IndexEmpresa from './components/pages/empresa/index';
@@ -64,6 +65,7 @@ class App extends Component {
               <Route exact path="/academico" component={CurriculoAcademico}/>
               <Route path="/exibir-perfil-usuaria" component={ExibirPerfilUsuaria}/>
               <Route path="/editar-perfil-usuaria" component={EditarPerfilUsuaria}/>
+              <Route path="/forum" component={Forum}/>
               {/*empresa*/}
               <Route path="/empresa" component={IndexEmpresa}/>
               <Route path="/exibir-perfil-empresa" component={ExibirPerfilEmpresa}/>

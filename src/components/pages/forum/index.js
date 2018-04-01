@@ -9,6 +9,9 @@ import {
     Link
 } from 'react-router-dom'
 
+//FILES TEMP
+import Navbar from '../usuaria/Navbar';
+
 class Forum extends Component {
     constructor(props){
         super(props);
