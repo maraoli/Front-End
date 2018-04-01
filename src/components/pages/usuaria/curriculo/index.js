@@ -5,6 +5,9 @@ import {
   Link
 } from 'react-router-dom'
 
+//FILES TEMP
+import Navbar from '../Navbar';
+
 const block = {
   backgroundColor: 'white',
   textAlign: 'center'
@@ -83,61 +86,64 @@ class Curriculo extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <div>
+        <Navbar />
+        <form onSubmit={this.handleSubmit}>
 
 
 
-        { /* ----------------------------- */}
-        { /*------ TEXTO INTRODUTÓRIO  --------- */}
-        { /* ----------------------------- */}
+          { /* ----------------------------- */}
+          { /*------ TEXTO INTRODUTÓRIO  --------- */}
+          { /* ----------------------------- */}
 
 
-        <Row>
-          <Col span={12} offset>
-            <div style={block}></div>
-          </Col>
-        </Row>
-        <Row>
-          <Col span={12}>
-            <div style={block}>
-              <div className="form-group">
-                <h1>
-                  Complete seu cadastro para ganhar pontos e se destacar mais para as empresas </h1>
-                <br />
-              </div>
-            </div>
-          </Col>
-        </Row>
-
-
-
-        { /* ---------------------- */}
-        { /*------ BOTÕES --------- */}
-        { /* ---------------------- */}
-        <div className="container">
           <Row>
-            <Col span={6}>
-              <div style={block}>
-                <Button >
-                  <Link to="/academico">
-                    <a className="nav-link js-scroll-trigger">Histórico Acadêmico</a>
-                  </Link>
-                </Button>
-              </div>
+            <Col span={12} offset>
+              <div style={block}></div>
             </Col>
-            <Col span={6}>
+          </Row>
+          <Row>
+            <Col span={12}>
               <div style={block}>
-                <Button >
-                  <Link to="/profissional">
-                    <a className="nav-link js-scroll-trigger">Histórico Profissional</a>
-                  </Link>
-                </Button>
+                <div className="form-group">
+                  <h1>
+                    Complete seu cadastro para ganhar pontos e se destacar mais para as empresas </h1>
+                  <br />
+                </div>
               </div>
             </Col>
           </Row>
-        </div>
 
-      </form>
+
+
+          { /* ---------------------- */}
+          { /*------ BOTÕES --------- */}
+          { /* ---------------------- */}
+          <div className="container">
+            <Row>
+              <Col span={6}>
+                <div style={block}>
+                  <Button >
+                    <Link to="/academico">
+                      <a className="nav-link js-scroll-trigger">Histórico Acadêmico</a>
+                    </Link>
+                  </Button>
+                </div>
+              </Col>
+              <Col span={6}>
+                <div style={block}>
+                  <Button >
+                    <Link to="/profissional">
+                      <a className="nav-link js-scroll-trigger">Histórico Profissional</a>
+                    </Link>
+                  </Button>
+                </div>
+              </Col>
+            </Row>
+          </div>
+
+        </form>
+      </div>
     )
   }
 }

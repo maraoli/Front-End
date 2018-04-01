@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 
 class Row extends React.Component{
     constructor(props){
