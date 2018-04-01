@@ -117,4 +117,19 @@ a:hover {
     text-shadow: none;
     text-decoration: none; }
 
+.match-usuaria-min {
+  width: 70%;
+  border: 1px solid black;
+  background: pink;
+  margin: 20px auto 0 auto;
+  height: 100px;
+  display: flex;
+  padding: 5px; }
+  .match-usuaria-min img {
+    width: 90px;
+    margin-right: 5px; }
+  .match-usuaria-min p {
+    font-size: 30px;
+    margin: 2px; }
+
 /*# sourceMappingURL=usuaria.css.map */
