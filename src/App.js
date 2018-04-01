@@ -11,7 +11,6 @@ import './HTMLgetProgramadora/css/agency.css';
 
 // FILES
 import Home from "./components/pages/Home";
-import VagasEducacao from "./components/vagas_educacao";
 import Cursos from "./components/pages/cursos/index";
 
 import NavbarUsuaria from './components/pages/usuaria/Navbar';
@@ -50,7 +49,6 @@ class App extends Component {
 
         <Switch>
               <Route exact path="/" component={Home}/>
-              <Route exact path="/vagas_educacao" component={VagasEducacao}/>
               <Route exact path="/cursos" component={Cursos}/>
               {/*usuaria*/}
               <Route path="/usuaria" component={IndexUsuaria}/>

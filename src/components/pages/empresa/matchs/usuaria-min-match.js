@@ -27,7 +27,7 @@ class UsuariaMinMacth extends Component {
                     <div className="match-usuaria-min">
                         <img src={usuaria.img} className="col-md-2" />
                         <p className="col-md-5 ">{usuaria.nome}</p>
-                        <p className="col-md-offset-3 col-md-2">{usuaria.pontuacao}</p>
+                        <p className="offset span={2}">{usuaria.pontuacao}</p>
                     </div>
                 </div>
             );
