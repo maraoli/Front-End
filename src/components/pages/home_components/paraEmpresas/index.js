@@ -23,32 +23,27 @@ class ParaEmpresas extends Component {
                     <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading text-uppercase">Para Empresas</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, 
-                        tincidunt elementum tristique massa, donec urna lectus. Tempor in metus,
-                        ut turpis volutpat, cras leo. Et ut nam metus ipsum integer, lacus tincidunt
-                            sit, auctor lacus ac sit, non augue curabitur ridiculus ante praesent, 
-                            suspendisse est a aliquid recusandae ullamcorper molestie. Sem dignissim 
-                            dignissim magna. Pretium ac, convallis in interdum quisque.</h3>
+                        <h3 class="section-subheading text-muted">Invista na diversidade e inclusão de gênero. A getprogramadora( ); conecta as principais empresas com diversos talentos e alcança comunidades de mulheres da área tech.</h3>
                     </div>
                     </div>
                     <div class="row">
                         <Card 
-                            titulo="LoremTOP" 
+                            titulo="Buscar Candidatas" 
                             texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
                             img={CardDefault}
                         />
                         <Card 
-                            titulo="LoremTOP" 
+                            titulo="Match" 
                             texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
                             img={CardDefault}
                         />
                         <Card 
-                            titulo="LoremTOP" 
+                            titulo="Filtro salvos" 
                             texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
                             img={CardDefault}
                         />
                         <Card 
-                            titulo="LoremTOP" 
+                            titulo="Candidatas salvas" 
                             texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
                             img={CardDefault}
                         />
