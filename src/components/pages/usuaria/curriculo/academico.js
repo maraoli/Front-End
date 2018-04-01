@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
-import './vagas_educacao.css';
+import './academico.css';
 import Row from "./common/Row";
 import Col from "./common/Col";
 
@@ -85,7 +85,7 @@ const Input = styled.input.attrs({
 `;
 
 
-class Vagas_educacao extends Component {
+class CurriculoAcademico extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -313,4 +313,4 @@ class Vagas_educacao extends Component {
 
 
 
-export default Vagas_educacao;
+export default CurriculoAcademico;

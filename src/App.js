@@ -16,7 +16,7 @@ import Cursos from "./components/pages/cursos/index";
 
 import NavbarUsuaria from './components/pages/usuaria/Navbar';
 import IndexUsuaria from './components/pages/usuaria/index';
-import Curriculo from "./components/pages/usuaria/curriculo";
+import Curriculo from "./components/pages/usuaria/curriculo/index";
 import ExibirPerfilUsuaria from "./components/pages/usuaria/exibir_perfil";  
 import EditarPerfilUsuaria from "./components/pages/usuaria/editar_perfil"; 
 

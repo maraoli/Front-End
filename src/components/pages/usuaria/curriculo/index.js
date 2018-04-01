@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
-import './vagas_principal.css';
+import './style.css';
 import {
   Link
 } from 'react-router-dom'
@@ -52,7 +52,7 @@ const Button = styled.button`
         `}`;
 
 
-class Vagas_principal extends Component {
+class Curriculo extends Component {
   constructor(props) {
     super(props)
     // this.state = {instituicao: '',
@@ -119,7 +119,7 @@ class Vagas_principal extends Component {
             <Col span={6}>
               <div style={block}>
                 <Button >
-                  <Link to="/vagas_educacao">
+                  <Link to="/academico">
                     <a className="nav-link js-scroll-trigger">Histórico Acadêmico</a>
                   </Link>
                 </Button>
@@ -128,7 +128,7 @@ class Vagas_principal extends Component {
             <Col span={6}>
               <div style={block}>
                 <Button >
-                  <Link to="/vagas_profissao">
+                  <Link to="/profissional">
                     <a className="nav-link js-scroll-trigger">Histórico Profissional</a>
                   </Link>
                 </Button>
@@ -158,4 +158,4 @@ function Col({ span, offset = false, children }) {
   )
 }
 
-export default Vagas_principal;
+export default Curriculo;

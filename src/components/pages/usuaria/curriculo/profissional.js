@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import styled, { css } from 'styled-components';
-import './vagas_profissao.css';
+import './profissional.css';
+
 import {
   Link
 } from 'react-router-dom'
 
-import Row from "./common/Row";
-import Col from "./common/Col";
+import Row from "../../common/Row";
+import Col from "../../common/Col";
+
+//FILES TEMP
+import Navbar from './Navbar';
 
 const block = {
   backgroundColor: 'white',
@@ -89,7 +93,7 @@ const Input = styled.input.attrs({
 `;
 
 
-class Vagas_profissao extends Component {
+class CurriculoProfissional extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -212,7 +216,10 @@ class Vagas_profissao extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <div>
+      {/*TEMP*/}
+      <Navbar/>
+        <form onSubmit={this.handleSubmit}>
         <div className="container">
 
 
@@ -513,8 +520,10 @@ class Vagas_profissao extends Component {
 
         </div>
       </form>
+      </div>
+
     )
   }
 }
 
-export default Vagas_profissao;
+export default CurriculoProfissional;
