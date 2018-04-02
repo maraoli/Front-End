@@ -40,12 +40,12 @@ class Navbar extends Component {
                             </li>
                         <li className="">
                             <Link /*to={Vagas}*/ to="/curriculo">
-                                Curriculo
+                                Currículo
                             </Link>
                         </li>
                         <li className="">
-                            <Link to="/curriculo">
-                                Forum
+                            <Link to="/forum">
+                                Fórum
                             </Link>
                         </li>
                         <li className="">

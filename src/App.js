@@ -19,7 +19,8 @@ import Curriculo from "./components/pages/usuaria/curriculo/index";
 import CurriculoProfissional from "./components/pages/usuaria/curriculo/profissional";
 import CurriculoAcademico from "./components/pages/usuaria/curriculo/academico";
 import ExibirPerfilUsuaria from "./components/pages/usuaria/exibir_perfil";  
-import EditarPerfilUsuaria from "./components/pages/usuaria/editar_perfil"; 
+import EditarPerfilUsuaria from "./components/pages/usuaria/editar_perfil";
+import Forum from "./components/pages/forum/index"; 
 
 import NavbarEmpresa from './components/pages/empresa/navbar';
 import IndexEmpresa from './components/pages/empresa/index';
@@ -29,6 +30,8 @@ import Matchs from "./components/pages/empresa/matchs/index";
 import UsuariaMinMatch from "./components/pages/empresa/matchs/usuaria-min-match"; 
 import Busca from "./components/pages/empresa/busca/index"; 
 // import Vagas from "./components/vagas_1tela";
+
+
 
 class App extends Component {
   constructor(props) {
@@ -53,6 +56,8 @@ class App extends Component {
         <Switch>
               <Route exact path="/" component={Home}/>
               <Route exact path="/cursos" component={Cursos}/>
+              {/*forum*/}
+              <Route exact path="/forum" component={Forum}/>
               {/*usuaria*/}
               <Route path="/usuaria" component={IndexUsuaria}/>
               <Route exact path="/curriculo" component={Curriculo}/>
@@ -60,6 +65,7 @@ class App extends Component {
               <Route exact path="/academico" component={CurriculoAcademico}/>
               <Route path="/exibir-perfil-usuaria" component={ExibirPerfilUsuaria}/>
               <Route path="/editar-perfil-usuaria" component={EditarPerfilUsuaria}/>
+              
               {/*empresa*/}
               <Route path="/empresa" component={IndexEmpresa}/>
               <Route path="/exibir-perfil-empresa" component={ExibirPerfilEmpresa}/>

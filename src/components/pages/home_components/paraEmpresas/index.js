@@ -23,7 +23,7 @@ class ParaEmpresas extends Component {
                     <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading text-uppercase">Para Empresas</h2>
-                        <h3 class="section-subheading text-muted">Invista na diversidade e inclusão de gênero. A getprogramadora( ); conecta as principais empresas com diversos talentos e alcança comunidades de mulheres da área tech.</h3>
+                        <h3 class="section-subheading text-muted">Invista na diversidade e inclusão de gênero. A getprogramadora( ); conecta as principais empresas com diversos talentos qualificados na área.</h3>
                     </div>
                     </div>
                     <div class="row">
