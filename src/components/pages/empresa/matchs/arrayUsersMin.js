@@ -12,17 +12,13 @@ import UserImg from './user.jpg';
 import UsuariaMinMatch from './usuaria-min-match';
 
 //IMPORT TEMP
-import dados from '../dados';
 import Navbar from '../navbar';
 
 class ArrayUsersMin extends Component {
     constructor(props){
         super(props);
-
-        this.state = {
-            dados:[] = dados
-        }
     }
+
 
     render() {
         // return(
@@ -35,10 +31,11 @@ class ArrayUsersMin extends Component {
         //         </Fragment>
         //     </React.Fragment> 
         // );
-        return this.state.dados.map(function (usuaria) {
+        return this.props.dados.map(function (usuaria, index) {
             return(
                 <div>
                     <UsuariaMinMatch 
+                        key={index}
                         img= {usuaria.img}
                         nome= {usuaria.nome}
                         pontuacao= {usuaria.pontuacao}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 //CSS
 import '../../../HTMLgetProgramadora/css/empresa.css';
+import '../../../HTMLgetProgramadora/css/agency.css';
 
 //FILES TEMP
 import Navbar from './navbar';

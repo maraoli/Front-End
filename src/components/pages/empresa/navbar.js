@@ -29,7 +29,7 @@ class Navbar extends Component {
                                 </Link>
                             </li>
                             <li className="">
-                                <Link to="/curriculo">
+                                <Link to="/busca">
                                     Buscar Candidatas
                                 </Link>
                             </li>

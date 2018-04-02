@@ -27,6 +27,7 @@ import ExibirPerfilEmpresa from "./components/pages/empresa/exibir_perfil";
 import EditarPerfilEmpresa from "./components/pages/empresa/editar_perfil"; 
 import Matchs from "./components/pages/empresa/matchs/index";
 import UsuariaMinMatch from "./components/pages/empresa/matchs/usuaria-min-match"; 
+import Busca from "./components/pages/empresa/busca/index"; 
 // import Vagas from "./components/vagas_1tela";
 
 class App extends Component {
@@ -65,6 +66,7 @@ class App extends Component {
               <Route path="/editar-perfil-empresa" component={EditarPerfilEmpresa}/>
               <Route path="/matchs" component={Matchs}/>
               <Route path="/matchs-user-min" component={UsuariaMinMatch}/>
+              <Route path="/busca" component={Busca}/>
         </Switch>
       </div>
     );

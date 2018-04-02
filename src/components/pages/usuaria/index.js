@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+//CSS
+import '../../../HTMLgetProgramadora/css/usuaria.css';
+
 //IMG
 import UserImg from './user.jpg';
 import Coroa from './coroa1.png';

@@ -6,11 +6,6 @@ import {
     Link
   } from 'react-router-dom'
 
-import ParaUsuarias from './paraUsuarias/index';
-import ParaEmpresas from './paraEmpresas/index';
-// import Vagas from "../../vagas";
-// import Cursos from "../../cursos";
-
 // antigo About
 class Navbar extends Component {
     constructor(props) {

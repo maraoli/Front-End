@@ -8,6 +8,9 @@ import UserImg from './user.jpg';
 //FILES
 import EditarPerfilEmpresa from "./editar_perfil"; 
 
+//FILES TEMP
+import Navbar from './navbar';
+
 class ExibirPerfilEmpresa extends Component {
     constructor(props) {
         super(props);
@@ -124,6 +127,7 @@ class ExibirPerfilEmpresa extends Component {
         else{
             return (  
                 <div>
+                    <Navbar/>
                     <form action="">
                         <p className="exibir-cadastro">dados[0].nome</p>
                         <p className="exibir-cadastro">dados[0].email</p>

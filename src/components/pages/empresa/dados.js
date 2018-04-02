@@ -10,6 +10,10 @@ let dados = [
         senha: 12345678,
         pontuacao: 1220,
         img:UserImg,
+        linguagens: [
+            "java",
+            "php"
+        ]
     },
     {
         nome: "Compania & Cia",
@@ -19,6 +23,9 @@ let dados = [
         senha: 12345678,
         pontuacao: 1220,
         img:UserImg,
+        linguagens: [
+            "php"
+        ]
     },
     {
         nome: "Compania & Cia",
@@ -28,6 +35,9 @@ let dados = [
         senha: 12345678,
         pontuacao: 1220,
         img:UserImg,
+        linguagens: [
+            "c#",
+        ]
     },
 ];
 
