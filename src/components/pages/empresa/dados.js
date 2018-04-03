@@ -13,7 +13,11 @@ let dados = [
         linguagens: [
             "java",
             "php"
-        ]
+        ],
+        academico: [
+            "ensino medio",
+            "superior"
+        ],
     },
     {
         nome: "Compania & Cia",
@@ -24,8 +28,12 @@ let dados = [
         pontuacao: 1220,
         img:UserImg,
         linguagens: [
-            "php"
-        ]
+            "c"
+        ],
+        academico: [
+            "ensino medio",
+            "superior"
+        ],
     },
     {
         nome: "Compania & Cia",
@@ -37,7 +45,10 @@ let dados = [
         img:UserImg,
         linguagens: [
             "c#",
-        ]
+        ],
+        academico: [
+            "ensino medio",
+        ],
     },
 ];
 

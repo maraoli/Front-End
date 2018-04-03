@@ -18,8 +18,6 @@ class ArrayUsersMin extends Component {
     constructor(props){
         super(props);
     }
-
-
     render() {
         // return(
         //     <React.Fragment>
@@ -32,6 +30,7 @@ class ArrayUsersMin extends Component {
         //     </React.Fragment> 
         // );
         return this.props.dados.map(function (usuaria, index) {
+            //map passa o indice da array
             return(
                 <div>
                     <UsuariaMinMatch 
@@ -43,7 +42,6 @@ class ArrayUsersMin extends Component {
                 </div>
             );
         })
-        
     }
 }
 

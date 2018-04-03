@@ -28,7 +28,7 @@ class UsuariaMinMacth extends Component {
         return this.state.dados.map(function (usuaria) {
             return(
                 <div className="container">
-<p class="login-botao portfolio-link" data-toggle="modal" href="#login">Login</p>
+{/* <p class="login-botao portfolio-link" data-toggle="modal" href="#login">Login</p> */}
                     <div className="match-usuaria-min row portfolio-link" data-toggle="modal" href="#login">
                         <img src={usuaria.img} className="col-lg-2"/>
                         <p className="col-lg-5 ">{usuaria.nome}</p>

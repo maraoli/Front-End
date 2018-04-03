@@ -7,36 +7,20 @@ import {
     Fragment
 } from 'react-router-dom'
 
+//IMPORT FILES
+import Filtro from "./filtro";  
+
 //FILES TEMP
 import Navbar from '../navbar';
 import dados from '../dados';
+import filtrosSelecionados from './filtrosSelecionados';
 
 class Busca extends Component {
     constructor(props){
         super(props);
 
         this.state = {
-            dados:[] = dados,
-
-            filtroUsuarias:[
-                dados[1],
-                dados[0],
-            ],
-
-            filtros: {
-                linguagens: [
-                    {
-                        nome: "java",
-                        selected: false
-                    }
-                ],
-                graduacao: [
-                    {
-                        nome: "superior",
-                        selected: false
-                    }
-                ]
-            }
+            filtrosSelecionados:[] = filtrosSelecionados  
         }
     }    
 
@@ -45,20 +29,14 @@ class Busca extends Component {
             <React.Fragment>
                 {/* TEMP */}
                 <Navbar/>
-                {
-                    this.state.dados.filter(function (filtroUsuarias) {
-                        return(
-                            <div className="container">
-                                {/* <p class="login-botao portfolio-link" data-toggle="modal" href="#login">Login</p> */}
-                                <div className="match-usuaria-min row portfolio-link" data-toggle="modal" href="#login">
-                                    <img src={filtroUsuarias.img} className="col-lg-2"/>
-                                    <p className="col-lg-5 ">{filtroUsuarias.nome}</p>
-                                    <p className="col-lg-push-2 col-lg-3">{filtroUsuarias.pontuacao}</p>
-                                </div>
-                            </div>
-                        );
-                    })
-                }
+                <button onClick={ () => this.filtrarUsuarias()  }>Filtrar</button>
+                <div className="container">
+                    <div className=" nav-match-usuaria-min row">
+                        <p className="col-lg-push-2 col-lg-5">Nome:</p>
+                        <p className="col-lg-push-4 col-lg-3">Pontuação:</p>
+                    </div>
+                </div>
+                { this.state.carregando ? null : <Filtro filtrosSelecionados={this.state.filtrosSelecionados}/> }
             </React.Fragment> 
         );
     }
