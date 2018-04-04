@@ -28,7 +28,8 @@ let dados = [
         pontuacao: 1220,
         img:UserImg,
         linguagens: [
-            "c"
+            "c",
+            "java"
         ],
         academico: [
             "ensino medio",

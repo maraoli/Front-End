@@ -1,15 +1,12 @@
-let filtrosSelecionados = [
+let filtrosSelecionados = 
     {
-        linguagen:[
+        linguagens: [
             "java",
             "c",
-        ]
-    },
-    {
-        academico:[
+        ],
+        academico: [
             "superior",
         ]
-    },
-]
+    }
 
 export default filtrosSelecionados;
