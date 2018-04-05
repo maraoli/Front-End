@@ -1098,7 +1098,8 @@ header.masthead .intro-text {
   outline: 0; }
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
 
 .container {
   width: 100%; }

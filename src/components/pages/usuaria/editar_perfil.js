@@ -5,6 +5,9 @@ import * as axios from "axios";
 //IMG
 import UserImg from './user.jpg';
 
+//FILES TEMP
+import Navbar from './Navbar';
+
 class EditarPerfilUsuaria extends Component {
     constructor(props) {
         super(props);
@@ -44,6 +47,8 @@ class EditarPerfilUsuaria extends Component {
     render() {
         return (
             <div>
+                {/*TEMP*/}
+                <Navbar/>
                 <ul class="cadastro">
                     <div class="cadastro-item-content new-customer auth-form-box">
                         <form id="login-account-create" data-form="" data-form-ui-enabled="" data-form-excluded="[disabled]" data-login-validate="createLogin"

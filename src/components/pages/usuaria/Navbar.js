@@ -29,8 +29,7 @@ class Navbar extends Component {
     render() {
         return (
             <header class="cabecalho-user">
-                {/* <h1><p>Voce esta em:</p>Perfil</h1> */}
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">getProgramadora( );</a>
+                <a class="navbar-brand js-scroll-trigger" href="./usuaria">getProgramadora( );</a>
                 <nav class="nav-user-home col-md-8">
                     <ul>
                          <li className="">
