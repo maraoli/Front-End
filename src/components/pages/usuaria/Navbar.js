@@ -29,8 +29,8 @@ class Navbar extends Component {
     render() {
         return (
             <header class="cabecalho-user">
-                <a class="navbar-brand js-scroll-trigger" href="./usuaria">getProgramadora( );</a>
-                <nav class="nav-user-home col-md-8">
+                <a class="navbar-brand js-scroll-trigger hidden-xs col-xs-offset-4 col-sm-3 col-md-offset-0" href="./usuaria">getProgramadora( );</a>
+                <nav class="nav-user-home col-md-8 hidden-md-down">
                     <ul>
                          <li className="">
                                 <Link to="/exibir-perfil-usuaria">
@@ -59,7 +59,7 @@ class Navbar extends Component {
                         </li>
                     </ul>
                 </nav>
-                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-min" id="mainNav">
                     <div class="container">
                         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

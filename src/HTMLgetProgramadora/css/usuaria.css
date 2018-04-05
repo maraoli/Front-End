@@ -721,6 +721,10 @@ a:hover {
   display: flex;
   align-items: center; }
 
+.nav-min {
+  width: 25%;
+  min-width: 140px; }
+
 .nav-user-home ul {
   list-style-type: none;
   display: flex;
@@ -736,7 +740,8 @@ a:hover {
 .img-perfil-space {
   border-radius: 10px;
   width: 45px;
-  height: 120%; }
+  height: 120%;
+  margin: auto 0 auto auto; }
 
 .img-perfil-space img {
   border-radius: 100%;
@@ -813,5 +818,34 @@ a:hover {
   .match-usuaria-min p {
     font-size: 30px;
     margin: 2px; }
+
+.hidden-md-down,
+.hidden-xs {
+  display: none; }
+
+.visible-xs {
+  display: static; }
+
+@media (min-width: 768px) {
+  .hidden-md-down,
+  .hidden-sm {
+    display: none; }
+
+  .hidden-xs,
+  .visible-sm {
+    display: flex; } }
+@media (min-width: 992px) {
+  .hidden-md {
+    display: none; }
+
+  .hidden-md-down,
+  .visible-md {
+    display: flex; } }
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none; }
+
+  .visible-lg {
+    display: static; } }
 
 /*# sourceMappingURL=usuaria.css.map */

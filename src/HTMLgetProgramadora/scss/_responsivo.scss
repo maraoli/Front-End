@@ -1,0 +1,42 @@
+.hidden-md-down,
+.hidden-xs{
+    display: none;
+}
+.visible-xs{
+    display: static;
+}
+
+// .hidden-xs-down,
+// .hidden-sm-down,
+// .hidden-md-down,
+// .hidden-lg-down{
+//     display: none;
+// }
+
+@media (min-width: 768px) {
+    .hidden-md-down,
+    .hidden-sm{
+        display: none;
+    }
+    .hidden-xs,
+    .visible-sm,{
+        display: flex;
+    }
+}
+@media (min-width: 992px) {
+    .hidden-md{
+        display: none;
+    }
+    .hidden-md-down,
+    .visible-md{
+        display: flex;
+    }
+}
+@media (min-width: 1200px) {
+    .hidden-lg{
+        display: none;
+    }
+    .visible-lg{
+        display: static;
+    }
+}

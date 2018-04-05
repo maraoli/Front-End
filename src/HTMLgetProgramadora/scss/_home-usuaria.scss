@@ -30,6 +30,11 @@
     align-items: center;
 }
 
+.nav-min{
+    width: 25%;
+    min-width: 140px;
+}
+
 .nav-user-home ul{
     list-style-type: none;
     display: flex;
@@ -49,6 +54,7 @@
     border-radius: 10px;
     width: 45px;
     height: 120%;
+    margin: auto 0 auto auto;
 }
 
 .img-perfil-space img{
