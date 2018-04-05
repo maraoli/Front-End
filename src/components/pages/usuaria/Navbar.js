@@ -59,7 +59,45 @@ class Navbar extends Component {
                         </li>
                     </ul>
                 </nav>
-                <span class="img-perfil-space">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                    <div class="container">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            Menu
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive"> 
+                            <ul className="navbar-nav text-uppercase ml-auto">
+                                <li className="nav-item invisible-desk">
+                                        <Link className="nav-link js-scroll-trigger" to="/exibir-perfil-usuaria">
+                                            Meu Perfil
+                                        </Link>
+                                    </li>
+                                <li className="nav-item invisible-desk">
+                                    <Link className="nav-link js-scroll-trigger" to="/curriculo">
+                                        Currículo
+                                    </Link>
+                                </li>
+                                <li className="nav-item invisible-desk">
+                                    <Link className="nav-link js-scroll-trigger" to="/forum">
+                                        Fórum
+                                    </Link>
+                                </li>
+                                <li className="nav-item invisible-desk">
+                                    <Link className="nav-link js-scroll-trigger" to="/cursos">
+                                        Cursos
+                                    </Link>
+                                </li>
+                                <li className="nav-item invisible-desk">
+                                    <Link className="nav-link js-scroll-trigger" to="/">
+                                        Sair
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <span class="img-perfil-space visible-xs">
                     <img src={UserImg} alt="" />
                 </span>
             </header>
