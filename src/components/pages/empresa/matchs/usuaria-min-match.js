@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 import {
     BrowserRouter as Router,
     Route,
-    Link
+    Link,
+    Fragment
 } from 'react-router-dom'
 
 //IMG
@@ -27,14 +28,20 @@ class UsuariaMinMacth extends Component {
     render() {
         return this.state.dados.map(function (usuaria) {
             return(
-                <div className="container">
-{/* <p class="login-botao portfolio-link" data-toggle="modal" href="#login">Login</p> */}
-                    <div className="match-usuaria-min row portfolio-link" data-toggle="modal" href="#login">
-                        <img src={usuaria.img} className="col-lg-2"/>
-                        <p className="col-lg-5 ">{usuaria.nome}</p>
-                        <p className="col-lg-push-2 col-lg-3">{usuaria.pontuacao}</p>
+                <React.Fragment> 
+                    <div className=" container match-usuaria-min portfolio-link" id="redefine-container-match" data-toggle="modal" href="#login">
+                        <div className="row">
+                            <img src={usuaria.img} className="col-lg-2 col-xs-3 col-sm-3 "/>
+                            <p className="col-lg-5 col-xs-5 col-sm-6 col-md-6">{usuaria.nome}</p>
+                            <p className="col-lg-push-2 col-lg-3 col-xs-1 col-sm-2 ">{usuaria.pontuacao}</p>
+                        </div>
                     </div>
-                </div>
+                    <div className="box-user">
+                        <img src={usuaria.img} className=""/>
+                        <p className="">Adsadasdas</p>
+                        <p className="">3213213</p>
+                    </div>
+                </React.Fragment> 
             );
         })
     }

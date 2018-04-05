@@ -805,11 +805,13 @@ a:hover {
   display: flex;
   padding: 5px; }
   .nav-match-usuaria-min p {
-    font-size: 30px;
+    font-size: 15px;
     margin: 2px; }
 
+#redefine-container-match {
+  width: 70%; }
+
 .match-usuaria-min {
-  width: 70%;
   border: 1px solid black;
   background: pink;
   margin: 0px auto 20px auto;
@@ -817,11 +819,26 @@ a:hover {
   display: flex;
   padding: 5px; }
   .match-usuaria-min img {
-    width: 90px; }
+    width: 90px;
+    max-height: 100%; }
   .match-usuaria-min p {
-    font-size: 30px;
+    font-size: 15px;
     margin: 2px; }
 
+.box-user {
+  width: 70%;
+  margin: 0 auto;
+  background: #e396b0;
+  border: 1px solid deeppink;
+  padding: 5px;
+  display: flex;
+  justify-content: center; }
+  .box-user img {
+    max-width: 200px; }
+
+@media (min-width: 768px) {
+  .box-user {
+    flex-direction: row; } }
 .hidden-md-down,
 .hidden-xs {
   display: none; }

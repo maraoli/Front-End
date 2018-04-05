@@ -4,13 +4,16 @@
     display: flex;
     padding: 5px;
     p{
-        font-size: 30px;
+        font-size: 15px;
         margin: 2px;
     }
 }
 
-.match-usuaria-min{
+#redefine-container-match{
     width: 70%;
+}
+
+.match-usuaria-min{
     border: 1px solid black;
     background: pink;
     margin: 0px auto 20px auto;
@@ -19,9 +22,57 @@
     padding: 5px;
     img{
         width: 90px;
+        max-height: 100%;
     }
     p{
-        font-size: 30px;
+        font-size: 15px;
         margin: 2px;
     }
 }
+
+.box-user{
+    width: 70%;
+    margin: 0 auto;
+    background: $rosa3;
+    border: 1px solid $rosa1;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    img{
+        max-width: 200px;
+    }
+    p{
+    }
+}
+
+@media (min-width: 768px) {
+    .box-user{
+        flex-direction: row;
+        img{
+
+        }
+        p{
+        }
+    }
+}
+@media (min-width: 992px) {
+    .box-user{
+        
+        img{
+
+        }
+        p{
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .box-user{
+        
+        img{
+
+        }
+        p{
+        }
+    }
+}
+
