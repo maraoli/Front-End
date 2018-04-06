@@ -16,6 +16,7 @@ import { filtrarUsuarias } from "./filtro";
 //FILES TEMP
 import Navbar from '../navbar';
 import filtrosSelecionados from './filtrosSelecionados';
+import dados from '../dados';
 
 
 class Busca extends Component {
@@ -24,7 +25,8 @@ class Busca extends Component {
 
         this.state = {
             filtrosSelecionados: filtrosSelecionados,
-            dados: []
+            // dados: []
+            dados: dados
         }
     }
 

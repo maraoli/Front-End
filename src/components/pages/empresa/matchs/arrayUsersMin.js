@@ -36,8 +36,8 @@ class ArrayUsersMin extends Component {
                     <UsuariaMinMatch 
                         key={index}
                         img= {usuaria.img}
-                        nome= {usuaria.nome}
-                        pontuacao= {usuaria.pontuacao}
+                        nome= {usuaria.name +" "+usuaria.lastName}
+                        pontuacao= {usuaria.points}
                     />
                 </div>
             );

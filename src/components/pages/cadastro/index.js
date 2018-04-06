@@ -44,9 +44,9 @@ class Cadastro extends Component {
                             <input name="check-tipo-de-cadastro" class="login-customer-personality " type="radio" onClick={() => { this.changeForm(false) }} />
                             <p>Empresa</p>
                             </div>
-                            {
-                            this.state.usuarias ? <CadastroUsuaria /> : <CadastroEmpresa />
-                            }     
+                                {
+                                    this.state.usuarias ? <CadastroUsuaria /> : <CadastroEmpresa />
+                                }     
                             </div>
                         </div>
                         </div>

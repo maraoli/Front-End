@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import * as axios from "axios";
+import config from "../../../util/config"
 
 import {
     BrowserRouter as Router,
@@ -20,11 +22,14 @@ Array.prototype.contains = function(obj) {
     // "1" === 1 -> false;
 }
 
+
+
 class Matchs extends Component {
     constructor(props){
         super(props);
 
         this.state = {
+            // dados: []
             dados: dados
         }
     }
@@ -32,6 +37,25 @@ class Matchs extends Component {
     // contains(items, value){
     //     return items.indexOf(value) > -1;
     // }
+
+    componentDidMount(){
+        var self = this;
+        axios.get(config.baseApiPath + 'User', this.state.form)
+        .then(function (response) {
+            console.log(response.data);
+            self.setState({
+                dados: response.data
+            })
+            
+        })
+        .catch(function (error) {
+            console.log(error);
+            console.log(error.status);
+            // console.log(response.statusText);
+            // console.log(response.headers);
+            // console.log(response.config);
+        });
+    }
 
     fitraUsuaria(){
         var usuarias = this.state.dados;
