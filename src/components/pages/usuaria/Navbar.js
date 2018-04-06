@@ -29,7 +29,7 @@ class Navbar extends Component {
     render() {
         return (
             <header class="cabecalho-user header-padding">
-                <a class="navbar-brand js-scroll-trigger hidden-xs col-xs-offset-4 col-sm-3 col-md-offset-0" href="./usuaria">getProgramadora( );</a>
+                <a class="navbar-brand js-scroll-trigger hidden-xs col-xs-offset-4 col-sm-3 col-md-offset-0" href="/usuaria">getProgramadora( );</a>
                 <nav class="nav-user-home col-md-8 hidden-md-down">
                     <ul>
                          <li className="">

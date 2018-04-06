@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 15px;
-    position: fixed;
     width: 100%;
     z-index: 3;
 }
@@ -133,5 +132,12 @@
         // font-size: 30px;
         text-shadow: none;
         text-decoration: none;
+    }
+}
+
+@media (max-width: 767px){
+    .coroa-mobile{
+        width: 360px;
+        margin-top: 45px;
     }
 }

@@ -702,7 +702,6 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px;
-  position: fixed;
   width: 100%;
   z-index: 3; }
 
@@ -799,6 +798,10 @@ a:hover {
     text-shadow: none;
     text-decoration: none; }
 
+@media (max-width: 767px) {
+  .coroa-mobile {
+    width: 360px;
+    margin-top: 45px; } }
 .nav-match-usuaria-min {
   width: 70%;
   margin: 0px auto 0px auto;

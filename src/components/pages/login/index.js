@@ -27,22 +27,23 @@ class Login extends Component {
   }
 
   entrar() {
+    window.location = "/usuaria";
     // usar axios para chamar o backend
-    console.log('form', this.state.form)
-    axios.post('http://122855b5.ngrok.io/api/Login', this.state.form)
-        .then(function (response) {
-            console.log(response);
-            // save in local storege
-            // console.log('response', response)
-            // localStorage.setItem('usuario', JSON.stringfy(response.data))
-        })
-        .catch(function (error) {
-            console.log(error);
-            console.log(error.status);
-            // console.log(response.statusText);
-            // console.log(response.headers);
-            // console.log(response.config);
-        });
+    // console.log('form', this.state.form)
+    // axios.post('http://122855b5.ngrok.io/api/Login', this.state.form)
+    //     .then(function (response) {
+    //         console.log(response);
+    //         // save in local storege
+    //         // console.log('response', response)
+    //         // localStorage.setItem('usuario', JSON.stringfy(response.data))
+    //     })
+    //     .catch(function (error) {
+    //         console.log(error);
+    //         console.log(error.status);
+    //         // console.log(response.statusText);
+    //         // console.log(response.headers);
+    //         // console.log(response.config);
+    //     });
   }
 
   handleChange(prop, event) {
@@ -104,11 +105,13 @@ class Login extends Component {
                           
                           <a class="esqueci-senha" href="#">Esqueci a senha</a>
                           {/*<Link to="/usuaria/index">*/}
-                          <Link to="/usuaria">
+                          
                             <button type="button" onClick={this.entrar} class="testar button2 botao-login-form">
-                              <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal">Entrar</a>
+                              <Link to="/usuaria">
+                                <a class="close-modal botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal">Entrar</a>
+                              </Link>
                             </button>
-                          </Link>
+                          
                           <a class="close-modal button3 botao-login-form" id="link-cadastro" data-dismiss="modal" data-toggle="modal" href="#cadastro">Cadastrar </a>
                         </form>
                         <Route path="/usuaria/index" component={Usuaria} />

@@ -58,10 +58,12 @@ class Index extends React.Component {
                 <main className="conteudo-principal">
                     <figure className="">
                         <img class="imgGetPoints" src={UserImg} alt="" />
-                        <img class="coroaGetPoints" src={Coroa} alt="" />
+                        <img class="coroaGetPoints coroa-mobile" src={Coroa} alt="" />
                     </figure>
-                    <p className="texto-pontuacao">Você acumulou até o momento <span className="pontuacao">{this.state.dados.points}</span> getPoints!</p>
-                    <a class=" button2 botao-mais-pontos" href="#">Aumente sua pontuação</a>
+                    <p className="texto-pontuacao">Você acumulou até o momento <span className="pontuacao">110</span> getPoints!</p>
+                    <Link to="/cursos">
+                        <a class=" button2 botao-mais-pontos" href="#">Aumente sua pontuação</a>
+                    </Link>
                 </main>
             </div>
         );

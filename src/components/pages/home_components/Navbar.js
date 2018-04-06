@@ -37,6 +37,9 @@ class Navbar extends Component {
                     <li class="nav-item invisible-desk">
                         <a class="nav-link" data-toggle="modal" href="#login">Login</a>
                     </li>
+                    <li class="nav-item invisible-desk">
+                        <a class="nav-link" data-toggle="modal" href="#cadastro">Cadastrar</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#services">Quem Somos</a>
                     </li>

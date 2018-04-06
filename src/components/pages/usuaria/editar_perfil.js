@@ -95,5 +95,3 @@ class EditarPerfilUsuaria extends Component {
 }
 
 export default EditarPerfilUsuaria;
-
-// ReactDOM.render(<EditarPerfil/>, document.getElementById('root'));
