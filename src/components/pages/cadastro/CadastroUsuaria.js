@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import * as axios from "axios";
+import config from "../../util/config"
 
 class CadastroUsuaria extends Component {
     constructor(props) {
@@ -16,9 +17,23 @@ class CadastroUsuaria extends Component {
         this.handleChange = this.handleChange.bind(this);
     }
 
+    // componentDidMount(){
+    //     axios.get(config.baseApiPath + 'User', this.state.form)
+    //     .then(function (response) {
+    //         console.log(response);
+    //     })
+    //     .catch(function (error) {
+    //         console.log(error);
+    //         console.log(error.status);
+    //         // console.log(response.statusText);
+    //         // console.log(response.headers);
+    //         // console.log(response.config);
+    //     });
+    // }
+
     submit() {
         console.log(this.state.form);
-        axios.post('http://24773ae1.ngrok.io/api/User', this.state.form)
+        axios.post(config.baseApiPath + 'User', this.state.form)
         .then(function (response) {
             console.log(response);
             this.state

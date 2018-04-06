@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import * as axios from "axios";
+import config from "../../../util/config"
 
 import {
     BrowserRouter as Router,
@@ -13,8 +15,8 @@ import { filtrarUsuarias } from "./filtro";
 
 //FILES TEMP
 import Navbar from '../navbar';
-import dados from '../dados';
 import filtrosSelecionados from './filtrosSelecionados';
+
 
 class Busca extends Component {
     constructor(props) {
@@ -22,8 +24,27 @@ class Busca extends Component {
 
         this.state = {
             filtrosSelecionados: filtrosSelecionados,
-            dados: dados
+            dados: []
         }
+    }
+
+    componentDidMount(){
+        var self = this;
+        axios.get(config.baseApiPath + 'User', this.state.form)
+        .then(function (response) {
+            console.log(response.data);
+            self.setState({
+                dados: response.data
+            })
+            
+        })
+        .catch(function (error) {
+            console.log(error);
+            console.log(error.status);
+            // console.log(response.statusText);
+            // console.log(response.headers);
+            // console.log(response.config);
+        });
     }
 
     filtrarUsuarias() {
@@ -77,7 +98,7 @@ class Busca extends Component {
                         <p className="col-lg-push-4 col-lg-3">Pontuação:</p>
                     </div>
                 </div>
-                {this.state.carregando ? null : <Filtro filtrosSelecionados={this.state.filtrosSelecionados} />}
+                {this.state.carregando ? null : <Filtro filtrosSelecionados={this.state.filtrosSelecionados} usuarias={this.state.dados} />}
             </React.Fragment>
         );
     }
