@@ -84,7 +84,7 @@ class ExibirPerfil extends Component {
         return (
             <React.Fragment>
                 {/*TEMP*/}
-                {/* <Navbar/> */}
+                <Navbar/>
                 <form action="">
                     <ExibirPerfilDado
                         titulo="Nome:"

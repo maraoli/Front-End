@@ -1,0 +1,22 @@
+.exibir-box{
+    &:first-child{
+       margin-top: 60px;
+    }
+}
+.exibir-titulo{
+    font-size: 30px;
+    color: $rosa1;
+    width: 28%;
+    display: inline-block;
+    margin: 5px;
+    text-align: right;
+    padding-right: 10px;
+}
+.exibir-texto{
+    border: 1px solid $rosa1;
+    width: 48%;
+    display: inline-block;
+    background: $rosa3;
+    color: white;
+    padding: 10px;
+}

@@ -19,8 +19,10 @@ class ExibirPerfilDado extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1>{this.props.titulo}</h1>
-                <p>{this.props.dado}</p>
+                <div className="exibir-box">
+                    <h1 className="exibir-titulo" >{this.props.titulo}</h1>
+                    <p className="exibir-texto" >{this.props.dado}</p>
+                </div>
             </React.Fragment>
         );
     }

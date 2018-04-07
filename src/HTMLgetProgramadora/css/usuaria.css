@@ -907,7 +907,8 @@ a:hover {
       text-align: center;
       margin: 0 auto;
       color: white;
-      font-family: 'Arial Narrow', Arial, sans-serif;
+      font-family: Montserrat, 'Arial Narrow', Arial, sans-serif;
+      font-style: none;
       font-size: 20px; }
       #pai div div div div a {
         color: #9a3535; }
@@ -920,6 +921,26 @@ a:hover {
             color: white;
             text-align: center;
             margin: 0 auto; }
+
+.exibir-box:first-child {
+  margin-top: 60px; }
+
+.exibir-titulo {
+  font-size: 30px;
+  color: deeppink;
+  width: 28%;
+  display: inline-block;
+  margin: 5px;
+  text-align: right;
+  padding-right: 10px; }
+
+.exibir-texto {
+  border: 1px solid deeppink;
+  width: 48%;
+  display: inline-block;
+  background: #e396b0;
+  color: white;
+  padding: 10px; }
 
 .hidden-md-down,
 .hidden-xs {
