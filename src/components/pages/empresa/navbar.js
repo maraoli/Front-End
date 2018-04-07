@@ -66,7 +66,7 @@ class Navbar extends Component {
                                     </li>
                                     <li className="nav-item invisible-desk">
                                         <Link className="nav-link js-scroll-trigger" to="/matchs">
-                                            Matches
+                                            Matchs
                                         </Link>
                                     </li>
                                     <li className="nav-item invisible-desk">
