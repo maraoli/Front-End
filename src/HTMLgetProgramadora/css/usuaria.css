@@ -831,10 +831,14 @@ a:hover {
   width: 70%;
   margin: 0px auto 0px auto;
   display: flex;
-  padding: 5px; }
+  justify-content: space-between;
+  padding: 0px 70px;
+  padding-left: 176px; }
   .nav-match-usuaria-min p {
-    font-size: 15px;
-    margin: 2px; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #e46278; }
 
 #redefine-container-match {
   width: 70%; }

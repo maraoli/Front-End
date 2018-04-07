@@ -2,11 +2,21 @@
     width: 70%;
     margin: 0px auto 0px auto;
     display: flex;
-    padding: 5px;
+    justify-content: space-between;
+    padding: 0px 70px;
+    padding-left: 176px;
     p{
-        font-size: 15px;
-        margin: 2px;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: $rosa2;
     }
+}
+.nav-item1-match-usuaria-min{
+    
+}
+.nav-item2-match-usuaria-min{
+    
 }
 
 #redefine-container-match{
@@ -50,6 +60,7 @@
         color: $rosa4;
     }
 }
+
 
 @media (min-width: 768px) {
     .box-user{

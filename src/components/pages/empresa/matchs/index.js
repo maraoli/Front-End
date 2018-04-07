@@ -84,8 +84,8 @@ class Matchs extends Component {
                 <button onClick={ () => this.fitraUsuaria()  }>Filtrar</button>
                 <div className="container">
                     <div className=" nav-match-usuaria-min row">
-                        <p className="col-lg-push-2 col-lg-5">Nome:</p>
-                        <p className="col-lg-push-4 col-lg-3">Pontuação:</p>
+                        <p className="nav-item1-match-usuaria-min">Nome:</p>
+                        <p className="nav-item2-match-usuaria-min">Pontuação:</p>
                     </div>
                 </div>    
                 { this.state.carregando ? null : <ArrayUsersMin dados={this.state.dados}/> }
