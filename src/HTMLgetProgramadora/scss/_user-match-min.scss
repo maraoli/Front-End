@@ -33,15 +33,21 @@
 .box-user{
     width: 70%;
     margin: 0 auto;
+    padding: 20px 70px;
     background: $rosa3;
-    border: 1px solid $rosa1;
-    padding: 5px;
+    border-bottom: 3px solid $rosa4;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     img{
         max-width: 200px;
+        border: 3px solid $rosa2;
     }
     p{
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: $rosa4;
     }
 }
 

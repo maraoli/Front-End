@@ -856,13 +856,20 @@ a:hover {
 .box-user {
   width: 70%;
   margin: 0 auto;
+  padding: 20px 70px;
   background: #e396b0;
-  border: 1px solid deeppink;
-  padding: 5px;
+  border-bottom: 3px solid #9a3535;
   display: flex;
-  justify-content: center; }
+  justify-content: space-between;
+  align-items: center; }
   .box-user img {
-    max-width: 200px; }
+    max-width: 200px;
+    border: 3px solid #e46278; }
+  .box-user p {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #9a3535; }
 
 @media (min-width: 768px) {
   .box-user {

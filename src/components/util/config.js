@@ -1,3 +1,3 @@
 module.exports = {
-    baseApiPath: "http://e13c08de.ngrok.io/api/"
+    baseApiPath: "http://2283301b.ngrok.io/api/"
 }

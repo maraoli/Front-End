@@ -32,4 +32,52 @@ a:hover {
   padding: 5px;
   margin: 0 16% 15px 2px; }
 
+.nav-match-usuaria-min {
+  width: 70%;
+  margin: 0px auto 0px auto;
+  display: flex;
+  padding: 5px; }
+  .nav-match-usuaria-min p {
+    font-size: 15px;
+    margin: 2px; }
+
+#redefine-container-match {
+  width: 70%; }
+
+.match-usuaria-min {
+  border: 1px solid black;
+  background: pink;
+  margin: 0px auto 20px auto;
+  height: 100px;
+  display: flex;
+  padding: 5px; }
+  .match-usuaria-min img {
+    width: 90px;
+    max-height: 100%; }
+  .match-usuaria-min p {
+    font-size: 15px;
+    margin: 2px; }
+
+.box-user {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 70px;
+  background: #e396b0;
+  border-bottom: 3px solid #9a3535;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .box-user img {
+    max-width: 200px;
+    border: 3px solid #e46278; }
+  .box-user p {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #9a3535; }
+
+@media (min-width: 768px) {
+  .box-user {
+    flex-direction: row; } }
+
 /*# sourceMappingURL=empresa.css.map */

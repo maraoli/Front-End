@@ -88,19 +88,15 @@ class ExibirPerfil extends Component {
                 <form action="">
                     <ExibirPerfilDado
                         titulo="Nome:"
-                        dado={this.state.dado.name + " " + this.state.dado.lastName}
+                        dado={this.state.dado.name}
+                    />
+                    <ExibirPerfilDado
+                        titulo="Sobrenome:"
+                        dado={this.state.dado.lastName}
                     />
                     <ExibirPerfilDado
                         titulo="Email:"
                         dado={this.state.dado.email}
-                    />
-                    <ExibirPerfilDado
-                        titulo="Nome:"
-                        dado={this.state.dado.name}
-                    />
-                    <ExibirPerfilDado
-                        titulo="Nome:"
-                        dado={this.state.dado.name}
                     />
                 </form>
             </React.Fragment>
