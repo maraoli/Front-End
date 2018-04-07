@@ -67,7 +67,7 @@ class Cursos extends Component {
 						<div className="cursoitem-cursoreq-4">{curso.requisitos_do_curso}</div>
 					</div>
 					<div className="cursoitem-4">
-						<div className="cursoitem-cursolink-0"><a href="{curso.url_do_curso}">Veja mais</a></div>
+						<div className="cursoitem-cursolink-0"><a href={curso.url_do_curso}>Veja mais</a></div>
 					</div>
 				</div>
 			);
