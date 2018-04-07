@@ -20,7 +20,7 @@ class Navbar extends Component {
         return(
             <div>
                 <header class="cabecalho-user">
-                    <a class="navbar-brand js-scroll-trigger hidden-xs col-xs-offset-4 col-sm-3 " href="./empresa">getProgramadora( );</a>
+                    <a class="navbar-brand js-scroll-trigger hidden-xs col-xs-offset-4 col-sm-3 col-md-offset-0" href="./empresa">getProgramadora( );</a>
                     <nav class="nav-user-home col-md-8 hidden-md-down">
                         <ul>
                             <li className="">
