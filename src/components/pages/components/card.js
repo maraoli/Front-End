@@ -13,7 +13,7 @@ class Card extends Component {
                 <p class="text-muted servicos_descricao">{this.props.texto}</p>
                 </div>
                 <a class="portfolio-link" data-toggle="modal" href="#para-usuariasModal1">
-                    <img class="img-fluid" src={this.props.img}  alt="" />
+                    <center><img class="img-fluid" src={this.props.img}  alt="" /></center>
                 </a>
             </div>
         );

@@ -19,7 +19,7 @@ class Header extends Component {
                 <div class="container header-space">
                 <div class="intro-text">
                     <div class="intro-lead-in welcome">Bem vindo(a) ao:</div>
-                     <img src={Logo} alt="" class=" logo-header intro-heading text-uppercase"/> 
+                     <a href="#"><img src={Logo} alt="" class=" logo-header intro-heading text-uppercase"/></a>
                 </div>
                 </div>
             </header>

@@ -3,6 +3,10 @@ import React, { Component } from 'react';
 import './cursos.css';
 // IMPORT IMAGENS
 import CardDefault from './imgCard.jpg';
+import ImgCursoReact from './react.jpg';
+import ImgCursoHTML from './html.jpg';
+import ImgCursoLogica from './logica.jpg';
+import ImgCursoJS from './js.jpg';
 
 //FILES TEMP
 import Navbar from '../usuaria/Navbar';
@@ -15,28 +19,28 @@ class Cursos extends Component {
 			cursos: [
 				{
 					nome_do_curso: "HTML5 & CSS3",
-					url_da_imagem: CardDefault,
+					url_da_imagem: ImgCursoHTML,
 					descricao_do_curso: "Crie sites do zero com HTML5 & CSS3",
 					requisitos_do_curso: "Requisitos: Nenhum conhecimento requerido",
 					url_do_curso: "https://www.udemy.com/curso-html-basico/"
 				},
 				{
 					nome_do_curso: "Iniciando com Javascript",
-					url_da_imagem: CardDefault,
+					url_da_imagem: ImgCursoJS,
 					descricao_do_curso: "Os principais conceitos da linguagem colocados em prática para você dar os primeiros passos no JS",
 					requisitos_do_curso: "Requisitos: Editor de códigos como o Atom ou Sublime",
 					url_do_curso: "https://www.udemy.com/iniciando-com-javascript/"
 				},
 				{
 					nome_do_curso: "Iniciando com React",
-					url_da_imagem: CardDefault,
+					url_da_imagem: ImgCursoReact,
 					descricao_do_curso: "Crie aplicações com React a biblioteca desenvolvida pelo Facebook ",
 					requisitos_do_curso: "Requisitos: Conhecimento intermediário de Javascript",
 					url_do_curso: "https://www.udemy.com/iniciando-com-react/"
 				},
 				{
 					nome_do_curso: "Curso completo de Lógica de Programação e Algoritmos",
-					url_da_imagem: CardDefault,
+					url_da_imagem: ImgCursoLogica,
 					descricao_do_curso: "Domine os fundamentos da programação de performance, aprenda a programar do ZERO!",
 					requisitos_do_curso: "Requisitos: Nenhum conhecimento requerido",
 					url_do_curso: "https://www.udemy.com/curso-de-logica-de-programacao-e-algoritmos/"
