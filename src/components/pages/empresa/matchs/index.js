@@ -81,13 +81,20 @@ class Matchs extends Component {
             <React.Fragment>
                 {/* TEMP */}
                 <Navbar/>
-                <button onClick={ () => this.fitraUsuaria()  }>Filtrar</button>
+                {/* <button onClick={ () => this.fitraUsuaria()  }>Filtrar</button> */}
                 <div className="container">
+                    <div className=" nav-match-usuaria-min">
+                        <p className="arrumar"></p>
+                        <p className="">Nome:</p>
+                        <p className="">Pontuação:</p>
+                    </div>
+                </div>
+                {/* <div className="container">
                     <div className=" nav-match-usuaria-min ">
                         <p className="nav-item1-match-usuaria-min">Nome:</p>
                         <p className="nav-item2-match-usuaria-min">Pontuação:</p>
                     </div>
-                </div>    
+                </div>     */}
                 { this.state.carregando ? null : <ArrayUsersMin dados={this.state.dados}/> }
             </React.Fragment> 
         );

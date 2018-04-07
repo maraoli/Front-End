@@ -24,13 +24,27 @@ a:hover {
 .container {
   width: 100%; }
 
+.form-exibir-cadastro {
+  display: flex;
+  flex-wrap: wrap; }
+  .form-exibir-cadastro p {
+    padding: 10px 0;
+    margin: 10px auto; }
+  .form-exibir-cadastro button {
+    display: flex;
+    margin: 0px auto;
+    width: 200px; }
+  .form-exibir-cadastro .exibir-cadastro-botoes {
+    width: 100%; }
+
 .exibir-cadastro {
   width: 60%;
   border: none;
   border-radius: 10px;
   border: 2px solid deeppink;
   padding: 5px;
-  margin: 0 16% 15px 2px; }
+  margin: 0 16% 15px 2px;
+  margin: 0 auto; }
 
 .caixa-de-filtro {
   margin: 5px auto;

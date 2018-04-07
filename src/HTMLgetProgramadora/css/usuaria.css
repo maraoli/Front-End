@@ -798,6 +798,9 @@ a:hover {
     text-shadow: none;
     text-decoration: none; }
 
+.logo-editi {
+  margin: 0; }
+
 @media (max-width: 767px) {
   .coroa-mobile {
     width: 360px;

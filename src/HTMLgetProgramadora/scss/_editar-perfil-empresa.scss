@@ -1,3 +1,19 @@
+.form-exibir-cadastro{
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        padding: 10px 0;
+        margin: 10px auto;
+    }
+    button{
+        display: flex;
+        margin: 0px auto;
+        width: 200px;
+    }
+    .exibir-cadastro-botoes{
+        width: 100%;
+    }
+}
 .exibir-cadastro{
     width: 60%;
     border: none;
@@ -5,4 +21,5 @@
     border: 2px solid $rosa1;
     padding: 5px;
     margin: 0 16% 15px 2px;
+    margin: 0 auto;
 }

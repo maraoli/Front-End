@@ -128,17 +128,19 @@ class ExibirPerfilEmpresa extends Component {
             return (  
                 <div>
                     <Navbar/>
-                    <form action="">
-                        <p className="exibir-cadastro">dados[0].nome</p>
-                        <p className="exibir-cadastro">dados[0].email</p>
-                        <p className="exibir-cadastro">dados[0].cnpj</p>
-                        <p className="exibir-cadastro">dados[0].endereco</p>
-                        <button type="button" onclick="validarSenha(this)" class="testar button2 botao__cadastrar__cadastro">
-                            <a class=" botao-login-form" id="link-cadastro">Alterar cadastro</a>
-                        </button>
-                        <button type="button" onclick="validarSenha(this)" class="testar button2 botao__cadastrar__cadastro">
-                            <a class=" botao-login-form" id="link-cadastro">Alterar senha</a>
-                        </button>                      
+                    <form className="form-exibir-cadastro" action="">
+                        <p className="exibir-cadastro">Empresa de Negocio</p>
+                        <p className="exibir-cadastro">email@email.com</p>
+                        <p className="exibir-cadastro">00.000.000/0000-00</p>
+                        <p className="exibir-cadastro">Rua Martins Fontana 00</p>
+                        <div className="exibir-cadastro-botoes">
+                            <button type="button" onclick="validarSenha(this)" class="testar button2 botao__cadastrar__cadastro">
+                                <a class=" botao-login-form" id="link-cadastro">Alterar cadastro</a>
+                            </button>
+                            <button type="button" onclick="validarSenha(this)" class="testar button2 botao__cadastrar__cadastro">
+                                <a class=" botao-login-form" id="link-cadastro">Alterar senha</a>
+                            </button>
+                        </div>                      
                     </form>
                 </div> 
             );
