@@ -5,6 +5,11 @@ import Card from '../../components/card';
 
 // IMPORT IMAGENS
 import CardDefault from './imgCard.jpg';
+//
+import ImgCursos from './cursos.jpg';
+import ImgCurriculo from './curriculo.jpg';
+import ImgForum from './forum.jpg';
+import ImgMeuPerfil from './perfil.jpg';
 
 // antigo About
 class ParaUsuarias extends Component {
@@ -31,22 +36,22 @@ class ParaUsuarias extends Component {
                   <Card 
                       titulo="Meu Perfil" 
                       texto="Acompanhe sua evolução" 
-                      img={CardDefault}
+                      img={ImgMeuPerfil}
                   />
                   <Card 
                       titulo="Fórum" 
                       texto="Faça parte de uma rede de conexão e sororidade" 
-                      img={CardDefault}
+                      img={ImgForum}
                   />
                   <Card 
                       titulo="Cursos" 
                       texto="Potencialize as suas chances!" 
-                      img={CardDefault}
+                      img={ImgCursos}
                   />
                   <Card 
                       titulo="Currículo" 
                       texto="O que fazer para se destacar no mercado de trabalho no mundo da tecnologia" 
-                      img={CardDefault}
+                      img={ImgCurriculo}
                   />
                 </div>
               </div>

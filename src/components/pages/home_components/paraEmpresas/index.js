@@ -5,6 +5,11 @@ import Card from '../../components/card';
 
 // IMPORT IMAGENS
 import CardDefault from './imgCard.jpg';
+// 
+import ImgFiltros from './filtro.jpg';
+import ImgMatch from './match.jpg';
+import ImgCandidatos from './candidatos.jpg';
+import ImgCandidatosSalvas from './candidatossalvas.jpg';
 
 class ParaEmpresas extends Component {
     constructor(props) {
@@ -29,23 +34,23 @@ class ParaEmpresas extends Component {
                     <div class="row">
                         <Card 
                             titulo="Buscar Candidatas" 
-                            texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
-                            img={CardDefault}
+                            texto="Procure por candidatas com o perfil que mais se encaixe com a cultura da empresa" 
+                            img={ImgCandidatos}
                         />
                         <Card 
                             titulo="Match" 
-                            texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
-                            img={CardDefault}
+                            texto="Receba recomendações de candidatas melhores ranqueadas de acordo com as necessidades solicitadas" 
+                            img={ImgMatch}
                         />
                         <Card 
                             titulo="Filtros salvos" 
-                            texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
-                            img={CardDefault}
+                            texto="Selecione os perfis e tenha acesso a todos as candidatas salvas" 
+                            img={ImgFiltros}
                         />
                         <Card 
                             titulo="Candidatas salvas" 
-                            texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
-                            img={CardDefault}
+                            texto="Visualize através do mural de candidatas que mais se identificaram com as empresas'" 
+                            img={ImgCandidatosSalvas}
                         />
                     </div>
                 </div>
