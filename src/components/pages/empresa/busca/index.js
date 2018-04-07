@@ -93,11 +93,32 @@ class Busca extends Component {
             <React.Fragment>
                 {/* TEMP */}
                 <Navbar />
-                <button onClick={() => this.filtrarUsuarias()}>Filtrar</button>
+                <div className="caixa-de-filtro">
+                    <div className="selecao-linguagens">
+                        <p>Linguagens</p>
+                        <input type="checkbox"/>
+                        <label for="">Java</label>
+                        <input type="checkbox"/>
+                        <label for="">PHP</label>
+                        <input type="checkbox"/>
+                        <label for="">C</label>
+                        <input type="checkbox"/>
+                        <label for="">C#</label>
+                    </div>
+                    <div className="selecao-academica">
+                        <p>Academico</p>
+                        <input type="checkbox"/>
+                        <label for="">Ensino Médio</label>
+                        <input type="checkbox"/>
+                        <label for="">Superior</label>
+                    </div>
+                    <button className="button2" onClick={() => this.filtrarUsuarias()}>Filtrar</button>
+                </div>
                 <div className="container">
-                    <div className=" nav-match-usuaria-min row">
-                        <p className="col-lg-push-2 col-lg-5">Nome:</p>
-                        <p className="col-lg-push-4 col-lg-3">Pontuação:</p>
+                    <div className=" nav-match-usuaria-min">
+                        <p className="arrumar"></p>
+                        <p className="">Nome:</p>
+                        <p className="">Pontuação:</p>
                     </div>
                 </div>
                 {this.state.carregando ? null : <Filtro filtrosSelecionados={this.state.filtrosSelecionados} usuarias={this.state.dados} />}

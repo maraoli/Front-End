@@ -827,13 +827,39 @@ a:hover {
       cursor: pointer;
       color: white; }
 
+.caixa-de-filtro {
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background: #e46278;
+  width: 70%;
+  padding: 10px;
+  color: white;
+  font-size: 20px; }
+  .caixa-de-filtro .selecao-linguagens, .caixa-de-filtro .selecao-academica {
+    margin: 5px;
+    width: 100%;
+    align-items: center; }
+    .caixa-de-filtro .selecao-linguagens input, .caixa-de-filtro .selecao-academica input {
+      margin: 5px;
+      width: 20px;
+      height: 20px;
+      margin: auto 5px; }
+    .caixa-de-filtro .selecao-linguagens label, .caixa-de-filtro .selecao-academica label {
+      margin: 5px; }
+  .caixa-de-filtro button {
+    width: 200px;
+    border: 3px solid #9a3535; }
+
 .nav-match-usuaria-min {
   width: 70%;
   margin: 0px auto 0px auto;
   display: flex;
-  justify-content: space-between;
-  padding: 0px 70px;
-  padding-left: 176px; }
+  justify-content: space-between; }
+  .nav-match-usuaria-min .arrumar {
+    width: 176px; }
   .nav-match-usuaria-min p {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;

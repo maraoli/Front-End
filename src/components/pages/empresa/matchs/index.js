@@ -83,7 +83,7 @@ class Matchs extends Component {
                 <Navbar/>
                 <button onClick={ () => this.fitraUsuaria()  }>Filtrar</button>
                 <div className="container">
-                    <div className=" nav-match-usuaria-min row">
+                    <div className=" nav-match-usuaria-min ">
                         <p className="nav-item1-match-usuaria-min">Nome:</p>
                         <p className="nav-item2-match-usuaria-min">Pontuação:</p>
                     </div>
