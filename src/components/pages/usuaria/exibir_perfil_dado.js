@@ -21,7 +21,7 @@ class ExibirPerfilDado extends Component {
             <React.Fragment>
                 <div className="exibir-box">
                     <h1 className="exibir-titulo" >{this.props.titulo}</h1>
-                    <p className="exibir-texto" >{this.props.dado}</p>
+                    <p className="exibir-cadastro" >{this.props.dado}</p>
                 </div>
             </React.Fragment>
         );
