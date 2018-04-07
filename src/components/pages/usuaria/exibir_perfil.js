@@ -85,7 +85,7 @@ class ExibirPerfil extends Component {
             <React.Fragment>
                 {/*TEMP*/}
                 <Navbar/>
-                <form action="" className="form-exibir-cadastro">
+                <form action="" className="">
                     <ExibirPerfilDado
                         titulo="Nome:"
                         dado={this.state.dado.name}
