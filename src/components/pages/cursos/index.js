@@ -75,7 +75,7 @@ class Cursos extends Component {
 			<div>
                 {/*TEMP*/}
                 <Navbar/>
-				<div className="container">
+				<div id="pai" className="container">
 					<div className="row">
 						{this.listarCursos()}
 					</div>

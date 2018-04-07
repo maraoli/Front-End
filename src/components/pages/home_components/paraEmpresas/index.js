@@ -38,7 +38,7 @@ class ParaEmpresas extends Component {
                             img={CardDefault}
                         />
                         <Card 
-                            titulo="Filtro salvos" 
+                            titulo="Filtros salvos" 
                             texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit." 
                             img={CardDefault}
                         />

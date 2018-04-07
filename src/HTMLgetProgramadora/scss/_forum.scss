@@ -1,0 +1,28 @@
+.btn-primary{
+    background-color: $rosa1;
+    border-color: $rosa2;
+    &:active,
+    &:focus,
+    &:hover{
+        background-color: $rosa1;
+        border-color: $rosa2;
+    }
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover{
+    background-color: $rosa1;
+    border-color: $rosa2;
+}
+#botao{
+    background-color: $rosa1;
+    border-color: $rosa2;
+    &:active,
+    &:focus,
+    &:hover{
+        background-color: $rosa1;
+        border-color: $rosa2;
+    }
+    &::selection{
+        background-color: $rosa1;
+        border-color: $rosa2;
+    }
+}

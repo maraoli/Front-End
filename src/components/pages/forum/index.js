@@ -72,7 +72,7 @@ class Forum extends Component {
 			<div class='container'>
 				<h1>Fórum</h1>
 				{/* <a type="button" class="btn btn-primary btn-lg btn-block" href="/forum/create">add tópico (opção 1)</a> */}
-				<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">Adicionar comentário</button>
+				<button type="button" id="botao" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">Adicionar comentário</button>
 				<br />
 				{this.listarForum()}
 
