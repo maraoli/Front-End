@@ -35,7 +35,7 @@ class Navbar extends Component {
                             </li>
                             <li className="">
                                 <Link to="/matchs">
-                                    Matches
+                                    Matchs
                                 </Link>
                             </li>
                             <li className="">

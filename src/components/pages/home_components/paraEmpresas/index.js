@@ -28,7 +28,7 @@ class ParaEmpresas extends Component {
                     <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading text-uppercase">Para Empresas</h2>
-                        <h3 class="section-subheading text-muted">Invista na diversidade e inclusão de gênero. A getprogramadora( ); conecta as principais empresas com diversos talentos qualificados na área.</h3>
+                        <h3 class="section-subheading text-muted">Invista na diversidade e inclusão de gênero. A getprogramadora( ); conecta as principais empresas com diversos talentos qualificados na área</h3>
                     </div>
                     </div>
                     <div class="row">
@@ -43,13 +43,13 @@ class ParaEmpresas extends Component {
                             img={ImgMatch}
                         />
                         <Card 
-                            titulo="Filtros salvos" 
-                            texto="Selecione os perfis e tenha acesso a todos as candidatas salvas" 
+                            titulo="Filtros de seleção" 
+                            texto="Selecione os perfis e tenha acesso instantâneo" 
                             img={ImgFiltros}
                         />
                         <Card 
                             titulo="Candidatas salvas" 
-                            texto="Visualize através do mural de candidatas que mais se identificaram com as empresas'" 
+                            texto="Visualize através do mural de candidatas as que mais se destacaram para as empresas" 
                             img={ImgCandidatosSalvas}
                         />
                     </div>
